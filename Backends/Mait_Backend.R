@@ -26,6 +26,7 @@ mait_GenerateTimeSeries <- function(response, streams, retType = 'df'){
     (stop('No records were returned for the specified query'))
   }
 
+   #dts <-  as.POSIXct(ddf$DateTime)
   dts <-  as.POSIXct(ddf$DateTime, format = "%d/%m/%Y %H:%M" )
 
   outList <-   vector("list", length(feats) )
@@ -40,7 +41,6 @@ mait_GenerateTimeSeries <- function(response, streams, retType = 'df'){
   return (outList)
 
 }
-
 
 
 
