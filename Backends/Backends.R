@@ -210,7 +210,7 @@ getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPer
   moduleID <- streams$SensorID[1]
   networkID <- streams$SensorGroup[1]
   #urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
-  url <- paste0("http://intelliweb.mait.com.au/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", isoSDate, "&enddate=", isoEDate)
+  url <- paste0("https://intelliweb.mait.com.au/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", isoSDate, "&enddate=", isoEDate)
 
   tryCatch({
 
@@ -252,7 +252,7 @@ print(urls)
   allDF <- do.call("rbind", dataStreamsDF)
   o <- list()
   o[[1]] <- allDF
-  return(o)  
+  return(o)
 }
 
 

@@ -349,7 +349,7 @@ numrecs = 10000000
 # endDate='05-01-2016'
 
 startDate <- '2010-01-01T00:00:00'
-endDate <- '2018-02-04T23:00:00'
+endDate <- '2019-06-04T23:00:00'
 
 sensors <- sensors[1,]
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)

@@ -6,10 +6,15 @@ getURL_Mait <- function(url, streams, usr, pwd){
 
 
   print(url)
-  response <- getURL(url, userpwd=paste0(usr, ":", pwd))
 
- # print(response)
+  resp <- GET(url,  authenticate("dpigetdata", "dpigetdata"))
+  response <- content(resp, "text")
+  #maitDF <- read.csv(text=maitstr, skip=1, stringsAsFactors = F)
   ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
+
+  # response <- getURL(url, userpwd=paste0(usr, ":", pwd))
+ # print(response)
+ # ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
   return(ndf)
 }
 
