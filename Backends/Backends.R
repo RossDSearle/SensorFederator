@@ -233,10 +233,14 @@ getSensorData_DAFWA <- function(streams, startDate = NULL, endDate = NULL, aggPe
   isoSDate <- as.Date(startDate)
   isoEDate <- as.Date(endDate)
 
+  fromDt <- seq.Date(isoSDate, isoEDate, by='year')
+  toDt <- c(fromDt[-1] -1, isoEDate)
 
   siteid <- str_remove(streams$SiteID, paste0(streams$SensorGroup, '_'))
-  urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
 
+ # urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
+  urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',fromDt,'&toDate=',toDt ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
+print(urls)
   tryCatch({
     dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_DAFWA, .limit = asyncThreadNum ))
     }, error = function(e)
@@ -245,8 +249,10 @@ getSensorData_DAFWA <- function(streams, startDate = NULL, endDate = NULL, aggPe
     })
 
 
-
-  return(dataStreamsDF)
+  allDF <- do.call("rbind", dataStreamsDF)
+  o <- list()
+  o[[1]] <- allDF
+  return(o)
 }
 
 
@@ -381,7 +387,7 @@ getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorTy
  colnames(outDF) <- c('SiteID','SiteName','SensorGroup','Backend','Access','Longitude','Latitude',
                      'Active','Owner','Contact','ProviderURL','NetworkInfoWebsite', 'Description','StartDate','EndDate')
  outDF[is.na(outDF)] <-"NA"
- 
+
  if(nrow(outDF) == 0){
    stop("No sensors could be found : getSensorLocations")
  }
@@ -486,30 +492,30 @@ plotSensorLocationsImage <- function(DF){
   # xshift = -0.1  # Shift to right in map units.
   # yshift = 0.2  # Shift to left in map units.
   # original.bbox = austBdy@bbox  # Pass bbox of your Spatial* Object.
-  # 
+  #
   # edges = original.bbox
   # edges[1, ] <- (edges[1, ] - mean(edges[1, ])) * scale.parameter + mean(edges[1,]) + xshift
   # edges[2, ] <- (edges[2, ] - mean(edges[2, ])) * scale.parameter + mean(edges[2,]) + yshift
-  # 
+  #
   # rbPal <- colorRampPalette(c('red','blue'))
-  # 
+  #
   # Col <- rbPal( length(knownBackends))
   # levels <- knownBackends
   # rv = list("sp.polygons", austBdy, fill = "grey")
   # spp <- spplot(as.factor(DF["Backend"]), sp.layout = list(rv), key.space = "bottom", main = "Sensor Locations", xlim = edges[1, ], ylim = edges[2, ])
 
  #return(spp)
-  
+
   pPath <- paste0(sensorRootDir, '/AncillaryData/Aust.shp')
   austBdy <- read_sf(pPath)
   meuse_sf = st_as_sf(DF, coords = c("Longitude", "Latitude"), crs = 4326, agr = "constant")
-  
+
   bkd <-  as.numeric(unique(as.factor(meuse_sf$Backend )))
   palt <-brewer.pal(length(bkd),"Set1")
-  
+
   par(mar=c(0,0,0,0))
   plot(st_geometry(austBdy), border='black', reset=FALSE, col='beige')
-  
+
   plot(meuse_sf[4], pch=20, add=T, pal=palt  )
   legend("topleft", legend=levels(as.factor(meuse_sf$Backend )),fill=palt )
 

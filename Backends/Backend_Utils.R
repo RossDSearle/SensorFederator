@@ -1,5 +1,6 @@
 library(XML)
 library(xts)
+library(stringr)
 
 #print(paste0(' BEU = ',sensorRootDir ))
 #source(paste0(sensorRootDir, '/Backends/Backends.R'))

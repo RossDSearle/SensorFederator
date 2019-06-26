@@ -49,6 +49,8 @@ generateSensorInfo_DAFWA <- function( providerInfo, rootDir){
 
 getURLAsync_DAFWA <- function(x){
 
+
+
   response <- getURL(x)
   ndf<- DAFWA_GenerateTimeSeries(response, retType = 'df', variables=c('rain'))
   return(ndf)

@@ -16,6 +16,9 @@ s <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
 sensorInfo <- s
 
 
+locs <- fromJSON('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorLocations?sensortype=Soil-Moisture')
+nrow(locs)
+
 
 site <- 'cerdi.sfs.5278.platform'
 
@@ -254,15 +257,18 @@ sum(vals)
 
 ##### Cosmoz   ##############
 
+x <- 'http://cosmoz.csiro.au/rest/station/21/records?processing_level=4&startdate=2010-01-01T00%3A00%3A00Z&enddate=2019-06-20T00%3A00%3A00Z&count=100000000000&offset=0'
 
-x <- 'http://cosmoz.csiro.au/rest/station/2/records?processing_level=4&startdate=2018-06-01T00%3A00%3A00Z&enddate=2018-07-24T00%3A00%3A00Z&property_filter=*&count=100000000&offset=0'
+#x <- 'http://cosmoz.csiro.au/rest/station/2/records?processing_level=4&startdate=2017-08-20T09:00:00Z&enddate=2018-08-20T09:00:00Z&property_filter=rainfall&count=1000000&offset=0'
 
-x <- 'http://cosmoz.csiro.au/rest/station/2/records?processing_level=4&startdate=2017-08-20T09:00:00Z&enddate=2018-08-20T09:00:00Z&property_filter=rainfall&count=1000000&offset=0'
+#response <- getURL(x)
+#response
 
-response <- getURL(x)
-response
-
-forDayData <- fromJSON(response, flatten=TRUE)
+forDayData <- fromJSON(x, flatten=TRUE)
+df <- forDayData$observations
+nrow(df)
+head(df,1)
+tail(df,1)
 
 
 sensorInfo[sensorInfo$Backend=='Cosmoz',]
@@ -303,9 +309,26 @@ write.csv(to.DF(outts), 'c:/temp/outtsTest.csv')
 
 rootDir <- sensorRootDir
 
-urlClimate <- paste0('https://api.agric.wa.gov.au/v1/weatherstations/dailysummary.json?station_code=', 'BR', '&fromDate=2016-01-01&toDate=2016-09-29&api_key=CCB3F85A64008C6AC1789E4F.apikey')
+urlClimate <- paste0('https://api.agric.wa.gov.au/v1/weatherstations/dailysummary.json?station_code=', 'BR', '&fromDate=2010-01-01&toDate=2016-09-29&api_key=CCB3F85A64008C6AC1789E4F.apikey')
 climate <- getURL(urlClimate, .opts = myOpts)
 climateData <- fromJSON(climate)[[1]]
+
+yrs <- seq.Date(as.Date('2010-01-01'), Sys.Date(), by='year')
+toNow <- c(yrs, Sys.Date())
+
+
+outDFD <- data.frame(stringsAsFactors = F)
+for (i in 1:(length(toNow)-1)) {
+
+  print(i)
+  urlClimate <- paste0('https://api.agric.wa.gov.au/v1/weatherstations/dailysummary.json?station_code=', 'BR', '&fromDate=', toNow[i], '&toDate=', toNow[i+1], '&api_key=CCB3F85A64008C6AC1789E4F.apikey')
+  climate <- getURL(urlClimate, .opts = myOpts)
+  climateData <- fromJSON(climate)[[1]]
+  outDFD <- rbind(outDFD, climateData)
+}
+
+tail(outDFD)
+seq.Date(as.Date('2010-01-01'), as.Date('2016-09-29'), by='year')
 
 site <- 'DAFWA_BR'
 
@@ -324,12 +347,12 @@ numrecs = 100
 # startDate='01-01-2016'
 # endDate='05-01-2016'
 
-startDate <- '2018-01-01T00:00:00'
+startDate <- '2010-01-01T00:00:00'
 endDate <- '2018-02-04T23:00:00'
 
 sensors <- sensors[1,]
-d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000)
-d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$weeks , startDate=startDate, endDate=endDate, numrecs = 10000)
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$weeks , startDate=startDate, endDate=endDate, numrecs = 10000000)
 
 head(d)
 tail(d)
@@ -482,6 +505,8 @@ write.csv(to.DF(d), 'c:/temp/ts.csv')
 dtype <- 'Soil-Moisture'
 sd <- '2001-12-01T00:00:00'
 ed <- '2002-12-29T04:00:00'
+site <-'m1'
+
 
 sensorInfo <- getAuthorisedSensors()
 #sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
@@ -489,12 +514,19 @@ sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-M
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
 streams <- sensors
 
-site <-'m1'
+
 getData_SenFedStore(sid=site, datatype = dtype, sdate = sd, edate = ed )
 
 site <- 'OzNet_m1'
 d <- getSensorData_SenFedStore(streams = sensors, startDate = sd, endDate = ed)
 tail(d[[1]])
+
+
+
+
+
+
+
 
 
 
