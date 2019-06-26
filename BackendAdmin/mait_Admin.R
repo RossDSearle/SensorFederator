@@ -1,9 +1,20 @@
 library(RCurl)
 
 
+library(httr)
+
+url <- "https://intelliweb.mait.com.au/getdata?network=1099"
+url <-"https://intelliweb.mait.com.au/getdata?network=1099&module=6&startdate=2017/01/01&enddate=2017/12/31"
+
+bob <- GET(url,  authenticate("dpigetdata", "dpigetdata"))
+maitstr <- content(bob, "text")
+maitDF <- read.csv(text=maitstr, skip=1, stringsAsFactors = F)
+maitDF
+
+#, userpwd="dpigetdata:dpigetdata"
 #
 #
-sensors <- getURL("http://intelliweb.mait.com.au/getdata?network=1099", userpwd="dpigetdata:dpigetdata")
+sensors <- getURL("https://intelliweb.mait.com.au/getdata?network=1099", userpwd="dpigetdata:dpigetdata")
 write.csv(sensors,'c:/temp/mait/sensors.csv')
 sdf <- read.csv(text=sensors, skip=1, stringsAsFactors = F)
 
