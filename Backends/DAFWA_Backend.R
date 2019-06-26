@@ -59,7 +59,10 @@ DAFWA_GenerateTimeSeries <- function(response, retType = 'df', variables){
 
   tsj <- fromJSON(response, flatten=T)
   if(length(tsj$result) == 0){
-    (stop('No records were returned for the specified query'))
+    #(stop('No records were returned for the specified query'))
+    ndf <- data.frame(theDate=numeric(), Values=numeric())
+    #colnames(ndf)<- c('theDate', 'Values')
+    return(ndf)
   }
 
   dts <- paste0(tsj$result$record_date, ' 00:00:00')

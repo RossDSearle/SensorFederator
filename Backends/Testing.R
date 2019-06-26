@@ -331,11 +331,12 @@ tail(outDFD)
 seq.Date(as.Date('2010-01-01'), as.Date('2016-09-29'), by='year')
 
 site <- 'DAFWA_BR'
+site <- 'DAFWA_BJ'
 
 sensorInfo[sensorInfo$Backend=='DAFWA',]
 sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
 
-sensors <- sensorInfo[sensorInfo$SiteID == 'DAFWA_BR' & sensorInfo$DataType == 'Rainfall' & sensorInfo$Backend=='DAFWA', ]
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall' & sensorInfo$Backend=='DAFWA', ]
 sensors <- sensors[order(sensors$UpperDepth),]
 vcd(sensors)
 
@@ -343,7 +344,7 @@ vcd(sensors)
 streams=sensors
 backEnd='DAFWA'
 aggregSeconds=timeSteps$day
-numrecs = 100
+numrecs = 10000000
 # startDate='01-01-2016'
 # endDate='05-01-2016'
 
