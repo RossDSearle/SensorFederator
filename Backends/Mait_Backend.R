@@ -7,11 +7,11 @@ getURL_Mait <- function(url, streams, usr, pwd){
 
   print(url)
 
-  resp <- GET(url,  authenticate("dpigetdata", "dpigetdata"))
+  resp <- GET(url,  authenticate(usr, pwd))
   response <- content(resp, "text")
   #maitDF <- read.csv(text=maitstr, skip=1, stringsAsFactors = F)
   ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
-
+print(head(ndf))
   # response <- getURL(url, userpwd=paste0(usr, ":", pwd))
  # print(response)
  # ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')

@@ -19,6 +19,7 @@ library(DBI)
 library(RSQLite)
 library(RColorBrewer)
 library(sf)
+library(httr)
 
 debugMode <- F
 
