@@ -223,15 +223,15 @@ print(urls)
 
 
 
-  tryCatch({
+ # tryCatch({
     dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_Mait, .limit = asyncThreadNum ))
-  }, error = function(e)
-  {
-    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
-  })
+  # }, error = function(e)
+  # {
+  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  # })
 
 
-
+print("BBBBBBBBBBBBBBBBBBBBBBBBBB")
 o <- vector("list", length = length(streams$SensorName))
 for (i in 1:length(streams$SensorName)) {
 
@@ -244,8 +244,10 @@ for (i in 1:length(streams$SensorName)) {
     }
   }
   odf[odf==-950] <- NA
+
   o[[i]] <- odf
 }
+
 
   return(o)
 

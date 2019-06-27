@@ -9,6 +9,7 @@ getURL_Mait <- function(url, streams, usr, pwd){
 
   resp <- GET(url,  authenticate(usr, pwd))
   response <- content(resp, "text")
+
   #maitDF <- read.csv(text=maitstr, skip=1, stringsAsFactors = F)
   ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
 print(head(ndf))
@@ -28,9 +29,15 @@ getURLAsync_Mait <- function(x){
 
   resp <- GET(url,  authenticate(usr, pwd))
   response <- content(resp, "text")
-  ndf<- mait_GenerateTimeSeries2(response, dataCols, retType = 'df')
 
-  return(ndf)
+
+  if(response==''){
+    outList <-   vector("list")
+    return(outList)
+  }else{
+    ndf<- mait_GenerateTimeSeries2(response, dataCols, retType = 'df')
+    return(ndf)
+  }
 }
 
 
@@ -38,7 +45,7 @@ getURLAsync_Mait <- function(x){
 mait_GenerateTimeSeries2 <- function(response, dataCols, retType = 'df'){
 
   ddf <- read.csv(text=response, skip=1, check.names = F, stringsAsFactors = F )
-
+  print(head(ddf))
   ddf <- ddf[-1,]
 
   feats <- str_split(dataCols, ';')[[1]]
@@ -46,7 +53,9 @@ mait_GenerateTimeSeries2 <- function(response, dataCols, retType = 'df'){
 
   if(nrow(ddf) == 0){
     #(stop('No records were returned for the specified query'))
-    return(data.frame())
+    outList <-   vector("list")
+
+    return(outList)
   }
 
 
