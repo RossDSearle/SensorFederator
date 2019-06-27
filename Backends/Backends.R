@@ -231,7 +231,7 @@ print(urls)
   # })
 
 
-print("BBBBBBBBBBBBBBBBBBBBBBBBBB")
+
 o <- vector("list", length = length(streams$SensorName))
 for (i in 1:length(streams$SensorName)) {
 
