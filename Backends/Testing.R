@@ -438,6 +438,7 @@ sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == sensortype & sensorInfo$Backend=='Mait', ]
 sensors <- sensors[order(sensors$UpperDepth),]
 sensors <- sensors[1:3,]
+sensors <- sensors[1,]
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 1000000000)
 head(d)

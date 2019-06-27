@@ -33,52 +33,59 @@ for (i in 1:nrow(locs)) {
   sid = locs$SiteID[i]
   #print(sid)
 
-  url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorInfo?siteid=', sid)
+  url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorInfo?siteid=', sid, '&sensortype=')
   ssi <- fromJSON(URLencode(url))
 
+dTypes <- unique(ssi$DataType)
 
-  for (j in 1:nrow(ssi)) {
+for (k in 1:length(dTypes)) {
 
+  dtype <- dTypes[k]
+  ssiF <- ssi[ssi$DataType == dtype,]
 
-    outFile <- paste0(rootDir, '/DailyTS/', ssi$SiteID[j], '!', ssi$SensorID[j], '!',  ssi$UpperDepth[j], '!', ssi$LowerDepth[j], '!', ssi$DataType[j], '.csv')
+      for (j in 1:nrow(ssiF)) {
 
-    cntr <- cntr + 1
-    pbStep(pb, step=cntr)
+        outFile <- paste0(rootDir, '/DailyTS/', ssiF$SiteID[j], '!', ssiF$SensorID[j], '!',  ssiF$UpperDepth[j], '!', ssiF$LowerDepth[j], '!', ssiF$DataType[j], '.csv')
 
-    if(!file.exists(outFile)){
+        cntr <- cntr + 1
+        pbStep(pb, step=cntr)
 
-        url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=', sid, '&sensorid=', ssi$SensorID[j], '&sensortype=',ssi$DataType[j], '&startdate=', sDate ,'&enddate=', eDate ,'&aggperiod=days')
-        jsn <- getURL(URLencode(url))
+        if(!file.exists(outFile)){
 
-        if(responseIsOK(jsn)){
+            url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=', sid, '&sensorid=', ssiF$SensorID[j], '&sensortype=',ssiF$DataType[j], '&startdate=', sDate ,'&enddate=', eDate ,'&aggperiod=days')
+            jsn <- getURL(URLencode(url))
 
-              df <-convertJSONtoDF(jsn)
-              stream <- fromJSON(jsn)
-              allts <- to.TS(df)
-              tr <- na.trim(allts)
-              #plot(tr)
-              tr[tr==-99] <- NA
-              #plot(tr)
-              #nrow(stream)
+            if(responseIsOK(jsn)){
 
-              siteID <- stream$SiteID[1]
-              sensorID <- stream$SensorID[1]
-              upperDepth <- stream$UpperDepthCm[1]
-              lowerDepth <- stream$LowerDepthCm[1]
-              prop <- stream$DataType[1]
-              outDF <- data.frame(dt=index(tr), coredata(tr)[,1],row.names=NULL, stringsAsFactors = F)
-              colnames(outDF)[2] <- paste0(prop, '_', upperDepth, '_', lowerDepth)
-              write.csv(outDF, paste0('C:/Projects/SensorFederator/DailyTS/', siteID, '!',  sensorID, '!',  upperDepth, '!',  lowerDepth, '!', prop, '.csv' ), row.names = F)
-              cntr <- cntr+1
-              pbStep(pb, step=cntr, label='')
-        }else{
+                  df <-convertJSONtoDF(jsn)
+                  stream <- fromJSON(jsn)
+                  allts <- to.TS(df)
+                  tr <- na.trim(allts)
+                  #plot(tr)
+                  tr[tr==-99] <- NA
+                  #plot(tr)
+                  #nrow(stream)
 
-          cat(paste0(locs$SiteName[i], ',', sid, ',',ssi$SensorID[j], '\n'), file =  paste0('C:/Projects/SensorFederator/NonExistantSensors.txt'), append = T)
-          break
+                  siteID <- stream$SiteID[j]
+                  sensorID <- stream$SensorID[j]
+                  upperDepth <- stream$UpperDepthCm[j]
+                  lowerDepth <- stream$LowerDepthCm[j]
+                  prop <- stream$DataType[j]
+                  outDF <- data.frame(dt=index(tr), coredata(tr)[,j],row.names=NULL, stringsAsFactors = F)
+                  colnames(outDF)[2] <- paste0(prop, '_', upperDepth, '_', lowerDepth)
+                  print(outFile)
+                  write.csv(outDF, paste0(outFile), row.names = F)
+                  cntr <- cntr+1
+                  pbStep(pb, step=cntr, label='')
+            }else{
+
+              cat(paste0(locs$SiteName[i], ',', sid, ',',ssi$SensorID[j], '\n'), file =  paste0('C:/Projects/SensorFederator/NonExistantSensors.txt'), append = T)
+              break
+            }
+
         }
-
+      }
     }
-  }
 }
 
 pbClose(pb)

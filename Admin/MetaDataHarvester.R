@@ -3,6 +3,8 @@ library(jsonlite)
 library(RCurl)
 library(xts)
 library(raster)
+library(DBI)
+library(RSQLite)
 
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Utils.R')
 
@@ -88,7 +90,7 @@ for (i in 1:length(fls)) {
                       MaximumValue = tsMax,
                       MeanValue = tsMean,
                       StandardDeviation = tsSD,
-                      MetaDataHarvestDatwe = Sys.Date(),
+                      MetaDataHarvestDate = Sys.Date(),
                       stringsAsFactors = F)
 
   outDF <- rbind(outDF, recDf)
@@ -106,3 +108,8 @@ write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), r
 
 
 metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'))
+
+
+#dbPath <- "/srv/plumber/SensorFederator/DB/SensorFederator.sqlite"
+
+
