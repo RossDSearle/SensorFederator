@@ -12,7 +12,7 @@ getURL_Mait <- function(url, streams, usr, pwd){
 
   #maitDF <- read.csv(text=maitstr, skip=1, stringsAsFactors = F)
   ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
-print(head(ndf))
+#print(head(ndf))
   # response <- getURL(url, userpwd=paste0(usr, ":", pwd))
  # print(response)
  # ndf<- mait_GenerateTimeSeries(response, streams, retType = 'df')
