@@ -204,25 +204,62 @@ getSensorData_DataFarmer <- function(streams, startDate = NULL, endDate = NULL, 
 
 getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
-  isoSDate <- str_replace_all(as.Date(startDate, format = "%Y-%m-%d"), '-', '/')
-  isoEDate <- str_replace_all(as.Date(endDate, format = "%Y-%m-%d"), '-', '/')
+  isoSDate <-  as.Date(str_replace_all(as.Date(startDate, format = "%Y-%m-%d"), '-', '/'))
+  isoEDate <-  as.Date(str_replace_all(as.Date(endDate, format = "%Y-%m-%d"), '-', '/'))
+
+
+  fromDt <- seq.Date(isoSDate, isoEDate, by='year')
+  toDt <- c(fromDt[-1] -1, isoEDate)
+
+  siteid <- str_remove(streams$SiteID, paste0(streams$SensorGroup, '_'))
+
 
   moduleID <- streams$SensorID[1]
   networkID <- streams$SensorGroup[1]
   apiRoot <- streams$ServerName[1]
   #urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
-  url <- paste0(apiRoot, "/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", isoSDate, "&enddate=", isoEDate)
+  urls <- paste0(apiRoot, "/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", fromDt, "&enddate=", toDt, '|', streams$Usr[1], '|', streams$Pwd[1], '|', paste0(streams$SensorName, collapse = ";"))
+print(urls)
+
+
 
   tryCatch({
-
-    dataStreamsDF <-  getURL_Mait(url=url, streams=streams, usr=streams$Usr[1], pwd=streams$Pwd[1])
-
+    dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_Mait, .limit = asyncThreadNum ))
   }, error = function(e)
   {
     stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
   })
 
-  return(dataStreamsDF)
+
+
+o <- vector("list", length = length(streams$SensorName))
+for (i in 1:length(streams$SensorName)) {
+
+  for (j in 1:length(dataStreamsDF)) {
+
+    if(j==1){
+      odf <- as.data.frame(dataStreamsDF[[j]][i])
+    }else{
+      odf <- rbind(odf, as.data.frame(dataStreamsDF[[j]][i]))
+    }
+  }
+  odf[odf==-950] <- NA
+  o[[i]] <- odf
+}
+
+  return(o)
+
+
+  # tryCatch({
+  #
+  #   dataStreamsDF <-  getURL_Mait(url=url, streams=streams, usr=streams$Usr[1], pwd=streams$Pwd[1])
+  #
+  # }, error = function(e)
+  # {
+  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  # })
+  #
+  # return(dataStreamsDF)
 }
 
 

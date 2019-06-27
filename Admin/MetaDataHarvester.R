@@ -101,6 +101,8 @@ pbClose(pb)
 
 print(outDF)
 
-write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'))
+write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), row.names = F)
 
 
+
+metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'))

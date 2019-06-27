@@ -58,7 +58,7 @@ for (i in 1:nrow(locs)) {
               tr <- na.trim(allts)
               #plot(tr)
               tr[tr==-99] <- NA
-              plot(tr)
+              #plot(tr)
               #nrow(stream)
 
               siteID <- stream$SiteID[1]

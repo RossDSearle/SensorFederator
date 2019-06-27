@@ -28,7 +28,7 @@ sensors <- sensors[order(sensors$UpperDepth),]
 
 aggregSeconds=timeSteps$day
 startDate='09-04-2017'
-endDate='11-07-2017'
+endDate='11-05-2019'
 
 d <- getSensorData(streams=sensors,aggPeriod = timeSteps$weeks, startDate=startDate, endDate=endDate )
 d <- getSensorData(streams=sensors, aggPeriod=timeSteps$quarters , startDate=startDate, endDate=endDate )
@@ -430,8 +430,8 @@ getURL('https://api.netatmo.com/oauth2/authorize?client_id=5b5aa99b11349f54f18be
 siteid <- 'VicAg_Bangerang'
 sensortype <- 'Soil-Moisture'
 
-startDate <- '2018-01-01T00:00:00'
-endDate <- '2018-01-04T23:00:00'
+startDate <- '2015-07-01T00:00:00'
+endDate <- '2019-05-04T23:00:00'
 
 sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == 'Soil-Moisture' & sensorInfo$Backend=='Mait', ]
@@ -440,6 +440,7 @@ sensors <- sensors[1:3,]
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
 head(d)
+tail(d)
 plot(d)
 write.csv(to.DF(d), 'c:/temp/ts.csv')
 
@@ -462,15 +463,18 @@ endDate <- '2018-03-04T23:00:00'
 
 network = '1107' # USyd
 
+myOpts <- curlOptions(connecttimeout = 200, ssl.verifypeer = FALSE)
 
-
-url <- paste0('http://intelliweb.mait.com.au/getdata?network=', network)
+url <- paste0('https://intelliweb.mait.com.au/getdata?network=', network)
 stations <- getURL(url, userpwd=paste0( "dpigetdata:dpigetdata"))
 modules <- read.csv(text=stations, skip=1)
 modules
 url <- 'http://intelliweb.mait.com.au/getdata?network=1107&module=10&startdate=2018/03/01&enddate=2018/03/04'
-dcsv <- getURL(url, userpwd=paste0( "dpigetdata:dpigetdata"))
 
+dcsv <- getURL(url, userpwd=paste0( "dpigetdata:dpigetdata"), .opts = myOpts)
+
+
+authXML <- getURL(url, .opts = myOpts)
 
 sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == 'Soil-Moisture' & sensorInfo$Backend=='Mait', ]
