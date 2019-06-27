@@ -431,19 +431,19 @@ siteid <- 'VicAg_Bangerang'
 sensortype <- 'Soil-Moisture'
 sensortype <- 'Rainfall'
 
-startDate <- '2015-07-01T00:00:00'
+startDate <- '2019-04-01T00:00:00'
 endDate <- '2019-05-04T23:00:00'
 
 sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == sensortype & sensorInfo$Backend=='Mait', ]
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$Backend=='Mait', ]
 sensors <- sensors[order(sensors$UpperDepth),]
-<<<<<<< HEAD
+
 sensors <- sensors[1:3,]
 sensors <- sensors[1,]
-=======
+
 #sensors <- sensors[1:3,]
->>>>>>> 573c9a80418e01076e8040db7dbe6a980836eae5
+
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 1000000000)
 head(d)

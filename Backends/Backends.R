@@ -214,7 +214,11 @@ getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPer
   siteid <- str_remove(streams$SiteID, paste0(streams$SensorGroup, '_'))
 
 
-  moduleID <- streams$SensorID[1]
+  sensorid <- streams$SensorID[1]
+  bits <- str_split(sensorid, '_')
+
+  moduleID <- bits[[1]][1]
+  sensorName <- bits[[1]][2]
   networkID <- streams$SensorGroup[1]
   apiRoot <- streams$ServerName[1]
   #urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
@@ -244,7 +248,6 @@ for (i in 1:length(streams$SensorName)) {
     }
   }
   odf[odf==-950] <- NA
-
   o[[i]] <- odf
 }
 
