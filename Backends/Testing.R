@@ -428,6 +428,7 @@ getURL('https://api.netatmo.com/oauth2/authorize?client_id=5b5aa99b11349f54f18be
 
 
 siteid <- 'VicAg_Bangerang'
+sensorid <- '11_Moisture 30cm'
 sensortype <- 'Soil-Moisture'
 sensortype <- 'Rainfall'
 
@@ -436,7 +437,8 @@ endDate <- '2019-05-04T23:00:00'
 
 sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == sensortype & sensorInfo$Backend=='Mait', ]
-sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$Backend=='Mait', ]
+sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$DataType == sensortype & sensorInfo$SensorID == sensorid & sensorInfo$Backend=='Mait', ]
+#sensors <- sensorInfo[sensorInfo$SiteID == siteid & sensorInfo$Backend=='Mait', ]
 sensors <- sensors[order(sensors$UpperDepth),]
 
 sensors <- sensors[1:3,]
