@@ -104,7 +104,7 @@ pbClose(pb)
 write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), row.names = F)
 
 
-
+rootDir <- '/srv/plumber/SensorFederator/DB'
 metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), stringsAsFactors = F)
 metaD[mapply(is.infinite, metaD)] <- 'NULL'
 metaD[mapply(is.na, metaD)] <- 'NULL'
@@ -119,7 +119,7 @@ pb <- pbCreate(nrow(metaD), progress='text', style=3, label='Progress',timer=TRU
 cntr <- 1
 for (i in 1:nrow(metaD)) {
 
-  id <- df$SiteID[i]
+  id <- metaD$SiteID[i]
 
   sql <- paste0("UPDATE sensors
   SET StartDate = '", metaD$StartDate[i], "',
