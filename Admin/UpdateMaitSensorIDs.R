@@ -6,6 +6,12 @@ dbPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFedera
 con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
 
 
+
+sql <- 'CREATE TABLE SensorsV3 AS SELECT * FROM Sensors;'
+res <- dbSendStatement(con, sql)
+dbGetRowsAffected(res)
+
+
 sql <- 'SELECT Sites.Backend, Sites.SiteID, Sites.SiteName, Sensors.SensorID, Sensors.SensorName, Sensors.StartDate, Sensors.EndDate
 FROM Sites INNER JOIN Sensors ON Sites.SiteID = Sensors.SiteID
 WHERE (((Sites.Backend)="MAIT"));'
