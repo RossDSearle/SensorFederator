@@ -101,8 +101,6 @@ for (i in 1:length(fls)) {
 
 pbClose(pb)
 
-print(outDF)
-
 write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), row.names = F)
 
 
