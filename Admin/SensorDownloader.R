@@ -25,7 +25,7 @@ ssiAll <- fromJSON(URLencode(url))
 
 
 cat('', file =  paste0('C:/Projects/SensorFederator/NonExistantSensors.txt'))
-pb <- pbCreate(nrow(ssiAll), progress='text', style=3, label='Progress',timer=TRUE)
+pb <- pbCreate(nrow(locs), progress='text', style=3, label='Progress',timer=TRUE)
 cntr <- 1
 
 for (i in 1:nrow(locs)) {
