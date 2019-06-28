@@ -57,8 +57,14 @@ for (k in 1:length(dTypes)) {
 
             if(responseIsOK(jsn)){
 
+              stream <- fromJSON(jsn)
+
+              if(!length(stream$DataStream[[1]]) == 0){
+
+
+
                   df <-convertJSONtoDF(jsn)
-                  stream <- fromJSON(jsn)
+
                   allts <- to.TS(df)
                   tr <- na.trim(allts)
                   #plot(tr)
@@ -66,17 +72,22 @@ for (k in 1:length(dTypes)) {
                   #plot(tr)
                   #nrow(stream)
 
-                  siteID <- stream$SiteID[j]
-                  sensorID <- stream$SensorID[j]
-                  upperDepth <- stream$UpperDepthCm[j]
-                  lowerDepth <- stream$LowerDepthCm[j]
-                  prop <- stream$DataType[j]
-                  outDF <- data.frame(dt=index(tr), coredata(tr)[,j],row.names=NULL, stringsAsFactors = F)
+                  siteID <- stream$SiteID[1]
+                  sensorID <- stream$SensorID[1]
+                  upperDepth <- stream$UpperDepthCm[1]
+                  lowerDepth <- stream$LowerDepthCm[1]
+                  prop <- stream$DataType[1]
+                  outDF <- data.frame(dt=index(tr), coredata(tr)[,1],row.names=NULL, stringsAsFactors = F)
                   colnames(outDF)[2] <- paste0(prop, '_', upperDepth, '_', lowerDepth)
                   print(outFile)
                   write.csv(outDF, paste0(outFile), row.names = F)
                   cntr <- cntr+1
                   pbStep(pb, step=cntr, label='')
+            }else{
+              cat(paste0(locs$SiteName[i], ',', sid, ',',ssi$SensorID[j], '\n'), file =  paste0('C:/Projects/SensorFederator/NonExistantSensors.txt'), append = T)
+              break
+            }
+
             }else{
 
               cat(paste0(locs$SiteName[i], ',', sid, ',',ssi$SensorID[j], '\n'), file =  paste0('C:/Projects/SensorFederator/NonExistantSensors.txt'), append = T)

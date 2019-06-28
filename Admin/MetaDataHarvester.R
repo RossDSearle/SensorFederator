@@ -107,9 +107,47 @@ write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), r
 
 
 
-metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'))
+metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), stringsAsFactors = F)
+metaD[mapply(is.infinite, metaD)] <- 'NULL'
+metaD[mapply(is.na, metaD)] <- 'NULL'
+head(metaD)
 
-
+dbPath <- "/srv/plumber/SensorFederator/DB/SensorFederator.sqlite"
+dbPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
 #dbPath <- "/srv/plumber/SensorFederator/DB/SensorFederator.sqlite"
+
+pb <- pbCreate(nrow(metaD), progress='text', style=3, label='Progress',timer=TRUE)
+cntr <- 1
+for (i in 1:nrow(metaD)) {
+
+  id <- df$SiteID[i]
+
+  sql <- paste0("UPDATE sensors
+  SET StartDate = '", metaD$StartDate[i], "',
+      EndDate = '", metaD$EndDate[i], "',
+      TotalDays = ", metaD$TotalDays[i], ",
+      IsActive = '", metaD$IsActive[i], "',
+      NumGaps = ", metaD$NumGaps[i], ",
+      TotalGapDays = ", metaD$TotalGapDays[i], ",
+      Gapiness = ", metaD$Gapiness[i], ",
+      MinimumValue = ", metaD$MinimumValue[i], ",
+      MaximumValue = ", metaD$MaximumValue[i], ",
+      MeanValue = ", metaD$MeanValue[i], ",
+      StandardDeviation = ", metaD$StandardDeviation[i], ",
+      HarvestDate = '", metaD$MetaDataHarvestDate[i], "T23:59:59'
+
+  WHERE SiteID = '", metaD$SiteID[i], "' and SensorID = '", metaD$SensorID[i], "';")
+
+  res <- dbSendStatement(con, sql)
+  dbGetRowsAffected(res)
+  dbClearResult(res)
+  pbStep(pb, step=i)
+
+}
+
+pbClose(pb)
+
+
 
 
