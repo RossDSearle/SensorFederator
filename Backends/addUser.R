@@ -28,41 +28,41 @@ dbReadTable(con, "AuthGroups")
 dbReadTable(con, "AuthAccess")
 
 
-makeUser(user = 'DataFarmer', firstname = 'Stephen', surname = 'van Rees', group = "DataFarmerGroup")
+makeUser(user = 'SensorViewer', firstname = 'Ross', surname = 'Searle', group = "SensorViewerGroup", emailAddr = "ross.searle@gmail.com" )
 makeUser(user = 'AWRA-L', firstname = 'David', surname = 'Wright', group = "BoMGroup", emailAddr = "David.PeterWright@bom.gov.au" )
 
 makeUser <- function(user, firstname, surname, group, emailAddr){
-  
+
   pwd <- makeRandomString(1)
-  
+
   sqlInsert <- paste0("Insert into AuthUsers ( usrID, FirstName, Surname,GroupName, Pwd, Email ) values ('", user, "','", firstname, "','",  surname, "','",  group, "','",  pwd, "','", emailAddr, "' )")
-  
+
   print(sqlInsert)
   res <- dbSendStatement(con, sqlInsert)
   dbGetRowsAffected(res)
-  
+
   sqlqry<- paste0("select * from AuthGroups where GroupName = '", group, "'")
-  
+
   res <- dbSendQuery(con, sqlqry)
   df <- dbFetch(res)
 
    if( nrow(df) == 0){
-     
+
      sqlInsert <- paste0("Insert into AuthGroups ( GroupName ) values ('", group, "')")
-     
+
      print(sqlInsert)
      res <- dbSendStatement(con, sqlInsert)
      dbGetRowsAffected(res)
-     
+
      sqlInsert <- paste0("Insert into AuthAccess ( GroupName, access ) values ('", group, "', 'None')")
-     
+
      print(sqlInsert)
      res <- dbSendStatement(con, sqlInsert)
      dbGetRowsAffected(res)
    }
-  
+
   sqlqry<- paste0("select * from AuthUsers where usrID = '", user, "'")
-  
+
   res <- dbSendQuery(con, sqlqry)
   df <- dbFetch(res)
   print(df)
