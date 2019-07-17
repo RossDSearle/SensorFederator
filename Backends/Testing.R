@@ -1,4 +1,5 @@
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
+source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
 library(dygraphs)
@@ -12,6 +13,8 @@ end_time <- Sys.time()
 end_time - start_time
 
 s <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
+
+s <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
 
 sensorInfo <- s
 
@@ -544,16 +547,26 @@ tail(d[[1]])
 
 
 
+###############    CERDI IOT   ########################################
 
 
 
+dtype <- 'Soil-Moisture'
+sd <- '2018-12-01T00:00:00'
+ed <- '20018-12-29T04:00:00'
+site <-'SFS_66'
 
 
+sensorInfo <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
+#sensors <- sensorInfo[sensorInfo$SiteID == site, ]
+streams <- sensors
 
-getSensorLocations(latitude=-27.5347, longitude=151.9316, radius_km=1000.0, usr='SoilWaterApp',pwd='rLR4ArUomkODEpAgaDae4Ak')
-SoilWaterApp&pwd=rLR4ArUomkODEpAgaDae4Ak
 
+getSensorData_IOT(streams=streams, startDate = sd, endDate = ed, aggPeriod=timeSteps$day, numrecs=maxRecs )
 
-
-https://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorLocations?latitude=-27.5347&longitude=151.9316&radius_km=1000.0&sensortype=Rainfall&usr=SoilWaterApp&pwd=rLR4ArUomkODEpAgaDae4Ak
+site <- 'OzNet_m1'
+d <- getSensorData_SenFedStore(streams = sensors, startDate = sd, endDate = ed)
+tail(d[[1]])
 

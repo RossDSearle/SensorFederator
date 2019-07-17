@@ -84,14 +84,11 @@ outSenDf <- data.frame(SiteID=paste0('SFS_',sensdf$SiteID[1]), Active=1, SensorI
 outName <- paste0(rootDir, '/SensorInfo/', providerInfo$provider, '_Sensors.csv')
 write.csv(outSenDf, outName, row.names = F, quote = F)
 
-dbPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+inName <- paste0(rootDir, '/SensorInfo/', providerInfo$provider, '_Sensors.csv')
+outSenDf <- read.csv(inName, stringsAsFactors = F)
 con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
 dbWriteTable(con, 'Sensors', outSenDf, append = T)
 dbDisconnect(con)
-
-
-
-
 
 
 

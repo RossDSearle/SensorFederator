@@ -399,7 +399,9 @@ getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeri
   SDate <- str_split(startDate, 'T')[[1]][1]
   #EDate <- str_replace_all(endDate, '-', '/')
 
-  sid <- c('20', '21')
+
+  bits <- str_split(streams$SiteID, '_')
+  sids <- sapply(bits, function (x) x[2])
 
   # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
 
