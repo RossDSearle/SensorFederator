@@ -159,6 +159,10 @@ pwd <- 'USQ'
 siteID <- 'op28962'
 sensorID <- '694333'
 
+
+siteID <- 'op28956'
+sensorID <- '694237'
+
 sensors <- sensorInfo[sensorInfo$SiteID == siteID & sensorInfo$DataType == 'Rainfall', ]
 streams=sensors
 backEnd='OutPost'
@@ -167,7 +171,7 @@ startDate <- '2018-01-01T00:00:00'
 endDate='2018-01-04T23:59:59'
 
 sDate <- '1/Jan/2019%2000:00:00'
-eDate='20/Mar/2019%2000:00:00'
+eDate='20/June/2019%2000:00:00'
 
 
 urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  usr, '&password=', pwd,

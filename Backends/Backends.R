@@ -91,6 +91,8 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         dfTS <- getSensorData_DataFarmer(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'SenFedStore') {
         dfTS <- getSensorData_SenFedStore(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
+      }else if(backEnd == 'IOT') {
+        dfTS <- getSensorData_IOT(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }
 
 
@@ -392,6 +394,27 @@ getSensorData_Outpost <- function(streams, startDate = NULL, endDate = NULL, agg
 
 
 
+getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
+
+  SDate <- str_split(startDate, 'T')[[1]][1]
+  #EDate <- str_replace_all(endDate, '-', '/')
+
+  sid <- c('20', '21')
+
+  # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
+
+  urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sid, ')/Observations/aggregate/day?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL')
+
+  tryCatch({
+    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_IOT, .limit = asyncThreadNum))
+
+  }, error = function(e)
+  {
+    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  })
+
+  return(dataStreamsDF)
+}
 
 
 
