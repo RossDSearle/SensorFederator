@@ -1,5 +1,7 @@
 
-rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
+#rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
+rootDir = '/srv/plumber/SensorFederator'
+dbPath <- paste0(rootDir, "/DB/SensorFederator.sqlite")
 
 
 providerInfo = list( provider= c('SFS'), backEnd=c('IOT_CERDI'), server=c('https://services.cerdi.edu.au/sfs/v1.0'), org=c('Southern Farming Systems'),
@@ -50,7 +52,8 @@ write.csv(siteDF, outName, row.names = F, quote = F)
 
 #### Squirt to DB
 
-dbPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+inName <- paste0(rootDir, '/SensorInfo/', providerInfo$provider, '_Sites.csv')
+siteDF <- read.csv(inName, stringsAsFactors = F)
 con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
 dbWriteTable(con, 'sites', siteDF, append = T)
 dbDisconnect(con)
