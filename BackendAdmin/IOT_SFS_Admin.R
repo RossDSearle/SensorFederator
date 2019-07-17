@@ -76,7 +76,7 @@ sensdf$DataType[sensdf$DataType == 'Relative Humidity'] <- 'Humidity'
 unique(sensdf$DataType)
 units <- c('Soil-Moisture'='mm', Rainfall='mm' , 'Soil-Temperature'='Degrees-Celcius', Temperature='Degrees-Celcius','Wind-Speed'='km/hr',Humidity='Percent','Atmospheric-Pressure'='hPa')
 
-outSenDf <- data.frame(SiteID=paste0('SFS_',sensdf$SiteID[1]), Active=1, SensorID=sensdf$SensorID, SensorName=paste0(sensdf$SiteName, '_', sensdf$DataType, '_', sensdf$UpperDepth),
+outSenDf <- data.frame(SiteID=paste0('SFS_',sensdf$SiteID), Active=1, SensorID=sensdf$SensorID, SensorName=paste0(sensdf$SiteName, '_', sensdf$DataType, '_', sensdf$UpperDepth),
                        StartDate=sensdf$StarDate,EndDate=sensdf$EndDate, DataType=sensdf$DataType, UpperDepth=sensdf$UpperDepth, LowerDepth=sensdf$LowerDepth,
                        Calibrated = 'TRUE', Units=as.character(units[sensdf$DataType], IsActive='TRUE')
 )
