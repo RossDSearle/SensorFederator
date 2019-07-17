@@ -1,5 +1,5 @@
 
-#rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
+rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
 rootDir = '/srv/plumber/SensorFederator'
 dbPath <- paste0(rootDir, "/DB/SensorFederator.sqlite")
 
@@ -37,7 +37,7 @@ for(site in sites){
   lon <- locs[1]
   lat <- locs[2]
 
-  recDF <- data.frame(SiteID=rec$SiteID[1], SiteName=rec$SiteName[1], SensorGroup=providerInfo$provider, Backend=providerInfo$backEnd,
+  recDF <- data.frame(SiteID=paste0('SFS_',rec$SiteID[1]), SiteName=rec$SiteName[1], SensorGroup=providerInfo$provider, Backend=providerInfo$backEnd,
                        Access=providerInfo$access,Usr=providerInfo$usr,Pwd=providerInfo$pwd,Latitude=lat,Longitude=lon,
                        Owner=providerInfo$org,Contact=providerInfo$contact,ProviderURL=providerInfo$orgURL,NetworkInfoWebsite=providerInfo$orgURL,
                        Description=providerInfo$Description,ServerName=providerInfo$server
@@ -76,7 +76,7 @@ sensdf$DataType[sensdf$DataType == 'Relative Humidity'] <- 'Humidity'
 unique(sensdf$DataType)
 units <- c('Soil-Moisture'='mm', Rainfall='mm' , 'Soil-Temperature'='Degrees-Celcius', Temperature='Degrees-Celcius','Wind-Speed'='km/hr',Humidity='Percent','Atmospheric-Pressure'='hPa')
 
-outSenDf <- data.frame(SiteID=sensdf$SiteID, Active=1, SensorID=sensdf$SensorID, SensorName=paste0(sensdf$SiteName, '_', sensdf$DataType, '_', sensdf$UpperDepth),
+outSenDf <- data.frame(SiteID=paste0('SFS_',sensdf$SiteID[1]), Active=1, SensorID=sensdf$SensorID, SensorName=paste0(sensdf$SiteName, '_', sensdf$DataType, '_', sensdf$UpperDepth),
                        StartDate=sensdf$StarDate,EndDate=sensdf$EndDate, DataType=sensdf$DataType, UpperDepth=sensdf$UpperDepth, LowerDepth=sensdf$LowerDepth,
                        Calibrated = 'TRUE', Units=as.character(units[sensdf$DataType], IsActive='TRUE')
 )
