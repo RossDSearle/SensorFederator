@@ -83,12 +83,18 @@ makeNestedDF <- function(TS, sensors, startDate, endDate, aggperiod){
 }
 
 
+delete.NULLs  <-  function(x.list){   # delele null/empty entries in a list
+  x.list[unlist(lapply(x.list, length) != 0)]
+}
+
+
 mergedfTSList <- function(listofDFTS, streams){
 
   #lodf = list(length=nrow(streams))  # This is wrong - need to fix to
 
-  lodf <-   vector("list", nrow(streams) )
-  for(i in 1:nrow(streams)){
+
+  lodf <-   vector("list", length(listofDFTS) )
+  for(i in 1:length(listofDFTS)){
 
     ndf <- listofDFTS[[i]]
     sensor = streams[i, ]

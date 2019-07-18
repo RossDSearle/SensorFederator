@@ -5,10 +5,10 @@ library(stringr)
 
 
 # url <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day'
- usr <- 'Ross.Searle@csiro.au'
- pwd <- 'uT8tGtyZSUqL'
+# usr <- 'Ross.Searle@csiro.au'
+# pwd <- 'uT8tGtyZSUqL'
 
- rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
+# rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
 
 #
 # resp <- GET(url,  authenticate(usr, pwd))
@@ -119,28 +119,6 @@ for (i in 700:n) {
 
 
 
-generateSensorInfo_IOT_SFS <- function( providerInfo, rootDir){
-
-  urlSts <- paste0('https://api.agric.wa.gov.au/v1/weatherstations.json?api_key=', DAFWAapiKey)
-  stns <- getURL(urlSts, .opts = myOpts)
-  stnsJ <- fromJSON(stns)
-
-  sensorDF <- getEmptySensorDF()
-
-  dfRain <- data.frame( paste0('DAFWA_', stnsJ$result$station_id ), stnsJ$result$name,providerInfo$provider,providerInfo$backEnd, providerInfo$access, providerInfo$usr, providerInfo$pwd, providerInfo$server, stnsJ$result$latitude , stnsJ$result$longitude, paste0(providerInfo$backEnd, '_', stnsJ$result$station_id, '_Rainfall'), paste0('DAFWA_', stnsJ$result$station_id, '_Rainfall'), stnsJ$result$start_date, NA, 'Rainfall', NA, NA, T, 'mm', stringsAsFactors = F)
-  colnames(dfRain) <- c('SiteID', 'SiteName', 'Provider', 'Backend', 'Access', 'Usr', 'Pwd', 'SeverName', 'Latitude', 'Longitude', 'SensorID', 'SensorName', 'StartDate', 'EndDate', 'DataType', 'UpperDepth', 'LowerDepth', 'Calibrated', 'Units')
-  sensorDF <- rbind(sensorDF, dfRain)
-
-  outName <- paste0(rootDir, '/SensorInfo/', providerInfo$provider, '_SensorsAll.csv')
-  write.csv(sensorDF, outName, row.names = F, quote = F)
-  cat(paste0('Sensor info for ', providerInfo$provider, ' written to ',  outName, '\n'))
-  cat('\n')
-  cat('OK. Now manually curate this file to expose the data you want\n')
-  cat("Don't forget to recompile the 'AllSensors.csv' & 'AllSites.csv' files afetr these changes\n")
-  vc(outName)
-}
-
-
 
 getURLAsync_IOT <- function(x){
 
@@ -148,38 +126,70 @@ getURLAsync_IOT <- function(x){
   url <- bits[[1]][1]
   usr <- bits[[1]][2]
   pwd <- bits[[1]][3]
+  sd <- bits[[1]][4]
+  ed <- bits[[1]][5]
+  dt <- bits[[1]][6]
 
-  resp <- GET(url,  authenticate(usr, pwd))
-  response <- content(resp, "text")
+  resp <- GET(url,  authenticate(usr, pwd), add_headers(content_type="text/json;charset=UTF-8"))
+  response <- suppressMessages(content(resp, "text"))
 
 
-  if(response==''){
+  if(response=='' | response=='[]'){
     outList <-   vector("list")
     return(outList)
   }else{
-    ndf<- IOT_GenerateTimeSeries(response, retType = 'df')
+    ndf <- IOT_GenerateTimeSeries(response, retType = 'df', sd, ed, dt)
     return(ndf)
   }
 }
 
 
 
-IOT_GenerateTimeSeries <- function(response, retType = 'df'){
+IOT_GenerateTimeSeries <- function(response, retType = 'df', startDate=NULL, endDate=NULL, dataType){
 
   ddf <- fromJSON(response)
   print(head(ddf))
 
   if(nrow(ddf) == 0){
-    outList <-   vector("list")
-    return(outList)
+    #outList <-   vector("list")
+    return(data.frame())
   }
 
   dts <-  as.POSIXct(ddf$date, format = "%Y-%m-%dT%H:%M:%OS"  )
   outList <-   vector("list", 1 )
 
+  if( dataType %in% c('Rainfall')){
+    ndf <- data.frame(dt=dts, vals=as.numeric(ddf$sum))
+  }else{
     ndf <- data.frame(dt=dts, vals=as.numeric(ddf$avg))
-    outList[[1]] <- ndf
+  }
 
-  return (outList)
+  colnames(ndf)<- c('theDate', 'Values')
+    ## IOT endpoint doesn't really allow selection of time period so we do it manually here
+    if(!is.null(startDate) & !is.null(endDate)){
+
+      # odf <- ndf[ndf$dt >= as.Date(startDate, format = "%Y-%m-%dT%H:%M:%S") & ndf$dt <= as.Date(endDate, format = "%Y-%m-%d"),]
+       odf <- ndf[ndf$theDate >= as.POSIXct(startDate, format = "%Y-%m-%dT%H:%M:%OS") & ndf$theDate <=  as.POSIXct(endDate, format = "%Y-%m-%dT%H:%M:%OS"),]
+       return(odf)
+    #    if(nrow(odf) == 0){
+    #      outList <-   vector("list")
+    #      return(outList)
+    #    }else{
+    #      ndf <- data.frame(dts2, vals)
+    #
+    #      return(ndf)
+    #    }
+    # }else{
+    #   ndfRange <- ndf
+    # }
+    }
+
+    return(ndf)
 
 }
+
+
+
+
+
+

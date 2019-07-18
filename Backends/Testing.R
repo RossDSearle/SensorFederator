@@ -544,16 +544,22 @@ tail(d[[1]])
 
 
 
-
+sensorInfo[sensorInfo$SiteID == site, ]
 
 
 ###############    CERDI IOT   ########################################
 
+# https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations?$top=5
+# https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations?$count=true
+# https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations/aggregate/day
+# https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations/aggregate/day?fromDate=20181201
+# https://services.cerdi.edu.au/sfs/v1.0/Datastreams(69)/Observations?fromDate=20181201|Ross.Searle@csiro.au|uT8tGtyZSUqL|2018-12-01T00:00:00|2018-12-29T04:00:00
+# http://0.0.0.0:8071/SensorAPI/getSensorDataStreams?siteid=SFS_66&sensortype=Rainfall&startdate=2018-12-01T00%3A00%3A00&enddate=2018-12-20T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
 
 
 dtype <- 'Soil-Moisture'
 sd <- '2018-12-01T00:00:00'
-ed <- '20018-12-29T04:00:00'
+ed <- '2018-12-29T04:00:00'
 site <-'SFS_66'
 
 
@@ -566,7 +572,6 @@ streams <- sensors
 
 getSensorData_IOT(streams=streams, startDate = sd, endDate = ed, aggPeriod=timeSteps$day, numrecs=maxRecs )
 
-site <- 'OzNet_m1'
-d <- getSensorData_SenFedStore(streams = sensors, startDate = sd, endDate = ed)
-tail(d[[1]])
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
+
 

@@ -24,6 +24,9 @@
 #' @export
 getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS' ){
 
+
+  print(streams)
+
   out <- tryCatch({
 
     backEnd <- streams$Backend[[1]][1]
@@ -91,35 +94,36 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         dfTS <- getSensorData_DataFarmer(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'SenFedStore') {
         dfTS <- getSensorData_SenFedStore(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
-      }else if(backEnd == 'IOT') {
+      }else if(backEnd == 'IOT_CERDI') {
+
         dfTS <- getSensorData_IOT(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }
 
+      #### This deals with the situation where a sesnor returns a blank list
+      #### We need to get rid of these out of the list of data frames and the recs in the sensor dataframe
+      outSensors <- data.frame()
+      for (i in 1:length(dfTS)) {
+         if(length( dfTS[[i]]) !=0){
+           outSensors <- rbind(outSensors, streams[i,])
+         }
+      }
+      nnl <- delete.NULLs(dfTS)
+      #dfTSm <- mergedfTSList(nnl, streams = streams)
+      dfTSm <- mergedfTSList(nnl, streams = outSensors)
 
-# Transform the repsonse as requested
 
-     # dfTS <- dataStreamsDF
-
-
-
-      dfTSm <- mergedfTSList(dfTS, streams = streams)
 
 
       if(nrow(dfTSm) > 0){
         outts <- to.TS(dfTSm)
         if(aggPeriod != 'none'){
-          # outTS <- resampleTS(outts, aggPeriod, FeatureAggTypes[streams$DataType][1])
-
-          outTS <- resampleTS(inTS=outts, aggPeriod=aggPeriod, ftype=FeatureAggTypes[streams$DataType][1], startDate=isoSDate, endDate = isoEDate)
-
+           outTS <- resampleTS(inTS=outts, aggPeriod=aggPeriod, ftype=FeatureAggTypes[streams$DataType][1], startDate=isoSDate, endDate = isoEDate)
         }else{
           outTS <- outts
         }
 
         if(outFormat=='nestedTS'){
-
-
-          ndf <- makeNestedDF(outTS, streams, isoSDate, isoEDate, aggPeriod)
+          ndf <- makeNestedDF(outTS, outSensors, isoSDate, isoEDate, aggPeriod)
           return(ndf)
         }else{
           return(outTS)
@@ -396,16 +400,16 @@ getSensorData_Outpost <- function(streams, startDate = NULL, endDate = NULL, agg
 
 getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
-  SDate <- str_split(startDate, 'T')[[1]][1]
-  #EDate <- str_replace_all(endDate, '-', '/')
-
-
+  SDate <- str_remove_all( str_split(startDate, 'T')[[1]][1], '-')
   bits <- str_split(streams$SiteID, '_')
-  sids <- sapply(bits, function (x) x[2])
+  sid <- sapply(bits, function (x) x[2])[1]
+
+  sensorIDs <- streams$SensorID
 
   # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
-
-  urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sid, ')/Observations/aggregate/day?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL')
+  #https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations/aggregate/day?$top=5
+  urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations/aggregate/day?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate, '|', streams$DataType)
+  #urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate)
 
   tryCatch({
     dataStreamsDF <- synchronise(async_map(urls, getURLAsync_IOT, .limit = asyncThreadNum))
