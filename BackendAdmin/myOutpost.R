@@ -5,6 +5,7 @@ library(xts)
 library(raster)
 library(XML)
 library(xml2)
+library(rAmCharts)
 
 myOpts <- curlOptions(connecttimeout = 200, ssl.verifypeer = FALSE)
 
@@ -28,15 +29,9 @@ siteID <- 'op45521'
 #sensorID <- '1434379'
 sensorID <- '715359'
 
-# Daves Wilston
-siteID <- 'op42563'
-#sensorID <- '1434379'
-sensorID <- '725458'
-
-
 
 sDate <- '1/Jul/2019%2000:00:00'
-eDate='16/Jul/2019%2000:00:00'
+eDate='12/Jul/2019%2000:00:00'
 
 
 urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  usr, '&password=', pwd,
@@ -63,6 +58,7 @@ dts <- xpathSApply(doc ,"//opdata:sites/opdata:site/opdata:inputs/opdata:input/o
 dfo <- data.frame(dts, vals, stringsAsFactors = F)
 tail(dfo, 500)
 
+rtot <- cumsum(dfo$vals)
 
 sensorInfo <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
 
@@ -73,3 +69,8 @@ aggregSeconds=timeSteps$day
 startDate <- '2018-01-01T00:00:00'
 endDate='2018-01-04T23:59:59'
 
+
+dfs <- data.frame(theDate=as.POSIXct( dfo$dts), theVals=as.numeric(rtot))
+amTimeSeries(data=dfs, col_date = 'theDate', col_series = colnames(dfs)[-1], linetype=0, color = 'red', linewidth = 5, bullet = 'diamond')
+
+amTimeSeries(data=dfs, col_date = 'theDate', col_series = colnames(dfs)[-1], maxSeries=100)

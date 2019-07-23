@@ -1,0 +1,36 @@
+
+
+
+#####   URLS For tesing all the backend DataStreams   #####
+
+IOT_CERDI
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=SFS_66&sensortype=Rainfall&startdate=2018-12-01T00%3A00%3A00&enddate=2018-12-20T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=SFS_66&sensortype=Soil-Moisture&startdate=2018-12-01T00%3A00%3A00&enddate=2018-12-20T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+Cosmoz
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=Cosmoz_12&sensortype=Soil-Moisture&startdate=2018-12-01T00%3A00%3A00&enddate=2018-12-20T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+DAFWA
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=DAFWA_BA&sensortype=Rainfall&startdate=2018-12-01T00%3A00%3A00&enddate=2018-12-20T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+Outpost
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=op45521&sensortype=Rainfall&startdate=2019-07-01T00%3A00%3A00&enddate=2019-07-18T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+MAIT
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=VicAg_Sale&sensortype=Rainfall&startdate=2019-07-01T00%3A00%3A00&enddate=2019-07-18T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=VicAg_Sale&sensortype=Soil-Moisture&startdate=2019-07-01T00%3A00%3A00&enddate=2019-07-18T00%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL
+
+OzNet
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=OzNet_a2&sensortype=Rainfall&startdate=2011-02-10T23%3A59%3A59&enddate=2011-02-28T23%3A59%3A59&aggperiod=days
+
+### This one needs fixing  http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=OzNet_a2&sensortype=Soil-Moisture&startdate=2011-02-10T23%3A59%3A59&enddate=2011-02-28T23%3A59%3A59&aggperiod=days
+
+
+Datafarmer
+http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=BCG_Banyena&sensortype=Rainfall&startdate=2018-06-10T23%3A59%3A59&enddate=2018-06-28T23%3A59%3A59&aggperiod=days
+
+
+
+
+

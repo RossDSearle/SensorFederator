@@ -97,6 +97,9 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       }else if(backEnd == 'IOT_CERDI') {
 
         dfTS <- getSensorData_IOT(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
+      }else if(backEnd == 'BoM-Latest') {
+
+        dfTS <- getSensorData_BoMLatest(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }
 
       #### This deals with the situation where a sesnor returns a blank list
@@ -423,6 +426,30 @@ getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeri
 }
 
 
+getSensorData_BoM-Latest<- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
+
+  SDate <- str_remove_all( str_split(startDate, 'T')[[1]][1], '-')
+  bits <- str_split(streams$SiteID, '_')
+  sid <- sapply(bits, function (x) x[2])[1]
+
+  sensorIDs <- streams$SensorID
+
+  # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
+  #https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations/aggregate/day?$top=5
+  urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations/aggregate/day?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate, '|', streams$DataType)
+  #urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate)
+
+  tryCatch({
+    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_IOT, .limit = asyncThreadNum))
+
+  }, error = function(e)
+  {
+    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  })
+
+  return(dataStreamsDF)
+}
+
 
 
 
@@ -437,7 +464,6 @@ getSensorFields <- function(){
 
 
 getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, longitude=NULL, latitude=NULL, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
-
 
  sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
 
@@ -503,10 +529,6 @@ getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorTy
 
  n <- min(nrow(outdf), numToReturn)
  return(outdf[1:n, ])
-
-
-
-
 
 }
 

@@ -5,8 +5,8 @@ library(stringr)
 
 
 # url <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day'
-# usr <- 'Ross.Searle@csiro.au'
-# pwd <- 'uT8tGtyZSUqL'
+ usr <- 'Ross.Searle@csiro.au'
+ pwd <- 'uT8tGtyZSUqL'
 
 # rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
 
@@ -20,6 +20,18 @@ library(stringr)
 # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
 # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations|Ross.Searle@csiro.au|uT8tGtyZSUqL'
 
+
+# thingsURL <- 'https://services.cerdi.edu.au/sfs/v1.0/Things'
+# thingsresp <- GET(thingsURL,  authenticate(usr, pwd))
+# thingsresponse <- content(thingsresp, "text")
+# thingsDf <- fromJSON(thingsresponse)
+#
+#
+# for (i in 1:nrow(thingsDf)) {
+#
+#
+#
+# }
 
 
 
