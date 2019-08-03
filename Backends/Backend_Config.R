@@ -20,6 +20,8 @@ library(RSQLite)
 library(RColorBrewer)
 library(sf)
 library(httr)
+library(XML)
+library(xml2)
 
 debugMode <- F
 
@@ -91,6 +93,7 @@ source(paste0(sensorRootDir, '/Backends/Mait_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/DataFarmer_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/SensFedStore_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/IOT_Backend.R'))
+#source(paste0(sensorRootDir, '/Backends/BoM-Latest_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/Backends.R'))
 source(paste0(sensorRootDir, '/Backends/Authorisation.R'))
 

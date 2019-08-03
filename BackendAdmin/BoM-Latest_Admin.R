@@ -3,7 +3,8 @@ library(jsonlite)
 library(httr)
 library(stringr)
 library(xml2)
-
+library(DBI)
+library(RSQLite)
 
 rootDir = 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
 rootDir = '/srv/plumber/SensorFederator'
