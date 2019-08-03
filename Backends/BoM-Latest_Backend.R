@@ -2,6 +2,7 @@ library(RCurl)
 library(jsonlite)
 library(httr)
 library(stringr)
+library(XML)
 library(xml2)
 
 
