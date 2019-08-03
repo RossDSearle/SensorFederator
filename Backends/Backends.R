@@ -24,9 +24,6 @@
 #' @export
 getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS' ){
 
-
-  print(streams)
-
   out <- tryCatch({
 
     backEnd <- streams$Backend[[1]][1]
@@ -95,11 +92,11 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       }else if(backEnd == 'SenFedStore') {
         dfTS <- getSensorData_SenFedStore(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'IOT_CERDI') {
-
         dfTS <- getSensorData_IOT(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
-      }else if(backEnd == 'BoM-Latest') {
-
+      }else if(backEnd == 'BoM_Latest') {
         dfTS <- getSensorData_BoMLatest(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
+      }else if(backEnd == 'SILO') {
+        dfTS <- getSensorData_SILO(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }
 
       #### This deals with the situation where a sesnor returns a blank list
@@ -113,8 +110,6 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       nnl <- delete.NULLs(dfTS)
       #dfTSm <- mergedfTSList(nnl, streams = streams)
       dfTSm <- mergedfTSList(nnl, streams = outSensors)
-
-
 
 
       if(nrow(dfTSm) > 0){
@@ -426,21 +421,46 @@ getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeri
 }
 
 
-getSensorData_BoM-Latest<- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
-  SDate <- str_remove_all( str_split(startDate, 'T')[[1]][1], '-')
-  bits <- str_split(streams$SiteID, '_')
-  sid <- sapply(bits, function (x) x[2])[1]
 
-  sensorIDs <- streams$SensorID
+getSensorData_BoMLatest<- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
-  # x <- 'https://services.cerdi.edu.au/sfs/v1.0/Datastreams(20)/Observations/aggregate/day|Ross.Searle@csiro.au|uT8tGtyZSUqL'
-  #https://services.cerdi.edu.au/sfs/v1.0/Datastreams(569)/Observations/aggregate/day?$top=5
-  urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations/aggregate/day?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate, '|', streams$DataType)
-  #urls <- paste0('https://services.cerdi.edu.au/sfs/v1.0/Datastreams(', sensorIDs, ')/Observations?fromDate=', SDate,'|Ross.Searle@csiro.au|uT8tGtyZSUqL|', startDate, '|', endDate)
+  siteID <- streams$SiteID[1]
+  sensorID <- streams$SensorID[1]
+  bits <- str_split(siteID, '_')
+  sid <- bits[[1]][3]
+  wmo <- bits[[1]][2]
+
+  rt <- streams$ProviderURL
+
+  urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
+
+   # tryCatch({
+    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
+
+  # }, error = function(e)
+  # {
+  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  # })
+
+  return(dataStreamsDF)
+}
+
+
+getSensorData_SILO <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
+
+  siteID <- streams$SiteID[1]
+  sensorID <- streams$SensorID[1]
+  bits <- str_split(siteID, '_')
+  sid <- bits[[1]][3]
+  wmo <- bits[[1]][2]
+
+  rt <- streams$ProviderURL
+
+  urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
 
   tryCatch({
-    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_IOT, .limit = asyncThreadNum))
+    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
 
   }, error = function(e)
   {
@@ -449,9 +469,6 @@ getSensorData_BoM-Latest<- function(streams, startDate = NULL, endDate = NULL, a
 
   return(dataStreamsDF)
 }
-
-
-
 
 
 

@@ -3,20 +3,19 @@ source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
 library(dygraphs)
-# Sensor Cloud
-
 
 
 start_time <- Sys.time()
 s <- getAuthorisedSensors()
 end_time <- Sys.time()
 end_time - start_time
-
 s <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
-
 s <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
-
 sensorInfo <- s
+
+
+
+
 
 
 locs <- fromJSON('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorLocations?sensortype=Soil-Moisture')
@@ -573,5 +572,26 @@ streams <- sensors
 getSensorData_IOT(streams=streams, startDate = sd, endDate = ed, aggPeriod=timeSteps$day, numrecs=maxRecs )
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
+
+
+
+###############    BoM Latest   ########################################
+
+
+
+dtype <- 'Rainfall'
+
+site <-'BoMLatest_94255_IDD60801'
+site <-'BoMLatest_95214_IDD60801'
+
+
+sensorInfo <- getAuthorisedSensors()
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
+
+#sensors <- sensorInfo[sensorInfo$SiteID == site, ]
+streams <- sensors
+
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 10000000)
+
 
 
