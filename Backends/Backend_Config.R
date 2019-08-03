@@ -46,7 +46,11 @@ if(machineName == 'FANCY-DP'){
 
 
 timeAggMethods <- data.frame(mean='mean', sum='sum', min='min', max='max', none='none', stringsAsFactors = F)
+<<<<<<< HEAD
 knownBackends <- c('SensorCloud', 'Adcon', 'OutPost', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest')
+=======
+knownBackends <- c('SensorCloud', 'Adcon', 'OutPost', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO')
+>>>>>>> 61b6306b6435193f26ee4c496f44845926c2400f
 knownFeatures <- c('Soil-Moisture', 'Soil-Temperature', 'Rainfall', 'Humidity', 'Temperature', 'Wind-Direction', 'Wind-Speed', 'Atmospheric Pressure', 'Vapour-Pressure', 'Dew-Point', 'Delta T', 'Suction')
 FeatureAggTypes <-c(timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$sum, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean)
 names(FeatureAggTypes) <- knownFeatures

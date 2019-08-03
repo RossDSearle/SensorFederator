@@ -435,8 +435,13 @@ getSensorData_BoMLatest<- function(streams, startDate = NULL, endDate = NULL, ag
 
   urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
 
+<<<<<<< HEAD
   # tryCatch({
   dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
+=======
+   # tryCatch({
+    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
+>>>>>>> 61b6306b6435193f26ee4c496f44845926c2400f
 
   # }, error = function(e)
   # {
