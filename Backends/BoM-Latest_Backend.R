@@ -8,21 +8,12 @@ library(xml2)
 
 getURLAsync_BoM_Latest <- function(x){
 
-<<<<<<< HEAD
   bits <- str_split(x, '[|]')
   url <- bits[[1]][1]
   dt <- bits[[1]][2]
 
   resp <- GET(url)
   response <-  content(resp, "text")
-=======
-   bits <- str_split(x, '[|]')
-   url <- bits[[1]][1]
-   dt <- bits[[1]][2]
-
-   resp <- GET(url)
-   response <-  content(resp, "text")
->>>>>>> 61b6306b6435193f26ee4c496f44845926c2400f
 
   if(response=='' | response=='[]'){
     outList <-   vector("list")
