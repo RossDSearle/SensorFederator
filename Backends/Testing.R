@@ -16,6 +16,9 @@ sensorInfo <- s
 
 
 
+DF <- getSensorLocations(usr=usr, pwd=pwd)
+
+
 
 
 locs <- fromJSON('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorLocations?sensortype=Soil-Moisture')

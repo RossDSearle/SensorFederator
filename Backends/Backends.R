@@ -434,14 +434,8 @@ getSensorData_BoMLatest<- function(streams, startDate = NULL, endDate = NULL, ag
   rt <- streams$ProviderURL
 
   urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
-
-<<<<<<< HEAD
   # tryCatch({
   dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
-=======
-   # tryCatch({
-    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
->>>>>>> 61b6306b6435193f26ee4c496f44845926c2400f
 
   # }, error = function(e)
   # {
@@ -501,11 +495,11 @@ getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorTy
   #df1 <- merge(sitesInfo, s, by='SiteID')
   df1 <- s
 
-  outDF <- data.frame(df1$SiteID,df1$SiteName, df1$SensorGroup, df1$Backend, df1$Access,
-                      df1$Longitude, df1$Latitude, df1$Active, df1$Owner, df1$Contact,
+  outDF <- data.frame(df1$SiteID,df1$SiteName, df1$SensorGroup, df1$Backend,
+                      df1$Longitude, df1$Latitude, df1$IsActive , df1$Owner, df1$Contact,
                       df1$ProviderURL,df1$NetworkInfoWebsite, df1$Description, df1$StartDate, df1$EndDate, stringsAsFactors = F)
-  colnames(outDF) <- c('SiteID','SiteName','SensorGroup','Backend','Access','Longitude','Latitude',
-                       'Active','Owner','Contact','ProviderURL','NetworkInfoWebsite', 'Description','StartDate','EndDate')
+  colnames(outDF) <- c('SiteID','SiteName','SensorGroup','Backend','Longitude','Latitude',
+                       'IsActive','Owner','Contact','ProviderURL','NetworkInfoWebsite', 'Description','StartDate','EndDate')
   outDF[is.na(outDF)] <-"NA"
 
   if(nrow(outDF) == 0){
