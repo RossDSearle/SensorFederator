@@ -8,21 +8,16 @@ library(xml2)
 
 getURLAsync_SILO<- function(x){
 
-  debugMode=T
-  url <- x
+  #debugMode=T
+  #url <- x
 
+  bits <- str_split(x, '[|]')
+  url <- bits[[1]][1]
+  dt <- bits[[1]][2]
 
+  resp <- GET(url)
+  response <- content(resp, "text")
 
-  if(debugMode){
-    response <- readLines('C:/Temp/silo.txt')
-    #response <-  content(resp, "text")
-
-  }else{
-    resp <- GET(url)
-    response <- suppressMessages(content(resp, "text"))
-  }
-
-  writeLines(response, 'c:/temp/bom2.json')
 
   if(response=='' | response=='[]'){
     outList <-   vector("list")
@@ -37,8 +32,10 @@ getURLAsync_SILO<- function(x){
 
 SILO_GenerateTimeSeries <- function(response, retType = 'df'){
 
-  ddf2 <- fromJSON(response)
-  ddf2 <- readRDS('C:/Temp/silo.rds')
+  sdf <-read.delim(textConnection(SiloData), header=F, sep="", strip.white=TRUE, skip = 37)
+  sdf2 <- sdf[, c(1,2,3,5,7,9,11,13,15,16,17)]
+  sc <- c('Date','Day','T.Max','T.Min','Rain','Evap','Radn','VP','RHminT','RHmaxT','Date2')
+  colnames(sdf2) <- sc
 
   dts <- as.POSIXct(paste0(ddf2$date, 'T00:00:00'), format = "%Y-%m-%dT%H:%M:%OS")
   bits <- str_split(ddf2$variables, ',')

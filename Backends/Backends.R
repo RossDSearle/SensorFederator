@@ -450,16 +450,19 @@ getSensorData_SILO <- function(streams, startDate = NULL, endDate = NULL, aggPer
 
   siteID <- streams$SiteID[1]
   sensorID <- streams$SensorID[1]
-  bits <- str_split(siteID, '_')
-  sid <- bits[[1]][3]
-  wmo <- bits[[1]][2]
+  server <- streams$ServerName[1]
+  usr <- 'CSIROESB15'
+  pwd <- 'DISKW8026'
+  sd <- '20160101'
+  ed <- '20160110'
 
-  rt <- streams$ProviderURL
+  #url <- 'https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php?format=standard&station=40223&start=20160101&finish=20160110&username=CSIROESB15&password=DISKW8026'
 
-  urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
+  url <- paste0(server, '/PatchedPointDataset.php?format=standard&station=', siteID, '&start=', sd, '&finish=', ed, '&username=', usr,  '&password=', pwd, '|', sensorID)
+
 
   tryCatch({
-    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
+    dataStreamsDF <- synchronise(async_map(url, getURLAsync_SILO, .limit = asyncThreadNum))
 
   }, error = function(e)
   {
@@ -479,9 +482,13 @@ getSensorFields <- function(){
 
 
 
-getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, longitude=NULL, latitude=NULL, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
+getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, longitude=NULL, latitude=NULL, extendedSet=F, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
 
   sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
+
+  if(!extendedSet){
+    sensors = sensors[!sensors$Backend %in% c('BoM_Latest', 'SILO'),]
+  }
 
   if(!is.null(siteID)){
     sensors <- sensors[sensors$SiteID==siteID,]
