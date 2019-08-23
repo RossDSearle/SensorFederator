@@ -8,4 +8,4 @@ The 'Federator' is a uses a modular concept where a 'backend' is coded to make t
 
 
 ## Conceptual Diagram
-![sensorFederator](/Docs/sensorFederatorPNG.PNG)
+![sensorFederator](/docs/sensorFederatorPNG.PNG)
