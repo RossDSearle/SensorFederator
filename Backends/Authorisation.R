@@ -39,7 +39,7 @@ smipsLogin <- function(usr='Public', pwd='Public'){
 #getAuthorisedSensors(usr = 'SoilWaterApp', pwd = 'rLR4ArUomkODEpAgaDae4Ak')
 
 getAuthorisedSensors <- function(usr='Public', pwd='Public'){
-  
+
   DBCon <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RO)
   fk_On <- 'PRAGMA foreign_keys = ON;'
   dbExecute(DBCon, fk_On)
@@ -50,6 +50,7 @@ getAuthorisedSensors <- function(usr='Public', pwd='Public'){
     sql <- "SELECT * FROM Sites INNER JOIN Sensors ON Sites.SiteID = Sensors.SiteID WHERE sites.Access = 'Public'"
     res <- dbSendQuery(DBCon, sql)
     avail <- dbFetch(res)
+
     dbClearResult(res)
     dbDisconnect(DBCon)
 
@@ -65,7 +66,7 @@ getAuthorisedSensors <- function(usr='Public', pwd='Public'){
     idRec <- dbFetch(res)
     dbClearResult(res)
 
-    
+
     if(nrow(idRec) != 1){stop('Incorrect user name or password - username actually')}
 
     cusr <- as.character(idRec$usrID[1])

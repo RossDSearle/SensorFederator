@@ -485,10 +485,13 @@ getSensorFields <- function(){
 getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, longitude=NULL, latitude=NULL, extendedSet=F, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
 
   sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
-
+  print(extendedSet)
   if(!extendedSet){
     sensors = sensors[!sensors$Backend %in% c('BoM_Latest', 'SILO'),]
   }
+
+
+  #print(tail(sensors))
 
   if(!is.null(siteID)){
     sensors <- sensors[sensors$SiteID==siteID,]
