@@ -268,9 +268,17 @@ sum(vals)
 
 x <- 'http://cosmoz.csiro.au/rest/station/21/records?processing_level=4&startdate=2010-01-01T00%3A00%3A00Z&enddate=2019-06-20T00%3A00%3A00Z&count=100000000000&offset=0'
 
+
+url <- 'https://esoil.io/cosmoz-data-pipeline/rest/stations/21/observations?processing_level=4&startdate=2019-01-01T00%3A00%3A00Z&enddate=2019-01-02T00%3A00%3A00Z&count=100000000000&offset=0&aggregate=1d'
+
+resp <- GET(url)
+response <- content(resp, "text")
+response
+fromJSON(response, flatten=TRUE)
+
 #x <- 'http://cosmoz.csiro.au/rest/station/2/records?processing_level=4&startdate=2017-08-20T09:00:00Z&enddate=2018-08-20T09:00:00Z&property_filter=rainfall&count=1000000&offset=0'
 
-#response <- getURL(x)
+response <- getURL(x)
 #response
 
 forDayData <- fromJSON(x, flatten=TRUE)
