@@ -53,7 +53,10 @@ generateSensorInfo_Cosmoz <- function( providerInfo, rootDir){
 
 getURLAsync_Cosmoz <- function(x){
 
-  response <- getURL(x)
+  #response <- getURL(x)
+  resp <- GET(x)
+  response <- content(resp, "text")
+  print(response)
   ndf<- cosmoz_GenerateTimeSeries(response, retType = 'df')
   return(ndf)
 }
@@ -63,7 +66,8 @@ cosmoz_GenerateTimeSeries <- function(response, retType = 'df'){
 
 
   tsj <- fromJSON(response, flatten=T)
-  if(tsj$count == 0){
+  print(str(tsj))
+  if(tsj$meta$count == 0){
       (stop('No records were returned for the specified query'))
     }
   dts <- str_replace(tsj$observations[,1], 'T', ' ')

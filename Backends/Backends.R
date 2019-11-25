@@ -312,8 +312,10 @@ getSensorData_Cosmoz <- function(streams, startDate = NULL, endDate = NULL, aggP
   }else{
     filt <- 'rainfall'
   }
-  urls <- paste0( streams$ServerName, '/rest/station/', siteid, '/records?processing_level=4', '&startdate=',startDate,'Z&enddate=',endDate ,'Z&property_filter=', filt,  '&count=', format(numrecs, scientific = FALSE) , '&offset=0')
-
+  server <- 'https://esoil.io/cosmoz-data-pipeline'
+  #urls <- paste0( streams$ServerName, '/rest/station/', siteid, '/records?processing_level=4', '&startdate=',startDate,'Z&enddate=',endDate ,'Z&property_filter=', filt,  '&count=', format(numrecs, scientific = FALSE) , '&offset=0')
+  urls <- paste0( server, '/rest/stations/', siteid, '/observations?processing_level=4', '&startdate=',startDate,'Z&enddate=',endDate ,'Z&property_filter=', filt,  '&count=', format(numrecs, scientific = FALSE) , '&offset=0')
+#print(urls)
 
   tryCatch({
     dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_Cosmoz, .limit = asyncThreadNum ))
