@@ -75,8 +75,8 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
 
       # send the request off to the various backends
 
-      if(backEnd == 'SensorCloud'){
-        dfTS <- getSensorData_SensorCloud(streams=streams, startDate=isoSDate, endDate=isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
+      if(backEnd == 'Senaps'){
+        dfTS <- getSensorData_Senaps(streams=streams, startDate=isoSDate, endDate=isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'Adcon') {
         dfTS <- getSensorData_Adcon(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'OutPost') {
@@ -328,22 +328,44 @@ getSensorData_Cosmoz <- function(streams, startDate = NULL, endDate = NULL, aggP
 }
 
 
-getSensorData_SensorCloud <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
+getSensorData_Senaps <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
   isoSDate <- paste0(startDate, '.000Z')
   isoEDate <- paste0(endDate, '.000Z')
 
-  urls <- paste0( streams$ServerName, '/observations?streamid=', streams$SensorID,'&start=',isoSDate,'&end=',isoEDate , '&limit=', format(numrecs, scientific = FALSE))
 
-  tryCatch({
-    dataStreamsDF <- synchronise(async_map(urls, getURLAsync_SensorCloud, .limit = asyncThreadNum))
-  }, error = function(e)
-  {
-    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  if(streams$SensorGroup[1]=='Booroowa' & streams$DataType[1]=='Soil-Moisture'){
+
+    urlsDEC <- paste0( streams$ServerName, '/observations?streamid=', streams$SensorID,'&start=',isoSDate,'&end=',isoEDate , '&limit=', format(numrecs, scientific = FALSE), '|', streams$Usr[1], '|', streams$Pwd[1])
+    senTemps <- str_replace(streams$SensorID, 'dielectric_constant', 'soil_temperature')
+    urlsTemp <- paste0( streams$ServerName, '/observations?streamid=', senTemps,'&start=',isoSDate,'&end=',isoEDate , '&limit=', format(numrecs, scientific = FALSE), '|', streams$Usr[1], '|', streams$Pwd[1])
+
+    dataStreamsDFDEC <- synchronise(async_map(urlsDEC, getURLAsync_Senaps, .limit = asyncThreadNum))
+    dataStreamsDFTEMP <- synchronise(async_map(urlsTemp, getURLAsync_Senaps, .limit = asyncThreadNum))
+
+    #outList <-  vector("list", length(dataStreamsDFDEC))
+    for(i in 1:length(dataStreamsDFDEC)){
+      print(i)
+      ErT=as.numeric(dataStreamsDFDEC[[i]]$Values)*1.011/(1.045+0.01*as.numeric(dataStreamsDFTEMP[[i]]$Values))
+
+      dataStreamsDFDEC[[i]]$Values <- (0.055  * sqrt(ErT) + -0.015) * 100
+    }
+
+    return(dataStreamsDFDEC)
+
+  }else{
+      urls <- paste0( streams$ServerName, '/observations?streamid=', streams$SensorID,'&start=',isoSDate,'&end=',isoEDate , '&limit=', format(numrecs, scientific = FALSE), '|', streams$Usr[1], '|', streams$Pwd[1])
+
+      tryCatch({
+        dataStreamsDF <- synchronise(async_map(urls, getURLAsync_Senaps, .limit = asyncThreadNum))
+      }, error = function(e)
+      {
+        stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+      }
+      )
+
+       return(dataStreamsDF)
   }
-  )
-
-  return(dataStreamsDF)
 }
 
 

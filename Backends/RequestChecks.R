@@ -29,7 +29,7 @@ check_GetSensorDataStreams <- function(siteid=NULL, sensorid=NULL, sensortype=NU
     if(is.na(dt)){stop(paste0("The specified 'startdate' is not valid or in the correct format. It needs to be in the format %Y-%m-%dT%H:%M:%S eg 2018-04-20T09:00:00"))}
   }
 
-  if(!is.null(startDate) & !is.null(startDate)){
+  if(!is.null(startDate) & !is.null(endDate)){
     d1 <- strptime(startDate, "%Y-%m-%dT%H:%M:%S")
     d2 <- strptime(endDate, "%Y-%m-%dT%H:%M:%S")
     dif <- d2 - d1

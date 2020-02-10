@@ -70,7 +70,6 @@ makeNestedDF <- function(TS, sensors, startDate, endDate, aggperiod){
 
   for (i in 1 : (ncol(DF)-1)) {
     rdf <- data.frame(t=DF$DateTime, v=DF[i+1])
-    #rdf <- data.frame(t=str_replace_all(DF$DateTime,' ', 'T'), v=DF[i+1])
     colnames(rdf) <- c('t','v')
     TSout[[i]] <- rdf
   }
