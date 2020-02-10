@@ -48,7 +48,7 @@ if(machineName == 'FANCY-DP'){
 
 timeAggMethods <- data.frame(mean='mean', sum='sum', min='min', max='max', none='none', stringsAsFactors = F)
 
-knownBackends <- c('SensorCloud', 'Adcon', 'OutPost', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO')
+knownBackends <- c('Senaps', 'Adcon', 'OutPost', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO')
 
 knownFeatures <- c('Soil-Moisture', 'Soil-Temperature', 'Rainfall', 'Humidity', 'Temperature', 'Wind-Direction', 'Wind-Speed', 'Atmospheric Pressure', 'Vapour-Pressure', 'Dew-Point', 'Delta T', 'Suction')
 FeatureAggTypes <-c(timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$sum, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean)
@@ -89,7 +89,7 @@ source(paste0(sensorRootDir, '/Backends/RequestChecks.R'))
 source(paste0(sensorRootDir, '/Backends/Backend_Utils.R'))
 source(paste0(sensorRootDir, '/Backends/Adcon_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/Outpost_Backend.R'))
-source(paste0(sensorRootDir, '/Backends/SensorCloud_Backend.R'))
+source(paste0(sensorRootDir, '/Backends/Senaps_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/Cosmoz_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/DAFWA_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/Mait_Backend.R'))

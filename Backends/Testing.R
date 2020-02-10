@@ -626,3 +626,19 @@ d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 100000
 
 
 
+
+#######  Boowoora   ########################
+
+sensorInfo <- getAuthorisedSensors()
+site <- 'hussat_terrasonde_148.696846_-34.469837'
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
+
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 10000000)
+
+
+
+getURL("http://127.0.0.1:5428/SensorAPI/getSensorDataStreams?siteid=hussat_terrasonde_148.696836_-34.477601&sensortype=Soil-Moisture")
+
+
+
+
