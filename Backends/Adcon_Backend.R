@@ -1,3 +1,6 @@
+library(RCurl)
+library(XML)
+library(xml2)
 
 
 knownAdconReturnTypes <- c('df', 'xts')
@@ -9,38 +12,40 @@ slots <- 100
 myOpts <- curlOptions(connecttimeout = 200, ssl.verifypeer = FALSE)
 
 adconSensorTypes <- c('Soil moisture', 'Daily Rainfall' )
-adconServer <- 'http://data.farmlinkrural.com'
+adconServerWA <- 'http://data.farmlinkrural.com'
 #adconSensorTypes <- c('Soil moisture' )
 
 # Login
-adconLogin <- function(usr = usr, pwd = pwd, timeOut=30, mode='t'){
+adconLogin <- function(adconServer, usr = usr, pwd = pwd, timeOut=30, mode='t'){
 
     urlLogin <- paste0(adconServer, '/addUPI?function=login&user=', usr ,'&passwd=', pwd, '&timeout=', timeOut, '&mode=' , mode)
 
    # print(urlLogin)
     authXML <- getURL(urlLogin, .opts = myOpts)
     AuthID <- xml_text(xml_find_first(read_xml(authXML), '//response/result'))
+    print(urlLogin)
     #write(authXML, 'C:/Users/sea084/Dropbox/RossRCode/Git/ProbeAPIs/AdconResponses/auth.xml')
 
     return(AuthID)
 }
 
 # Logout
-adconLogout <- function(AuthID = AuthID){
+adconLogout <- function(adconServer, AuthID = AuthID){
 
     urlLogout <- paste0(adconServer, '/addUPI?function=logout&session-id=', AuthID , '&mode=' , mode)
     logoutXML <- getURL(urlLogout, .opts = myOpts)
-
+    print(urlLogout)
     return(logoutXML)
 }
 
 # get Config
-adconConfig <- function(usr=usr, pwd = pwd){
+adconConfig <- function(adconServer = NULL, usr=usr, pwd = pwd){
 
-    authID <- adconLogin(usr=usr, pwd = pwd)
+    authID <- adconLogin(adconServer=adconServer, usr=usr, pwd = pwd)
     urlConfig <- paste0(adconServer, '/addUPI?function=getconfig&session-id=', authID , '&mode=' , mode)
+    print(urlConfig)
     configXML <- getURL(urlConfig, .opts = myOpts)
-    adconLogout(AuthID = authID)
+    adconLogout(adconServer=adconServer, AuthID = authID)
 
     return(configXML)
 }
@@ -68,14 +73,14 @@ adconAttribute <- function(usr=usr, pwd=pwd, nodeID=nodeID){
 }
 
 # get Data With no existing Auth XML
-adconGetData <- function(usr=usr, pwd=pwd, nodeID, date, slots = 100){
+adconGetData <- function(adconServer=server, usr=usr, pwd=pwd, nodeID, date, slots = 100){
 
-    authID <- adconLogin(usr=usr, pwd = pwd)
+    authID <- adconLogin(adconServer, usr=usr, pwd = pwd)
 
     urlData <- paste0(adconServer, '/addUPI?function=getdata&session-id=', authID , '&id=', nodeID, '&date=', date, '&slots=', slots , '&mode=' , mode)
    # print(urlData)
     dataXML <- getURL(urlData, .opts = myOpts)
-    adconLogout(AuthID = authID)
+    adconLogout(adconServer, AuthID = authID)
 
     return(dataXML)
 }

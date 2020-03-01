@@ -18,9 +18,6 @@ convertJSONtoDF <- function(resp){
     dd <- d$DataStream
     outDF[, (i+1)] <- dd[[1]]$v
 
-   # d$DataType
-  #  d$UpperDepthCm
-
     if(is.null(d$UpperDepth[1])){
       suffix = paste0('_x', i)
     }else if(is.na(d$UpperDepth[1])){

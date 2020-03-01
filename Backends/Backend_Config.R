@@ -50,8 +50,8 @@ timeAggMethods <- data.frame(mean='mean', sum='sum', min='min', max='max', none=
 
 knownBackends <- c('Senaps', 'Adcon', 'OutPost', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO')
 
-knownFeatures <- c('Soil-Moisture', 'Soil-Temperature', 'Rainfall', 'Humidity', 'Temperature', 'Wind-Direction', 'Wind-Speed', 'Atmospheric Pressure', 'Vapour-Pressure', 'Dew-Point', 'Delta T', 'Suction')
-FeatureAggTypes <-c(timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$sum, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean)
+knownFeatures <- c('Soil-Moisture', 'Soil-Temperature', 'Rainfall', 'Humidity', 'Temperature', 'Wind-Direction', 'Wind-Speed', 'Atmospheric Pressure', 'Vapour-Pressure', 'Dew-Point', 'Delta T', 'Suction', 'Solar-Irradiance')
+FeatureAggTypes <-c(timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$sum, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean)
 names(FeatureAggTypes) <- knownFeatures
 
 timeSteps <- data.frame(none='none', minutes='minutes', hours='hours', days='days', weeks='weeks', months='months', quarters='quarters', years='years', stringsAsFactors = F)

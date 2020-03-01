@@ -506,7 +506,7 @@ getSensorFields <- function(){
 
 
 
-getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, longitude=NULL, latitude=NULL, extendedSet=F, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
+getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorGroup=NULL,backend=NULL, owner=NULL, longitude=NULL, latitude=NULL, extendedSet=F, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
 
   sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
   print(extendedSet)
@@ -522,6 +522,15 @@ getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorTy
   }
   if(!is.null(sensorType)){
     sensors <- sensors[sensors$DataType==sensorType,]
+  }
+  if(!is.null(sensorGroup)){
+    sensors <- sensors[sensors$SensorGroup==sensorGroup,]
+  }
+  if(!is.null(backend)){
+    sensors <- sensors[sensors$Backend==backend,]
+  }
+  if(!is.null(owner)){
+    sensors <- sensors[sensors$Owner==owner,]
   }
 
   s <- sensors[row.names(unique(sensors[,c("SiteName", "SiteID")])),]
