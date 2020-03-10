@@ -9,9 +9,9 @@ library(dygraphs)
 
 
 usr <- 'EPARF'
-pwd <- 'EPARF'
-siteID <- 'op30345'
-sensorID <- '774289'
+pwd <- 'eparf'
+siteID <- 'op15376'
+sensorID <- '456113'
 
 sensors <- sensorInfo[sensorInfo$SiteID == siteID & sensorInfo$DataType == 'Rainfall', ]
 streams=sensors
@@ -24,7 +24,14 @@ endDate='2019-01-04T23:59:59'
 
 urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  usr, '&password=', pwd,
                   '&dateFrom=1/Jan/2019%2000:00:00&dateTo=', '2/Jan/2019%2000:00:00', '&outpostID=', siteID, '&inputID=', sensorID)
-response <- getURL(urlData, .opts = myOpts , .encoding = 'UTF-8-BOM')
+
+response <- GET(urlData)
+stop_for_status(response) # stop if the response is an error
+sensorData <- content(response, as="text")
+ts <- convertJSONtoTS(sensorData)
+RV$currentTS <- ts
+
+response <- GET(urlData, .encoding = 'UTF-8-BOM')
 #xml_view(dataXML)
 cat(response, file='c:/temp/outpost.xml')
 
@@ -56,7 +63,7 @@ vcd(subSens)
 
 
 for (i in 1:nrow(sensors)) {
-  
+
   possibleError <- tryCatch({
   print(sensors$SiteName[i])
   d <- getSensorData(streams=sensors[i,],  aggPeriod=timeSteps$days , startDate=startDate, endDate=endDate, numrecs = 10000)

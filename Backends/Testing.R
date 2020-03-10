@@ -146,7 +146,7 @@ dygraph(d , main = paste0('Tet'))  #%>%
 
 
 
-urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  'EPARF', '&password=', 'EPARF',
+urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  'EPARF', '&password=', 'eparf',
                   '&dateFrom=1/Dec/2017%2000:00:00&dateTo=', '3/Dec/2017%2000:00:00', '&outpostID=', 'op15376', '&inputID=', '456114')
 dataXML <- getURL(urlData, .opts = myOpts , .encoding = 'UTF-8-BOM')
 cat(dataXML, file='c:/temp/outpost.xml')
@@ -642,5 +642,12 @@ getURL("http://127.0.0.1:5428/SensorAPI/getSensorDataStreams?siteid=hussat_terra
 
 
 d <- getSensorDataStreams(siteID = 'hussat_terrasonde_148.685405_-34.469659', sensorID='hussat.boorowa-soil-moisture.terrasonde.155.sensor_0_dielectric_constant', sensorType = 'Soil-Moisture', aggPeriod=timeSteps$none , startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00')
+
+
+
+###################################  Outpost2  ############################################
+
+sensors <- sensorInfo[sensorInfo$SiteID == 'opSID_20610' & sensorInfo$DataType == 'Rainfall', ]
+getSensorData(streams=sensors, aggPeriod=timeSteps$days, startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00' )
 
 
