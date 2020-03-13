@@ -1,0 +1,4 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2018-08-22 09:48:42,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,?siteid=op12251&sensortype=Soil-Moisture&aggperiod=days&startdate=2018-05-09T09:00:00&enddate=2018-05-15T09:00:00,127.0.0.1 
+2018-08-22 09:48:48,FANCY-DP,GET/favicon.ico,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,,127.0.0.1 
+2018-08-22 09:57:22,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,?aggperiod=days&siteid=cerdi.sfs.5278.platform&format=xml&sensortype&sensortype=Soil-Moisture&startdate=2016-01-01T00%3A00%3A00&enddate=2016-01-05T01%3A00%3A00&usr=ross.searle%40csiro.au&pwd=S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL,127.0.0.1 

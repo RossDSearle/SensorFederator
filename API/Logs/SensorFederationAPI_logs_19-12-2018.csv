@@ -1,0 +1,8 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2018-12-19 11:37:41,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-12-19 11:37:42,FANCY-DP,GET/SensorAPI/getSensorInfo,,?siteid=VicAg_Youanmite,127.0.0.1 
+2018-12-19 11:37:42,FANCY-DP,GET/SensorAPI/getSensorDataStreams,,?siteid=Cosmoz_1&sensortype=Rainfall&startdate=2018-10-19T23:59:59&enddate=2018-12-19T00:00:00&aggperiod=days,127.0.0.1 
+2018-12-19 13:08:51,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-12-19 13:08:58,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-12-19 13:09:13,FANCY-DP,GET/SensorAPI/getSensorInfo,,?siteid=VicAg_Youanmite,127.0.0.1 
+2018-12-19 13:09:13,FANCY-DP,GET/SensorAPI/getSensorDataStreams,,?siteid=Cosmoz_1&sensortype=Rainfall&startdate=2018-10-19T23:59:59&enddate=2018-12-19T00:00:00&aggperiod=days,127.0.0.1 

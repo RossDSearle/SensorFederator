@@ -1,0 +1,11 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2019-08-03 11:25:06,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 11:25:10,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:7204&path=/,127.0.0.1 
+2019-08-03 11:25:27,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 11:25:28,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 11:27:22,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?siteid=BoMLatest_95214_IDD60801&sensortype=Rainfall,127.0.0.1 
+2019-08-03 13:30:05,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 13:30:05,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:7204&path=/,127.0.0.1 
+2019-08-03 13:30:14,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 13:30:14,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2019-08-03 13:30:37,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 

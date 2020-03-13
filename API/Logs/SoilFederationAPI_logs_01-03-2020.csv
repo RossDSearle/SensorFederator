@@ -1,0 +1,12 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2020-03-01 20:50:56,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2020-03-01 20:51:00,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:9131&path=/,127.0.0.1 
+2020-03-01 21:09:23,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
+2020-03-01 21:09:23,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:9131&path=/,127.0.0.1 
+2020-03-01 21:09:55,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?sensorgroup=cosmoz,127.0.0.1 
+2020-03-01 21:10:25,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?sensorgroup=EPARF,127.0.0.1 
+2020-03-01 21:11:21,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?sensorgroup=DAFWA,127.0.0.1 
+2020-03-01 21:11:58,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?sensorgroup=OutPost,127.0.0.1 
+2020-03-01 21:12:41,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?backend=OutPost,127.0.0.1 
+2020-03-01 21:13:20,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?backend=SenFedStore,127.0.0.1 
+2020-03-01 21:13:56,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?owner=CSIRO,127.0.0.1 

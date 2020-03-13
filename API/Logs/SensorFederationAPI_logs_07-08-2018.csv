@@ -1,0 +1,5 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2018-08-07 16:46:34,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-07 16:46:35,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-07 16:48:09,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-07 16:48:09,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 

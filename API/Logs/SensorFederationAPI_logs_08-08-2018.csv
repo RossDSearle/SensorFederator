@@ -1,0 +1,156 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2018-08-08 09:02:22,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:02:22,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:02:38,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:03:09,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15221&sensortype=Rainfall,127.0.0.1 
+2018-08-08 09:03:33,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=DAFWA_WI&sensortype=Rainfall,127.0.0.1 
+2018-08-08 09:16:49,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:16:49,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:17:04,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:22:05,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:22:05,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:22:22,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15117,127.0.0.1 
+2018-08-08 09:22:52,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:23:06,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=abs,127.0.0.1 
+2018-08-08 09:23:48,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?pwd=d,127.0.0.1 
+2018-08-08 09:23:55,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=d,127.0.0.1 
+2018-08-08 09:23:57,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:24:13,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:24:31,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?format=xml,127.0.0.1 
+2018-08-08 09:24:49,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?format=csv,127.0.0.1 
+2018-08-08 09:26:17,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=1,127.0.0.1 
+2018-08-08 09:26:31,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=1&sensortype=r,127.0.0.1 
+2018-08-08 09:39:29,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:39:30,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:39:36,FANCY-DP,GET/SensorAPI/help,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:40:28,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:40:28,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:40:34,FANCY-DP,GET/SensorAPI/help,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:40:50,FANCY-DP,GET/SensorAPI/help,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:47:08,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:47:08,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 09:47:15,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 09:47:18,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:06:44,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:06:45,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 11:06:52,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:06:54,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:08:12,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Admin&pwd=JWEJTOhwCuH8sQEKD2ft4KAPg,127.0.0.1 
+2018-08-08 11:08:12,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Admin&pwd=JWEJTOhwCuH8sQEKD2ft4KAPg,127.0.0.1 
+2018-08-08 11:14:32,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:14:32,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 11:14:38,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:14:40,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:15:28,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Matthew.Stenson%40csiro.au&pwd=RvL97TdIx4vA7TKaKcgVk3D6f0s,127.0.0.1 
+2018-08-08 11:15:28,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Matthew.Stenson%40csiro.au&pwd=RvL97TdIx4vA7TKaKcgVk3D6f0s,127.0.0.1 
+2018-08-08 11:18:43,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Matthew.Stenson%40csiro.au&pwd=RvL97TdIx4vA7TKaKcgVk3D6f0s,127.0.0.1 
+2018-08-08 11:19:07,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:19:07,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 11:19:20,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Matthew.Stenson%40csiro.au&pwd=RvL97TdIx4vA7TKaKcgVk3D6f0s,127.0.0.1 
+2018-08-08 11:19:22,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=Matthew.Stenson%40csiro.au&pwd=RvL97TdIx4vA7TKaKcgVk3D6f0s,127.0.0.1 
+2018-08-08 11:20:24,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=davidmaxfreebairn%40me.com&pwd=zsXKfRbsbp0oxc7YtiUGemvs8EXq,127.0.0.1 
+2018-08-08 11:20:26,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?usr=davidmaxfreebairn%40me.com&pwd=zsXKfRbsbp0oxc7YtiUGemvs8EXq,127.0.0.1 
+2018-08-08 11:20:38,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:20:40,FANCY-DP,GET/SensorAPI/getSensorLocationsAsMap,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:53:42,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:53:42,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 11:54:33,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:55:42,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 11:58:53,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 11:58:57,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 11:58:57,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 11:59:32,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 12:07:39,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 12:08:48,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:08:57,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_1&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:09:02,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_1&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:09:09,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_10&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:10:37,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:11:07,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 12:11:08,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 12:11:41,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:12:06,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:18:36,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017,127.0.0.1 
+2018-08-08 12:18:45,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:29:39,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:30:00,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 12:30:01,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 12:31:06,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=DAFWA_BR&sensortype=Rainfall&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 12:38:11,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 12:38:26,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 12:38:26,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 12:38:37,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314,127.0.0.1 
+2018-08-08 12:38:48,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:49:34,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall,127.0.0.1 
+2018-08-08 12:54:44,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2015&enddate=03-01-2015,127.0.0.1 
+2018-08-08 13:02:48,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2015&enddate=03-01-2015,127.0.0.1 
+2018-08-08 13:03:24,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2017&enddate=03-01-2017,127.0.0.1 
+2018-08-08 13:04:01,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2000&enddate=03-01-2000,127.0.0.1 
+2018-08-08 13:04:17,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2019&enddate=03-01-2019,127.0.0.1 
+2018-08-08 13:04:42,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=15314&sensortype=Rainfall&startdate=01-01-2017&enddate=03-02-2017,127.0.0.1 
+2018-08-08 13:15:07,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=op12251&sensortype=Rainfall&startdate=01-01-2017&enddate=03-02-2017,127.0.0.1 
+2018-08-08 13:15:23,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=op12251&sensortype=Rainfall&startdate=01-01-2019&enddate=03-02-2019,127.0.0.1 
+2018-08-08 13:15:32,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=op12251&sensortype=Rainfall&startdate=01-01-2000&enddate=03-02-2000,127.0.0.1 
+2018-08-08 13:15:56,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=op12251&sensortype=Rainfall&startdate=01-01-2017&enddate=03-02-2017,127.0.0.1 
+2018-08-08 13:33:14,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 13:33:14,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 13:34:32,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=cerdi.sfs.5278.platform,127.0.0.1 
+2018-08-08 13:34:45,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=cerdi.sfs.5278.platform&sensortype=Soil-Moisture,127.0.0.1 
+2018-08-08 13:35:18,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=cerdi.sfs.5278.platform&sensortype=Soil-Moisture&usr=Admin&pwd=JWEJTOhwCuH8sQEKD2ft4KAPg,127.0.0.1 
+2018-08-08 13:36:31,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=cerdi.sfs.5278.platform&sensortype=Soil-Moisture&startdate=09-04-2017&enddate=11-04-2017&usr=Admin&pwd=JWEJTOhwCuH8sQEKD2ft4KAPg,127.0.0.1 
+2018-08-08 13:37:01,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=cerdi.sfs.5278.platform&sensortype=Soil-Moisture&startdate=09-04-2017&enddate=11-05-2017&usr=Admin&pwd=JWEJTOhwCuH8sQEKD2ft4KAPg,127.0.0.1 
+2018-08-08 13:41:39,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 13:41:39,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 13:41:52,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=DAFWA_BR&sensortype=Rainfall&startdate=01-01-2000&enddate=01-01-2001,127.0.0.1 
+2018-08-08 13:42:11,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=DAFWA_BR&sensortype=Rainfall&startdate=01-01-2015&enddate=01-01-2015,127.0.0.1 
+2018-08-08 13:42:25,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=DAFWA_BR&sensortype=Rainfall&startdate=01-01-2015&enddate=01-08-2015,127.0.0.1 
+2018-08-08 13:42:50,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2017&enddate=01-01-2017&sensortype=Rainfall,127.0.0.1 
+2018-08-08 13:43:10,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2018&enddate=01-01-2018&sensortype=Rainfall,127.0.0.1 
+2018-08-08 13:43:22,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2018&enddate=01-06-2018&sensortype=Rainfall,127.0.0.1 
+2018-08-08 13:43:38,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?siteid=Cosmoz_2&startdate=01-01-2018&enddate=08-08-2018&sensortype=Rainfall,127.0.0.1 
+2018-08-08 14:06:31,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:06:32,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:08:49,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 14:08:49,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 14:08:54,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 14:08:54,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 14:09:01,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:09:17,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:09:26,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:09:36,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 14:09:36,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 14:09:37,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 14:09:37,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 14:09:57,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:09:58,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:10:14,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:10:14,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:38:38,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:38:38,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:54:23,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:54:23,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 14:54:48,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 14:54:49,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 15:01:51,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 15:01:51,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 15:03:37,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 15:03:38,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 15:09:37,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 15:09:37,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 15:10:17,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-08 15:10:17,FANCY-DP,GET/SensorAPI/getSensorLocations,,?usr=noone,127.0.0.1 
+2018-08-08 15:12:01,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 15:12:01,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 15:12:06,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,127.0.0.1 
+2018-08-08 15:59:11,TERNSOILS,GET/__swagger__/,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,127.0.0.1 
+2018-08-08 15:59:12,TERNSOILS,GET/swagger.json,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-08 15:59:16,TERNSOILS,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,127.0.0.1 
+2018-08-08 16:11:52,TERNSOILS,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,152.83.244.137 
+2018-08-08 16:11:53,TERNSOILS,GET/favicon.ico,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,152.83.244.137 
+2018-08-08 16:12:12,TERNSOILS,GET/__swagger__/,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,152.83.244.137 
+2018-08-08 16:12:13,TERNSOILS,GET/swagger.json,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,?schemes=http&host=ternsoils.it.csiro.au:8070&path=/,152.83.244.137 
+2018-08-08 16:12:40,TERNSOILS,GET/__swagger__/,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,,152.83.244.137 
+2018-08-08 16:12:40,TERNSOILS,GET/swagger.json,Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.84 Safari/537.36,?schemes=http&host=ternsoils.it.csiro.au:8070&path=/,152.83.244.137 
+2018-08-08 16:12:55,TERNSOILS,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,,140.253.155.218 
+2018-08-08 16:12:56,TERNSOILS,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?schemes=http&host=ternsoils.it.csiro.au:8070&path=/,140.253.155.218 
+2018-08-08 16:13:14,TERNSOILS,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/67.0.3396.99 Safari/537.36,?sensortype=Rainfall,140.253.155.218 

@@ -1,0 +1,10 @@
+System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
+2018-08-13 13:16:47,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?viewer_pane=1,127.0.0.1 
+2018-08-13 13:16:53,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?viewer_pane=1?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-13 13:17:16,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?siteid=Cosmoz_5&sensortype=Rainfall,127.0.0.1 
+2018-08-13 13:17:39,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?siteid=Cosmoz_1&sensortype=Rainfall,127.0.0.1 
+2018-08-13 13:18:06,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?siteid=Cosmoz_1&sensortype=Rainfall&startdate=01-01-2018&enddate=01-10-2018,127.0.0.1 
+2018-08-13 13:23:01,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?viewer_pane=1,127.0.0.1 
+2018-08-13 13:23:01,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?viewer_pane=1?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
+2018-08-13 13:27:41,FANCY-DP,GET/SensorAPI/getSensorLocations,,,127.0.0.1 
+2018-08-13 13:29:04,FANCY-DP,GET/SensorAPI/getSensorDataStreams,Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML like Gecko) rstudio Safari/538.1 Qt/5.4.1,?siteid=Cosmoz_3&sensortype=Rainfall,127.0.0.1 
