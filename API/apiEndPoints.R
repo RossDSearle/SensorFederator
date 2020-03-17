@@ -2,26 +2,17 @@ machineName <- as.character(Sys.info()['nodename'])
 print(machineName)
 if(machineName == 'FANCY-DP'){
   senFedDir <- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
-  deployDir <-'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/API'
-  server <- '127.0.0.1'
-  portNum <- 8072
-}else if (machineName == 'TERNSOILS') {
-  senFedDir <- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
-  deployDir <-'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederatorWebAPI'
-  server = '152.83.244.137'
-  portNum <- 8070
+  logDir <- 'c:/temp/logsSenFed'
 }else if (machineName == 'soils-discovery') {
-  #####  need to change these
-  senFedDir <- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
-  deployDir <-'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/API'
+  senFedDir <- '/srv/plumber/SensorFederator'
+  logDir <- '/mnt/data/APILogs/sensorFederator'
   portNum <- 8072
-}
 
+}
 
 source(paste0(senFedDir, '/Backends/Backend_Config.R'))
 
-
-
+if(!dir.exists(paste0(logDir)))dir.create(logDir)
 
 
 apiChk = ''
@@ -48,12 +39,12 @@ function(req){
 
   dt <- format(Sys.time(), "%d-%m-%Y")
 
-  logDir <- paste0(deployDir, "/Logs")
+
   if(!dir.exists(logDir)){
      dir.create(logDir)
     }
 
-  logfile <- paste0(deployDir, "/Logs/SoilFederationAPI_logs_", dt, ".csv")
+  logfile <- paste0(logDir, "/SoilFederationAPI_logs_", dt, ".csv")
   try(writeLogEntry(logfile, logentry), silent = TRUE)
 
   plumber::forward()
@@ -266,7 +257,9 @@ apiGetSensorLocationsAsMap <- function(usr='Public', pwd='Public', sensortype=NU
 
   tryCatch({
 
-    DF <- avail
+    check_GetSensorlocationsAsMap(sensortype)
+
+    DF <- getSensorLocations(usr=usr, pwd=pwd, sensorType = sensortype)
     spp <- plotSensorLocationsImage(DF)
     return(plot(spp))
   }, error = function(res)

@@ -1,9 +1,0 @@
-System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
-2019-08-16 15:30:21,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
-2019-08-16 15:30:23,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:4775&path=/,127.0.0.1 
-2019-08-16 15:30:32,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
-2019-08-16 15:30:56,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?extendedSet=T,127.0.0.1 
-2019-08-16 15:34:03,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,,127.0.0.1 
-2019-08-16 15:34:03,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?schemes=http&host=127.0.0.1:4775&path=/,127.0.0.1 
-2019-08-16 15:34:14,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?extendedSet=T,127.0.0.1 
-2019-08-16 15:34:56,FANCY-DP,GET/SensorAPI/getSensorLocations,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) QtWebEngine/5.12.1 Chrome/69.0.3497.128 Safari/537.36,?extendedSet=F,127.0.0.1 

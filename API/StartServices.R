@@ -1,8 +1,13 @@
 library(plumber)
 library(htmltidy)
 
+server <- 'http://esoil.io'
+portNum <- 8070
+server <- '0.0.0.0'
 
-
+####  Uncomment these for local debugging
+#server <- '127.0.0.0'
+#portNum <- 8071
 
 
 cat("\n")

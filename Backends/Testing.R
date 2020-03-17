@@ -3,6 +3,7 @@ source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
 library(dygraphs)
+library(httr)
 
 
 start_time <- Sys.time()
@@ -574,16 +575,20 @@ site <-'SFS_66'
 
 
 sensorInfo <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
-sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
+sensors <- sensorInfo[sensorInfo$DataType == 'Rainfall' & sensorInfo$SensorGroup == 'SFS', ]
+
+sensors <- sensorInfo[sensorInfo$SiteID==site & sensorInfo$DataType == 'Rainfall' & sensorInfo$SensorGroup == 'SFS', ]
+
 sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
-streams <- sensors
+streams <- sensors[1,]
 
 
 getSensorData_IOT(streams=streams, startDate = sd, endDate = ed, aggPeriod=timeSteps$day, numrecs=maxRecs )
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
 
+getsens
 
 
 ###############    BoM Latest   ########################################
@@ -649,5 +654,13 @@ d <- getSensorDataStreams(siteID = 'hussat_terrasonde_148.685405_-34.469659', se
 
 sensors <- sensorInfo[sensorInfo$SiteID == 'opSID_20610' & sensorInfo$DataType == 'Rainfall', ]
 getSensorData(streams=sensors, aggPeriod=timeSteps$days, startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00' )
+
+
+
+
+
+
+
+
 
 

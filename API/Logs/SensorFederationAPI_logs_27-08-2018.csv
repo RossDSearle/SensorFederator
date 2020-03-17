@@ -1,4 +1,0 @@
-System_time,Server,Request_method,HTTP_user_agent,QUERY_STRING,REMOTE_ADDR
-2018-08-27 10:09:02,FANCY-DP,GET/__swagger__/,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,,127.0.0.1 
-2018-08-27 10:09:02,FANCY-DP,GET/swagger.json,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,?schemes=http&host=127.0.0.1:8070&path=/,127.0.0.1 
-2018-08-27 10:09:14,FANCY-DP,GET/SensorAPI/getSensorInfo,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/68.0.3440.106 Safari/537.36,?siteid=Cosmoz_2,127.0.0.1 

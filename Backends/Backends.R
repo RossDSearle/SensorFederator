@@ -86,7 +86,6 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       }else if(backEnd == 'OutPost') {
         dfTS <- getSensorData_Outpost(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'Outpost2') {
-        print('here')
         dfTS <- getSensorData_Outpost2(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'Cosmoz') {
         dfTS <- getSensorData_Cosmoz(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
@@ -110,11 +109,18 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       #### We need to get rid of these out of the list of data frames and the recs in the sensor dataframe
       outSensors <- data.frame()
       for (i in 1:length(dfTS)) {
+        #print(head(dfTS[[i]]))
         if(length( dfTS[[i]]) !=0){
-          outSensors <- rbind(outSensors, streams[i,])
+          if(nrow( dfTS[[i]]) !=0){
+            print(paste0('i = ',  i))
+            outSensors <- rbind(outSensors, streams[i,])
+          }
         }
       }
+      #print(outSensors)
       nnl <- delete.NULLs(dfTS)
+      nnl[sapply(nnl, function(x) dim(x)[1]) > 0]
+      print(nnl)
       #dfTSm <- mergedfTSList(nnl, streams = streams)
       dfTSm <- mergedfTSList(nnl, streams = outSensors)
 
@@ -427,14 +433,11 @@ getSensorData_Outpost <- function(streams, startDate = NULL, endDate = NULL, agg
 
 getSensorData_Outpost2 <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs ){
 
-  print('Here')
   isoSDate <- str_replace_all(startDate, '-', '/')
   isoEDate <- str_replace_all(endDate, '-', '/')
 
   urls <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
                  '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
-
-  print(urls)
 
   tryCatch({
     dataStreamsDF <- synchronise(async_map(urls, getURLAsync_OutPost2, .limit = asyncThreadNum))
@@ -709,3 +712,10 @@ plotSensorLocationsImage <- function(DF){
 }
 
 
+getAvailableDataTypes <- function(){
+
+  odf <- data.frame(knownFeatures, stringsAsFactors = F )
+  colnames(odf) <- c('Value')
+  return(odf)
+ # return(as.list(knownFeatures))
+}

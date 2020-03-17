@@ -29,7 +29,11 @@ outpost2_GenerateTimeSeries <- function(response, retType = 'df', opID){
   rawDates <- xpathSApply(doc ,paste0("//opdata:sites/opdata:site/id[text()='", opID,"']/parent::opdata:site/opdata:inputs/opdata:input/opdata:records/opdata:record/date"), xmlValue, ns)
 
   if(length(rawDates) < 1 ){
-    stop('No records were returned for the specified query')
+    ndf <- data.frame(theDate=character(), Values=numeric())
+    #colnames(ndf)<- c('theDate', 'Values')
+    #print('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH')
+    return(NULL)
+    #stop('No records were returned for the specified query')
   }
 
   dl <- str_replace(rawDates, 'T', ' ')
