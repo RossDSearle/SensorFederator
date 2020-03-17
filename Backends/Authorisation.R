@@ -2,41 +2,6 @@
 currentUser <- ''
 currentPwd <- ''
 
-#suppressWarnings( auth <- read.csv(paste0(sensorRootDir, '/ConfigFiles/logins.csv')))
-#suppressWarnings( usrs <- read.csv(paste0(sensorRootDir, '/ConfigFiles/users.csv')))
-#suppressWarnings( grps <- read.csv(paste0(sensorRootDir, '/ConfigFiles/groups.csv')))
-
-
-
-
-smipsLogin <- function(usr='Public', pwd='Public'){
-
-  idRec <- auth[auth$usr == usr, ]
-  if(nrow(idRec) > 0){
-      cusr <- as.character(idRec$usr[1])
-      cpwd <- as.character(idRec$pwd[1])
-      caccess <- as.character(idRec$access[1])
-      aList <- str_split(caccess, ';')
-
-
-      if(pwd == cpwd){
-
-        currentUser <- cusr
-        currentPwd <- cpwd
-
-        return(TRUE)
-
-      }else{
-        return(FALSE)
-      }
-  }else{
-    return(FALSE)
-  }
-
-}
-
-
-#getAuthorisedSensors(usr = 'SoilWaterApp', pwd = 'rLR4ArUomkODEpAgaDae4Ak')
 
 getAuthorisedSensors <- function(usr='Public', pwd='Public'){
 

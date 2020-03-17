@@ -1,0 +1,949 @@
+"SiteID","Active","SensorID","sensorName","StartDate","EndDate","DataType","UpperDepth","LowerDepth","Calibrated","Units","TotalDays","IsActive","NumGaps","TotalGapDays","Gapiness","MinimumValue","MaximumValue","MeanValue","StandardDeviation","HarvestDate"
+opSID_20610,TRUE,306323,"19 Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456114,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456113,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456112,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456139,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456140,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456141,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456142,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456143,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456144,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456145,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456146,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456147,"Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456115,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456116,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456117,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456118,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456119,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,456120,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,784285,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20610,TRUE,784287,"Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,306402,"Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810710,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810708,"Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810688,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810689,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810690,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810691,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810692,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810693,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810694,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810695,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810696,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810698,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810699,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810700,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810701,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810702,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810703,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810704,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810705,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_20615,TRUE,810706,"Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,724434,"Barometric Pressure hPa ",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,724435,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,724922,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,334131,"Johnson Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,334135,"Johnsons Pressure",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710567,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710558,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710568,"Vapour pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710571,"Barometric pressure kPa",NA,NA,"Atmospheric Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710570,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710559,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710560,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,794070,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,794072,"Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456187,"Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456186,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456185,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456152,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456153,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456154,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456155,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456156,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456157,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456158,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456159,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456160,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456179,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456180,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456181,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456182,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456183,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,456184,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710561,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_21918,TRUE,710569,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621572,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622296,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",NA,NA,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621573,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621574,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621575,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621576,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621577,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621578,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621579,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621580,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,621581,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622297,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622298,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622299,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622300,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622301,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622302,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622303,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622304,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_31710,TRUE,622305,"Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,797140,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,797141,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,797137,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,606512,"Waramboo Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784300,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784305,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,1554561,"#5 Tekbox TBSWV1 Wind vane",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784306,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784307,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784301,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784303,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784304,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784219,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784218,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784217,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784211,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784212,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784213,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784214,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784215,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784216,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784221,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784289,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784290,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784291,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784292,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784293,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784294,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784295,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784296,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784297,"Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784299,"Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784302,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,784308,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33972,TRUE,1554562,"#5 Wind Direction °",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284518,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284522,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284524,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,607267,"Kimba Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284501,"Decagon Temp RH",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284507,"Metergroup ATMOS 22",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794082,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794081,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794080,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794079,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794078,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794077,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794076,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794075,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794074,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794092,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794084,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794085,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794086,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794087,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794088,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,738677,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,738679,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794089,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794090,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,794091,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284502,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284503,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284504,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284505,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284508,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284509,"Wind Direction °",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1284511,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1287814,"North Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_33984,TRUE,1287815,"East Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,797158,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,797159,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,797155,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,748211,"Cowell Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773946,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773951,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773947,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773949,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773950,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,780135,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773967,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773966,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773965,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773964,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773963,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773962,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773961,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773960,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773959,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773948,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773952,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773953,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773954,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773969,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773970,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773971,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773972,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773973,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773974,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773975,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773976,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,773977,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40101,TRUE,780137,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,797136,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,797135,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,797133,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,748230,"Rudall Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773978,"Decagon Temp RH",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773983,"Decagon Wind Sensor",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,1556005,"#5 Tekbox TBSWV1 Wind vane",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773979,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773981,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773982,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773984,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773985,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,780131,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,780133,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773999,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773980,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773986,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773991,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773992,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773993,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773994,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773995,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773996,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773997,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,773998,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774001,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774002,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774003,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774004,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774005,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774006,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774007,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774008,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40102,TRUE,774009,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,797148,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,797149,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,748249,"Nth Shields Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774010,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774015,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774013,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774011,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774014,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774016,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774017,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,780127,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774031,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774030,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774012,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774018,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774023,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774024,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774025,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774026,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774027,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774028,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774029,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774033,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774034,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774035,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774036,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774037,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774038,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774039,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774040,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,774041,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,780129,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40103,TRUE,1618795,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,797160,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,797163,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,797164,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,748268,"Mangalo Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774042,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774047,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774043,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774045,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774046,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774048,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774049,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774063,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774062,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774061,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774060,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774059,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774058,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774057,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774056,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774055,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774044,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774050,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774065,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774066,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774067,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774068,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774069,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774070,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774071,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774072,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,774073,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,780123,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40104,TRUE,780125,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,748287,"Cootra Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774074,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774079,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774075,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774077,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774078,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774080,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774081,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,780119,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,780121,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774095,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774094,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774093,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774092,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774091,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774090,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774089,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774088,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774087,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774076,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774082,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774097,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774098,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774099,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774100,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774101,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774102,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774103,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774104,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40105,TRUE,774105,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,748306,"Darke Peak Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774106,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774111,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774107,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774109,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774110,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774112,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774113,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,780115,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774127,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774126,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774125,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774124,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774123,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774122,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774121,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774120,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774119,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,780117,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774108,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774114,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774129,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774130,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774131,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774132,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774133,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774134,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774135,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774136,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40106,TRUE,774137,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,797126,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,797127,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,748325,"Elliston Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774138,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,780111,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774159,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774158,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774157,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774156,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774155,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774154,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774153,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774152,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774151,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774169,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774168,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774167,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774166,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774165,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774164,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774139,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774140,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774141,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774142,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774161,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774162,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,774163,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,780113,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,1289004,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,1289005,"Wind Direction °",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,1289007,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40107,TRUE,1289013,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,748345,"Palkagee Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774170,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774175,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774171,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774173,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774174,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774176,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774177,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,780107,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,780109,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774191,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774190,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774189,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774188,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774187,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774186,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774185,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774184,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774183,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774172,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774178,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774193,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774194,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774195,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774196,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774197,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774198,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774199,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774200,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40108,TRUE,774201,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,797131,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,797132,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,797129,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,748364,"Pinkawillinie Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774202,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774207,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774203,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774205,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774206,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774208,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774209,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774204,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774210,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774215,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774216,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774217,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774218,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774219,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774220,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774221,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774222,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774223,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774225,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774226,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774227,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774228,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774229,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774230,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774231,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774232,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,774233,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,780103,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,780105,"Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285535,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285536,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285537,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285538,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285539,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285540,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285541,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285542,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285544,"Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285545,"Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285546,"Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285547,"Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285548,"Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285549,"Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285550,"Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285551,"Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40109,TRUE,1285553,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,748422,"Cleve Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774308,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774307,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774306,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774305,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774304,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774303,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774302,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774301,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774300,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,780145,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,780143,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774298,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774297,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774296,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774295,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774294,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774293,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774292,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774291,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40112,TRUE,774290,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,748441,"Yabmana Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,780149,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774382,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774381,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774380,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774379,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774378,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774377,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774376,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774375,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774374,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,780147,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774372,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774371,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774370,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774369,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774368,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774367,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774366,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774365,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40113,TRUE,774364,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,748460,"Solomon Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,780151,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,780153,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774392,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774391,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774390,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774389,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774388,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774387,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774386,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774385,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774384,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774402,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774401,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774400,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774399,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774398,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774397,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774396,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774395,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40114,TRUE,774394,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,748479,"Carina Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,780155,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,780157,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774412,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774411,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774410,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774409,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774408,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774407,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774406,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774405,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774404,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774422,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774421,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774420,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774419,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774418,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774417,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774416,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774415,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,774414,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40115,TRUE,793971,"Soil Moisture Summed",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,1021677,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,748498,"Mt Damper Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810654,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774521,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774520,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774519,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774518,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774517,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774516,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774515,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774514,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774513,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810649,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810651,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810652,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,780159,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774503,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774504,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774505,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774506,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774507,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774508,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774509,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774510,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,774511,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,780161,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810650,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810655,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,810656,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,818520,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40116,TRUE,818521,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,748517,"Pt Kenny Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774566,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,780163,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,780165,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774557,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774556,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774555,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774554,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774553,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774552,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774551,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774550,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774549,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774567,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774565,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774564,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774563,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774562,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774561,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774560,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40117,TRUE,774559,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,1284519,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,1284523,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,1284525,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,748574,"Buckleboo Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777110,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777109,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777108,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777107,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777106,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777105,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777104,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777103,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777102,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777080,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777079,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777078,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777077,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777076,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777075,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777074,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777073,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,777072,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,780175,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_40120,TRUE,780177,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,797168,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,797169,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,797165,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785459,"Lock West Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785497,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785504,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785505,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785507,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785508,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785498,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785503,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785494,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785496,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785482,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785474,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785475,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785476,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785477,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785478,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785479,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785480,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785481,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785484,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785485,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785486,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785487,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785488,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785489,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785490,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785491,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785492,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785499,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42227,TRUE,785506,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,797120,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,797119,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,797122,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785512,"Witera Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785550,"Decagon Anemometer DS2",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785557,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785547,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785535,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785534,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785533,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785532,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785531,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785530,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785529,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785528,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785527,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785540,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785537,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785538,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785539,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785541,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785542,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785543,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785544,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785545,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785549,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785551,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785552,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785556,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785558,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785559,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785560,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42228,TRUE,785561,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,797153,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,797154,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785565,"Wharminda Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785610,"Decagon Temp RH VP4",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785611,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785613,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785614,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785600,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785588,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785587,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785586,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785585,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785584,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785583,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785582,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785581,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785580,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785598,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785597,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785596,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785590,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785591,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785592,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785593,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785594,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785595,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785602,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,785612,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,818738,"Average Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,1288962,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,1288963,"Wind Direction 2 °",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42229,TRUE,1288965,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882193,"Wind Speed km/hr",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,884269,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,790098,"Warana Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882218,"Decagon Temp RH",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882223,"Decagon Wind Sensor",NA,NA,NA,NA,NA,FALSE,NA,NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882195,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882199,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882200,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882201,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882202,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882203,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882204,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882205,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882206,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882207,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882209,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882210,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882211,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882197,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882212,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882213,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882214,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882215,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882216,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882217,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882219,"Vapour Pressure kPa",NA,NA,"Vapour-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882220,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882221,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882222,"Atmospheric Pressure kPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882224,"Wind Speed m/s",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882225,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42448,TRUE,882226,"Air Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,799899,"Air Temperature",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796237,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796238,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796239,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796240,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796241,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796242,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42740,TRUE,796243,"Yeltukka Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,799907,"Air Temperature",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796244,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796245,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796246,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796247,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796248,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,796249,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,1291027,"Rain2",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42741,TRUE,1291028,"MAC Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,799909,"Air Temperature",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796263,"Soil Moisture Summed",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796251,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796252,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796253,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796254,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796255,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796256,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42742,TRUE,796257,"Ungarra Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796269,"Soil Moisture 15cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796270,"Soil Moisture 25cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796271,"Soil Moisture 35cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796272,"Soil Moisture 45cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796273,"Soil Moisture 55cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796274,"Soil Moisture 75cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42743,TRUE,796275,"Soil Moisture 95cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796276,"Soil Moisture 15cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796277,"Soil Moisture 25cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796278,"Soil Moisture 35cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796279,"Soil Moisture 55cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796280,"Soil Moisture 75cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_42744,TRUE,796281,"Soil Moisture 95cm",NA,NA,"Soil-Moisture",NA,NA,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818526,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818527,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818529,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818531,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818532,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818536,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43656,TRUE,818537,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818539,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818541,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818543,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818544,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818548,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818549,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43657,TRUE,818538,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818551,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818553,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818555,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818556,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818560,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818561,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43658,TRUE,818550,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818563,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818565,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818567,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818568,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818572,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818573,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43659,TRUE,818562,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818575,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818577,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818579,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818580,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818584,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818585,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43660,TRUE,818574,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818586,"Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818587,"Apparent Temp °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818589,"Rel Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818591,"Wind Dir",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818592,"Wind Speed km/h",NA,NA,"Wind-Speed",0,0,FALSE,"km/hr",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818596,"Pressure hPA",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_43661,TRUE,818597,"Rain mm",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,873629,"Air Temperature",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,873630,"Relative Humidity",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,873631,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,873641,"Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,923977,"Air Temperature 2m",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,923978,"Relative Humidity 2m",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,1339782,"Air Temperature 1.2m",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48634,TRUE,1339783,"Relative Humidity 1.2m",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48643,TRUE,873677,"Air Temperature",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48643,TRUE,873678,"Relative Humidity",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48643,TRUE,873679,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_48643,TRUE,873694,"Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1391962,"Back Beach Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478877,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478878,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478886,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478890,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478901,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478900,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478899,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478898,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478897,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478896,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478895,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478894,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478893,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478921,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478920,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478919,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478883,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478884,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478913,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478914,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478915,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478916,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478917,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69440,TRUE,1478918,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1391999,"Cungena Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480177,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480181,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480192,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480191,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480190,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480189,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480188,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480187,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480186,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480185,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480184,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480212,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480211,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480210,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480209,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480207,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480208,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480206,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480205,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69442,TRUE,1480204,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1392053,"Condada Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478833,"Temperature °C",NA,NA,"Temperature",0,0,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478834,"Relative Humidity RH",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478816,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478820,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478785,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478784,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478783,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478782,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478781,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478780,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478779,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478778,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478777,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478805,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478804,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478803,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478802,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478797,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478798,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478799,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478800,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478801,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478827,"Wind Direction",NA,NA,"Wind-Direction",0,0,FALSE,"Degrees",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478839,"Barometric Pressure hPa",NA,NA,"Atmospheric-Pressure",0,0,FALSE,"hPa",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69445,TRUE,1478840,"Relative Humidity %",NA,NA,"Humidity",0,0,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1392109,"Russo's Rainfall",NA,NA,"Rainfall",0,0,FALSE,"mm",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477341,"Soil Moisture 10cm",NA,NA,"Soil-Moisture",10,10,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477345,"Soil Temperature 10cm",NA,NA,"Soil-Temperature",10,10,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477310,"Soil Moisture 100cm",NA,NA,"Soil-Moisture",100,100,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477309,"Soil Moisture 90cm",NA,NA,"Soil-Moisture",90,90,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477308,"Soil Moisture 80cm",NA,NA,"Soil-Moisture",80,80,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477307,"Soil Moisture 70cm",NA,NA,"Soil-Moisture",70,70,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477306,"Soil Moisture 60cm",NA,NA,"Soil-Moisture",60,60,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477305,"Soil Moisture 50cm",NA,NA,"Soil-Moisture",50,50,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477304,"Soil Moisture 40cm",NA,NA,"Soil-Moisture",40,40,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477303,"Soil Moisture 30cm",NA,NA,"Soil-Moisture",30,30,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477302,"Soil Moisture 20cm",NA,NA,"Soil-Moisture",20,20,FALSE,"Percent",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477330,"Soil Temperature 100cm",NA,NA,"Soil-Temperature",100,100,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477329,"Soil Temperature 90cm",NA,NA,"Soil-Temperature",90,90,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477328,"Soil Temperature 80cm",NA,NA,"Soil-Temperature",80,80,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477327,"Soil Temperature 70cm",NA,NA,"Soil-Temperature",70,70,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477326,"Soil Temperature 60cm",NA,NA,"Soil-Temperature",60,60,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477325,"Soil Temperature 50cm",NA,NA,"Soil-Temperature",50,50,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477324,"Soil Temperature 40cm",NA,NA,"Soil-Temperature",40,40,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477323,"Soil Temperature 30cm",NA,NA,"Soil-Temperature",30,30,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA
+opSID_69448,TRUE,1477322,"Soil Temperature 20cm",NA,NA,"Soil-Temperature",20,20,FALSE,"DegreesCelcius",NA,TRUE,NA,NA,NA,NA,NA,NA,NA,NA

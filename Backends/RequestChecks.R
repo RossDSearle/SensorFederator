@@ -56,7 +56,7 @@ check_GetSensorlocationsAsMap <- function( sensortype=NULL){
 
   if(!is.null(sensortype)){
     if(sensortype != ''){
-      if(!sensortype %in% knownFeatures){stop(paste0("The requested Sensor Type is not currently supported. : parameter = sensortype : value = ", sensortype, ' The currently supported sensor types are : ', paste(knownFeatures, collapse = ', ')))}
+      if(!tolower(sensortype) %in% tolower(knownFeatures)){stop(paste0("The requested Sensor Type is not currently supported. : parameter = sensortype : value = ", sensortype, ' The currently supported sensor types are : ', paste(knownFeatures, collapse = ', ')))}
     }
   }
 }
@@ -72,7 +72,7 @@ check_GetSensorLocations <- function(siteid=NULL, sensortype=NULL, longitude=NUL
 
   if(!is.null(sensortype)){
     if(sensortype != ''){
-      if(!sensortype %in% knownFeatures){stop(paste0("The requested Sensor Type is not currently supported. : parameter = sensortype : value = ", sensortype, ' The currently supported sensor types are : ', paste(knownFeatures, collapse = ', ')))}
+      if(!tolower(sensortype) %in% tolower(knownFeatures)){stop(paste0("The requested Sensor Type is not currently supported. : parameter = sensortype : value = ", sensortype, ' The currently supported sensor types are : ', paste(knownFeatures, collapse = ', ')))}
     }
   }
 

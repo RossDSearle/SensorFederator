@@ -1,6 +1,8 @@
 library(XML)
 library(xts)
 library(stringr)
+library(DBI)
+library(RSQLite)
 
 #print(paste0(' BEU = ',sensorRootDir ))
 #source(paste0(sensorRootDir, '/Backends/Backends.R'))
@@ -17,9 +19,6 @@ convertJSONtoDF <- function(resp){
     d <- xin[i,]
     dd <- d$DataStream
     outDF[, (i+1)] <- dd[[1]]$v
-
-   # d$DataType
-  #  d$UpperDepthCm
 
     if(is.null(d$UpperDepth[1])){
       suffix = paste0('_x', i)
@@ -160,7 +159,7 @@ to.TS <- function(df){
 
   colnames(ts) <- cns[-1]
 
-  indexFormat(ts) <- "%Y-%m-%dT%H:%M:%S"
+  tformat(ts) <- "%Y-%m-%dT%H:%M:%S"
 
   return(ts)
 }
@@ -271,7 +270,7 @@ doAgg <- function(ts, agg, FUN, startDate, endDate ){
   #dts <- xts(mat , dateSeq)
   dts <- na.omit(dts)
   names(dts) <- names(ts)
-  indexFormat(dts) <- "%Y-%m-%dT%H:%M:%S"
+  tformat(dts) <- "%Y-%m-%dT%H:%M:%S"
 
 
   ###  Fill missing dates with NA
@@ -315,7 +314,7 @@ doAggOld <- function(ts, agg, FUN, startDate, endDate ){
   dts <- xts(mat , dateSeq)
   dts <- na.omit(dts)
   names(dts) <- names(ts)
-  indexFormat(dts) <- "%Y-%m-%dT%H:%M:%S"
+  tformat(dts) <- "%Y-%m-%dT%H:%M:%S"
 
 
   ###  Fill missing dates with NA
@@ -367,4 +366,19 @@ getEmptySensorDF <- function(){
 
 }
 
+
+
+
+
+getNews <- function(){
+
+  conFed <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
+  res <- dbSendQuery(conFed, "Select * from News order by datetime(Date) DESC")
+  rows <- dbFetch(res)
+  dbClearResult(res)
+  dbDisconnect(conFed)
+
+  return(rows)
+
+}
 

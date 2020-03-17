@@ -163,5 +163,3 @@ outpost_GenerateTimeSeries <- function(response, retType = 'df'){
   }
 }
 
-
-

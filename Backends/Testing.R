@@ -3,6 +3,7 @@ source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
 library(dygraphs)
+library(httr)
 
 
 start_time <- Sys.time()
@@ -146,7 +147,7 @@ dygraph(d , main = paste0('Tet'))  #%>%
 
 
 
-urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  'EPARF', '&password=', 'EPARF',
+urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=',  'EPARF', '&password=', 'eparf',
                   '&dateFrom=1/Dec/2017%2000:00:00&dateTo=', '3/Dec/2017%2000:00:00', '&outpostID=', 'op15376', '&inputID=', '456114')
 dataXML <- getURL(urlData, .opts = myOpts , .encoding = 'UTF-8-BOM')
 cat(dataXML, file='c:/temp/outpost.xml')
@@ -574,16 +575,20 @@ site <-'SFS_66'
 
 
 sensorInfo <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
-sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
+sensors <- sensorInfo[sensorInfo$DataType == 'Rainfall' & sensorInfo$SensorGroup == 'SFS', ]
+
+sensors <- sensorInfo[sensorInfo$SiteID==site & sensorInfo$DataType == 'Rainfall' & sensorInfo$SensorGroup == 'SFS', ]
+
 sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
-streams <- sensors
+streams <- sensors[1,]
 
 
 getSensorData_IOT(streams=streams, startDate = sd, endDate = ed, aggPeriod=timeSteps$day, numrecs=maxRecs )
 
 d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate=startDate, endDate=endDate, numrecs = 10000000)
 
+getsens
 
 
 ###############    BoM Latest   ########################################
@@ -632,12 +637,29 @@ d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 100000
 sensorInfo <- getAuthorisedSensors()
 site <- 'hussat_terrasonde_148.696846_-34.469837'
 sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
+s
 
-d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 10000000)
+d <- getSensorDataStreams(streams=sensors[1,], aggPeriod=timeSteps$none , numrecs = 10000000, startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00')
 
-
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$days , numrecs = 10000000)
 
 getURL("http://127.0.0.1:5428/SensorAPI/getSensorDataStreams?siteid=hussat_terrasonde_148.696836_-34.477601&sensortype=Soil-Moisture")
+
+
+d <- getSensorDataStreams(siteID = 'hussat_terrasonde_148.685405_-34.469659', sensorID='hussat.boorowa-soil-moisture.terrasonde.155.sensor_0_dielectric_constant', sensorType = 'Soil-Moisture', aggPeriod=timeSteps$none , startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00')
+
+
+
+###################################  Outpost2  ############################################
+
+sensors <- sensorInfo[sensorInfo$SiteID == 'opSID_20610' & sensorInfo$DataType == 'Rainfall', ]
+getSensorData(streams=sensors, aggPeriod=timeSteps$days, startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00' )
+
+
+
+
+
+
 
 
 
