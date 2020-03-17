@@ -1,9 +1,0 @@
-SiteID,SiteName,Provider,Backend,Access,Usr,Pwd,Latitude,Longitude,Active,Owner,Contact,ProviderURL,Description
-15283,GRDC East Hyden - 54375,RAIN,Adcon,Public,csirogrdc,grdc,-32.4138,119.196,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15414,GRDC Karradale - 54369,RAIN,Adcon,Public,csirogrdc,grdc,-32.8788,119.422,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15383,GRDC Mt Heywood- 54950,RAIN,Adcon,Public,csirogrdc,grdc,-33.4281,122.614,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15314,GRDC Non-wetting Trial - 54951,RAIN,Adcon,Public,csirogrdc,grdc,-33.4246,119.631,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15175,GRDC Redman- 54945,RAIN,Adcon,Public,csirogrdc,grdc,-33.8534,120.227,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15154,GRDC Stoneyfell - 54934,RAIN,Adcon,Public,csirogrdc,grdc,-32.8074,121.692,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15221,GRDC Wilaust - 54352,RAIN,Adcon,Public,csirogrdc,grdc,-33.4282,121.134,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,
-15117,Northern Mallee - 53125,RAIN,Adcon,Public,csirogrdc,grdc,-33.0385,121.64,TRUE,CSIRO,Yvette Oliver,http://data.farmlinkrural.com,

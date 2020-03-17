@@ -286,13 +286,18 @@ for(i in 1:nrow(WASites)){
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
 s <- getAuthorisedSensors()
 
-sens <- s[s$SiteID == 'opSID_15184' & s$DataType=='Soil-Moisture', ]
+sens <- s[s$SiteID == 'opSID_40112' , ]
+
+for (i in 1:nrow(sens)) {
+  rec <- sens[i, ]
+
+}
 
 getSensorData(sens[4, ])
 getSensorData(sens)
-getSensorData(streams=sens[4, ] , startDate = '2020-03-01T09:00:00', endDate = '2019-03-03T00:00:00', aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS')
+getSensorData(streams=sens[4, ] , startDate = '2020-03-01T00:00:00', endDate = '2020-03-03T23:59:59', aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS')
 
 
-
+getSensorData()
 
 

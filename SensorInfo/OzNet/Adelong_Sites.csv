@@ -1,6 +1,0 @@
-SiteID,SiteName,SensorGroup,Backend,Access,Usr,Pwd,Latitude,Longitude,Owner,Contact,ProviderURL,Description,ServerName
-OzNet_a1,Adelong 1,OzNet,SenFedStore,Public,OzN,OzN,-35.497492,148.106488,Monash University,sandra.monerris-belda(at)monash.edu,http://www.oznet.org.au/,An Australian monitoring network for soil moisture and micrometeorology,http://esoil.io
-OzNet_a2,Adelong 2,OzNet,SenFedStore,Public,OzN,OzN,-35.428312,148.131626,Monash University,sandra.monerris-belda(at)monash.edu,http://www.oznet.org.au/,An Australian monitoring network for soil moisture and micrometeorology,http://esoil.io
-OzNet_a3,Adelong 3,OzNet,SenFedStore,Public,OzN,OzN,-35.399688,148.101076,Monash University,sandra.monerris-belda(at)monash.edu,http://www.oznet.org.au/,An Australian monitoring network for soil moisture and micrometeorology,http://esoil.io
-OzNet_a4,Adelong 4,OzNet,SenFedStore,Public,OzN,OzN,-35.373106,148.066082,Monash University,sandra.monerris-belda(at)monash.edu,http://www.oznet.org.au/,An Australian monitoring network for soil moisture and micrometeorology,http://esoil.io
-OzNet_a5,Adelong 5,OzNet,SenFedStore,Public,OzN,OzN,-35.360194,148.085427,Monash University,sandra.monerris-belda(at)monash.edu,http://www.oznet.org.au/,An Australian monitoring network for soil moisture and micrometeorology,http://esoil.io

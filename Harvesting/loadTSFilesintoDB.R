@@ -31,7 +31,8 @@ sendStatement <- function(con, sql){
 
 
 
-inDir <- paste0(rootDir, '/DataDumps/SFS_All')
+#inDir <- paste0(rootDir, '/DataDumps/SFS_All')
+inDir <- paste0(rootDir, '/DataDumps/WA')
 
 
 fls <- list.files(inDir, full.names = T)

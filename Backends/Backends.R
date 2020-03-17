@@ -112,7 +112,7 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         #print(head(dfTS[[i]]))
         if(length( dfTS[[i]]) !=0){
           if(nrow( dfTS[[i]]) !=0){
-            print(paste0('i = ',  i))
+            #print(paste0('i = ',  i))
             outSensors <- rbind(outSensors, streams[i,])
           }
         }
@@ -120,7 +120,7 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
       #print(outSensors)
       nnl <- delete.NULLs(dfTS)
       nnl[sapply(nnl, function(x) dim(x)[1]) > 0]
-      print(nnl)
+      #print(nnl)
       #dfTSm <- mergedfTSList(nnl, streams = streams)
       dfTSm <- mergedfTSList(nnl, streams = outSensors)
 
@@ -240,7 +240,7 @@ getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPer
   apiRoot <- streams$ServerName[1]
   #urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
   urls <- paste0(apiRoot, "/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", fromDt, "&enddate=", toDt, '|', streams$Usr[1], '|', streams$Pwd[1], '|', paste0(streams$SensorName, collapse = ";"))
-  print(urls)
+ # print(urls)
 
 
 
@@ -300,7 +300,7 @@ getSensorData_DAFWA <- function(streams, startDate = NULL, endDate = NULL, aggPe
 
   # urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
   urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',fromDt,'&toDate=',toDt ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
-  print(urls)
+  #print(urls)
   tryCatch({
     dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_DAFWA, .limit = asyncThreadNum ))
   }, error = function(e)
@@ -358,7 +358,7 @@ getSensorData_Senaps <- function(streams, startDate = NULL, endDate = NULL, aggP
 
     #outList <-  vector("list", length(dataStreamsDFDEC))
     for(i in 1:length(dataStreamsDFDEC)){
-      print(i)
+      #print(i)
       ErT=as.numeric(dataStreamsDFDEC[[i]]$Values)*1.011/(1.045+0.01*as.numeric(dataStreamsDFTEMP[[i]]$Values))
 
       dataStreamsDFDEC[[i]]$Values <- (0.055  * sqrt(ErT) + -0.015) * 100
@@ -471,7 +471,8 @@ getSensorData_IOT <- function(streams, startDate = NULL, endDate = NULL, aggPeri
 
   }, error = function(e)
   {
-    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+    stop(e)
+   # stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
   })
 
   return(dataStreamsDF)
@@ -542,7 +543,7 @@ getSensorFields <- function(){
 getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorGroup=NULL,backend=NULL, owner=NULL, longitude=NULL, latitude=NULL, extendedSet=F, radius_km=NULL, bbox=NULL,  numToReturn=NULL){
 
   sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
-  print(extendedSet)
+  #print(extendedSet)
   if(!extendedSet){
     sensors = sensors[!tolower(sensors$Backend) %in% c('bom_latest', 'silo'),]
   }
@@ -666,7 +667,7 @@ getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, senso
     if(nrow(sensors) < 1){stop('Could not find the specified sensor')}
   }
 
-  print(sensorType)
+ # print(sensorType)
 
   d <- getSensorData(streams=sensors, aggPeriod=aggPeriod, startDate=startDate, endDate=endDate, outFormat=outFormat  )
 

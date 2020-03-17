@@ -1,0 +1,19 @@
+WorkFlows for Harvesting data from the SensorFederator API
+
+
+Paths
+=========================================================================================================================================
+All scripts are currently in "'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Harvesting/"
+
+SensorFederator DB - C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite
+
+SensorFederatorDataStore DB - C:/Projects/SensorFederator/DataStore/SensorFederatorDataStore.db
+
+
+Data
+=========================================================================================================================================
+To load new data from a new sensor network into the DataStore
+
+1. run "SensorDownloader_All.R" - downloads the data from the defined sensors and writes out csv files
+2. run "loadTSFilesintoDB.R" - reads the csv files in the specified directory and loads them into the SensorFederatorDataStore DB
+3. run "UpdateFederatorSensorRecordsFromDataStore.R" - Updates the stats in the sensors table of the
