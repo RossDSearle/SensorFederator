@@ -31,7 +31,11 @@ for (i in 1:nrow(sm)){
                       "' and lowerDepth = '", rec$LowerDepth, "' and DataType = 'Soil-Moisture'")
   storeSens <- doQuery(conStore, sqlSenNum)
   if(nrow(storeSens)>0){
-    sensorNum <- storeSens$sensorNum
+    sensorNum <- storeSens$sensorNum[1]
+
+    if(length(sensorNum) > 1){
+      print(rec$SiteID)
+    }
 
     d <- getSensorData(conStore, sensorNum)
 

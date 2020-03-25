@@ -14,7 +14,10 @@ if(machineName == 'FANCY-DP'){
   dbPath <- ""
 }
 
-dbPath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
+rootDir <-  'C:/Projects/SensorFederator'
+dbFedPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+dbStorePath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
+
 
 
 
@@ -22,15 +25,17 @@ dbPath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
 inDir <- paste0(rootDir, '/DataDumps/WA')
 inDir <- paste0(rootDir, '/DataDumps/VicAg2_1345')
 inDir <- paste0(rootDir, '/DataDumps/VicAg2_1070')
-
 inDir <- paste0(rootDir, '/DataDumps/DailyTS')
+inDir <- paste0(rootDir, '/DataDumps/EPARF')
+inDir <- paste0(rootDir, '/DataDumps/Booroowa')
 
 fls <- list.files(inDir, full.names = T)
+
 fls <- fls[grepl('OzNet', fls)]
 fls <- fls[grepl('VicAg_', fls)]
 fls <- fls[grepl('Usyd_', fls)]
 
-con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
+con <- dbConnect(RSQLite::SQLite(), dbStorePath, flags = SQLITE_RW)
 fk_On <- 'PRAGMA foreign_keys = ON;'
 dbExecute(con, fk_On)
 
@@ -45,9 +50,6 @@ for (i in 1:length(fls)) {
   sens <- bits[[1]][2]
   upd <- as.numeric(bits[[1]][3])
   lowd <- as.numeric(bits[[1]][4])
-
-  # upd <- as.numeric(bits[[1]][3]) * 10
-  # lowd <- as.numeric(bits[[1]][4]) * 10
 
   dtype <- str_remove( bits[[1]][5], '.csv')
 
@@ -105,9 +107,6 @@ for (i in 1:length(fls)) {
 
    }
 }
-
-
-
 
 dbDisconnect(con)
 

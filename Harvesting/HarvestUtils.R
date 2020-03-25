@@ -48,10 +48,6 @@ sendStatement <- function(con, sql){
 
 
 
-conFed <- dbConnect(RSQLite::SQLite(), dbFedPath, flags = SQLITE_RW)
-conStore <- dbConnect(RSQLite::SQLite(), dbStorePath, flags = SQLITE_RW)
-
-
 getSensorData <- function(conStore, sensorNum, sdate=NULL, edate=NULL){
   sql <- paste0("SELECT sensorNum, datetime(sensorData.dateTime) as dt, sensorData.value
       FROM SensorData

@@ -12,7 +12,9 @@ machineName <- as.character(Sys.info()['nodename'])
 print(machineName)
 if(machineName == 'FANCY-DP'){
   rootDir <-  'C:/Projects/SensorFederator'
-  dbPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+  dbFedPath <- "C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/DB/SensorFederator.sqlite"
+  dbStorePath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
+
   source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
   source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Utils.R')
   source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backends.R')
@@ -25,6 +27,7 @@ if(dev){
 }else{
   serverPath <- "http://esoil.io/SensorFederationWebAPI/SensorAPI"
 }
+
 
 
 
@@ -193,6 +196,7 @@ grp <- 'GRDCWASoilWaterProbes'
 grp <- 'VicAg2_1345'
 grp <- 'VicAg2_1070'
 grp <- 'EPARF'
+grp <- 'Booroowa'
 
 sDate <- '2010-01-01T00:00:00'
 eDate <- paste0(Sys.Date(), 'T23:59:59')
@@ -204,7 +208,7 @@ sql <- paste0("SELECT * FROM Sites INNER JOIN Sensors ON Sites.SiteID = Sensors.
 logName <- paste0(rootDir, '/ProcessingLog_', grp, '.csv')
 cat('Outcome, Error, URL, SiteID, SiteName, SensorID, DataType, Backend, SensorGroup, \n', file = logName)
 
-con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RO)
+con <- dbConnect(RSQLite::SQLite(), dbFedPath, flags = SQLITE_RO)
 
 
 
