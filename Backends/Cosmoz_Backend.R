@@ -56,7 +56,7 @@ getURLAsync_Cosmoz <- function(x){
   #response <- getURL(x)
   resp <- GET(x)
   response <- content(resp, "text")
-  print(response)
+  #print(response)
   ndf<- cosmoz_GenerateTimeSeries(response, retType = 'df')
   return(ndf)
 }
@@ -66,7 +66,7 @@ cosmoz_GenerateTimeSeries <- function(response, retType = 'df'){
 
 
   tsj <- fromJSON(response, flatten=T)
-  print(str(tsj))
+ # print(str(tsj))
   if(tsj$meta$count == 0){
       (stop('No records were returned for the specified query'))
     }

@@ -22,7 +22,7 @@
 #' getSensorData('cerdi.sfs.4935.stream.4983.soil-moisture.1000mm')
 #'
 #' @export
-getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS' ){
+getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS', verbose=F ){
 
   out <- tryCatch({
 
@@ -134,7 +134,7 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         }
 
         if(outFormat=='nestedTS'){
-          ndf <- makeNestedDF(outTS, outSensors, isoSDate, isoEDate, aggPeriod)
+          ndf <- makeNestedDF(outTS, outSensors, isoSDate, isoEDate, aggPeriod, verbose)
           return(ndf)
         }else{
           return(outTS)
@@ -230,26 +230,25 @@ getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPer
 
   siteid <- str_remove(streams$SiteID, paste0(streams$SensorGroup, '_'))
 
-
   sensorid <- streams$SensorID[1]
   bits <- str_split(sensorid, '_')
 
   moduleID <- bits[[1]][1]
   sensorName <- bits[[1]][2]
-  networkID <- streams$SensorGroup[1]
+
+  nbits <- str_split(streams$SensorGroup, '_')
+  networkID <- nbits[[1]][2]
   apiRoot <- streams$ServerName[1]
-  #urls <- paste0( streams$ServerName, '/weatherstations/dailysummary.json?station_code=',siteid, '&fromDate=',isoSDate,'&toDate=',isoEDate ,'&api_key=CCB3F85A64008C6AC1789E4F.apikey')
+
+  print(networkID)
   urls <- paste0(apiRoot, "/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", fromDt, "&enddate=", toDt, '|', streams$Usr[1], '|', streams$Pwd[1], '|', paste0(streams$SensorName, collapse = ";"))
- # print(urls)
+  #url <- paste0(apiRoot, "/getdata?network=", networkID, "&module=", moduleID ,"&startdate=", fromDt, "&enddate=", toDt, '|', streams$Usr[1], '|', streams$Pwd[1], '|', paste0(streams$SensorName, collapse = ";"))
 
 
 
-  # tryCatch({
+
+
   dataStreamsDF <- synchronise(async_map( urls,  getURLAsync_Mait, .limit = asyncThreadNum ))
-  # }, error = function(e)
-  # {
-  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
-  # })
 
 
 
@@ -272,16 +271,7 @@ getSensorData_Mait <- function(streams, startDate = NULL, endDate = NULL, aggPer
   return(o)
 
 
-  # tryCatch({
-  #
-  #   dataStreamsDF <-  getURL_Mait(url=url, streams=streams, usr=streams$Usr[1], pwd=streams$Pwd[1])
-  #
-  # }, error = function(e)
-  # {
-  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
-  # })
-  #
-  # return(dataStreamsDF)
+
 }
 
 
@@ -626,27 +616,53 @@ getSensorLocations <- function(usr='Public', pwd='Public', siteID=NULL, sensorTy
 }
 
 
-getSensorInfo <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL ){
+getSensorInfo <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL) {
 
   sensors <- getAuthorisedSensors(usr=usr, pwd=pwd)
+  # if(!is.null(siteID) & !is.null(sensorType))
+  # {
+  #   sensors <- sensors[tolower(sensors$SiteID) == tolower(siteID) & tolower(sensors$DataType) == tolower(sensorType), ]
+  # }else if(!is.null(siteID)){
+  #   sensors <- sensors[tolower(sensors$SiteID) == tolower(siteID), ]
+  # }else if(!is.null(sensorType)){
+  #   sensors <- sensors[tolower(sensors$DataType) == tolower(sensorType), ]
+  # }
+
   if(!is.null(siteID) & !is.null(sensorType))
   {
-    sensors <- sensors[tolower(sensors$SiteID) == tolower(siteID) & tolower(sensors$DataType) == tolower(sensorType), ]
-  }else if(!is.null(siteID)){
     sensors <- sensors[tolower(sensors$SiteID) == tolower(siteID), ]
-  }else if(!is.null(sensorType)){
+  }
+  if(!is.null(sensorType)){
     sensors <- sensors[tolower(sensors$DataType) == tolower(sensorType), ]
   }
 
-  drops <- c("Usr","Pwd")
-  outDF <-  sensors[ , !(tolower(names(sensors)) %in% drops)]
-  outDF[is.na(outDF)] <-"NA"
+  if(!is.null(sensorGroup)){
+    sensors <- sensors[tolower(sensors$SensorGroup)==tolower(sensorGroup),]
+  }
+  if(!is.null(backend)){
+    sensors <- sensors[tolower(sensors$Backend)==tolower(backend),]
+  }
+  if(!is.null(owner)){
+    sensors <- sensors[tolower(sensors$Owner)==tolower(owner),]
+  }
 
-  return(outDF)
+  drops <- c("Usr","Pwd", "SiteID.1")
+  outDF <-  sensors[ , !(tolower(names(sensors)) %in% tolower(drops))]
+  cols <- which(names(outDF) == 'SiteID.1')
+
+  outDF <-  outDF[ , -cols]
+
+  if(verbose){
+    return(outDF)
+  }else{
+    return(outDF[, 1:27])
+  }
+
+
 }
 
 
-getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorID=NULL, startDate=NULL, endDate=NULL, aggPeriod=timeSteps$none, outFormat='simpleTS' ){
+getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorID=NULL, startDate=NULL, endDate=NULL, aggPeriod=timeSteps$none, outFormat='simpleTS', verbose=F ){
 
   # restricted to a single location for so as to not overload backend requests
   # have to restrict requests to a single data type as they have different aggregation types - could not aggregat but this may not be a common use case
@@ -669,7 +685,7 @@ getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, senso
 
  # print(sensorType)
 
-  d <- getSensorData(streams=sensors, aggPeriod=aggPeriod, startDate=startDate, endDate=endDate, outFormat=outFormat  )
+  d <- getSensorData(streams=sensors, aggPeriod=aggPeriod, startDate=startDate, endDate=endDate, outFormat=outFormat, verbose=verbose  )
 
   return(d)
 }

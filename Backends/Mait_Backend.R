@@ -45,7 +45,7 @@ getURLAsync_Mait <- function(x){
 mait_GenerateTimeSeries2 <- function(response, dataCols, retType = 'df'){
 
   ddf <- read.csv(text=response, skip=1, check.names = F, stringsAsFactors = F )
-  print(head(ddf))
+  #print(head(ddf))
   ddf <- ddf[-1,]
 
   feats <- str_split(dataCols, ';')[[1]]

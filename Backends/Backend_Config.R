@@ -29,17 +29,17 @@ debugMode <- F
 machineName <- as.character(Sys.info()['nodename'])
 print(machineName)
 if(machineName == 'FANCY-DP'){
-  rootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/Shiny/SMIPS'
+  #rootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/Shiny/SMIPS'
   sensorRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
   functionsRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/myFunctions'
   senFedDbPath <- paste0('C:/Temp/ozNetDB.db')
 }else if (machineName == 'soils-discovery' & debugMode == T) {
-  rootDir <<- '/home/sea084/R/SMIPS'
+  #rootDir <<- '/home/sea084/R/SMIPS'
   sensorRootDir <<- '/home/sea084/R/SensorBackends'
   functionsRootDir <<- '/home/sea084/R/myFunctions'
   senFedDbPath <- paste0('/mnt/data/SensorFedDB/ozNetDB.db')
 }else if (machineName == 'soils-discovery' & debugMode == F) {
-  rootDir <<- '/srv/shiny-server/SMIPS'
+  #rootDir <<- '/srv/shiny-server/SMIPS'
   sensorRootDir <<- '/srv/plumber/SensorFederator'
   functionsRootDir <<- '/srv/plumber/Functions'
   senFedDbPath <- paste0('/mnt/data/SensorFedDB/ozNetDB.db')

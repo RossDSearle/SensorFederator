@@ -190,6 +190,9 @@ pingSensorFromDB <- function(rec, outDir, logName){
 
 
 grp <- 'GRDCWASoilWaterProbes'
+grp <- 'VicAg2_1345'
+grp <- 'VicAg2_1070'
+grp <- 'EPARF'
 
 sDate <- '2010-01-01T00:00:00'
 eDate <- paste0(Sys.Date(), 'T23:59:59')

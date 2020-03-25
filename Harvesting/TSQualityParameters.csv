@@ -1,0 +1,14 @@
+Dtype,minVal,maxVal,minNumDays,desiredNumDays,numDaysForActive
+Rainfall,0,1000,20,100,30
+Soil-Moisture,0,100,20,100,30
+Humidity,0,100,20,100,30
+Temperature,-20,70,20,100,30
+Wind-Direction,0,360,20,100,30
+Wind-Speed,0,200,20,100,30
+Soil-Temperature,-20,70,20,100,30
+Solar-Radiation,0,10000000000,20,100,30
+Soil-Suction,0,10000000000,20,100,30
+Atmospheric-Pressure,0,10000000000,20,100,30
+Vapour-Pressure,0,10000000000,20,100,30
+PAW,0,100,20,100,30
+Salinity,0,10000000000,20,100,30

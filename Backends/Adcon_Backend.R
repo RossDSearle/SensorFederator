@@ -11,9 +11,20 @@ slots <- 100
 
 myOpts <- curlOptions(connecttimeout = 200, ssl.verifypeer = FALSE)
 
-adconSensorTypes <- c('Soil moisture', 'Daily Rainfall' )
-adconServerWA <- 'http://data.farmlinkrural.com'
+usr='samdb'
+pwd='demo'
+adconServer <- 'http://aqualab-data.dyndns.info'
+
+# adconSensorTypes <- c('Soil moisture', 'Daily Rainfall' )
+# adconServerWA <- 'http://data.farmlinkrural.com'
 #adconSensorTypes <- c('Soil moisture' )
+
+
+
+urlLogin <- paste0(adconServer, '/addUPI?function=login&user=', usr ,'&passwd=', pwd, '&timeout=', timeOut, '&mode=' , mode)
+r <- GET(urlLogin)
+content(r, 'text')
+
 
 # Login
 adconLogin <- function(adconServer, usr = usr, pwd = pwd, timeOut=30, mode='t'){
@@ -53,7 +64,7 @@ adconConfig <- function(adconServer = NULL, usr=usr, pwd = pwd){
 # get Template
 adconTemplate<- function(usr=usr, pwd=pwd){
 
-    authID <- adconLogin(usr=usr, pwd = pwd)
+    authID <- adconLogin(adconServer = adconServer, usr=usr, pwd = pwd)
     urlTemplate <- paste0(adconServer, '/addUPI?function=gettemplate&session-id=', authID , '&mode=' , mode)
     templateXML <- getURL(urlTemplate, .opts = myOpts)
     adconLogout(AuthID = authID)

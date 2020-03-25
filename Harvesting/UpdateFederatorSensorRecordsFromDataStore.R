@@ -19,13 +19,14 @@ if(machineName == 'FANCY-DP'){
 }
 
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Harvesting/HarvestUtils.R')
+qualParams <- read.csv('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Harvesting/TSQualityParameters.csv', stringsAsFactors = F)
 
 daysForActive <- 30
 dbStorePath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
 
 
-
-
+conFed <- dbConnect(RSQLite::SQLite(), dbFedPath, flags = SQLITE_RW)
+conStore <- dbConnect(RSQLite::SQLite(), dbStorePath, flags = SQLITE_RW)
 
 
 n <- as.character(Sys.time(),format='%y-%m-%dT%H-%M-%S')
@@ -38,173 +39,66 @@ conStore <- dbConnect(RSQLite::SQLite(), dbStorePath, flags = SQLITE_RO)
 
 
 sql <- "SELECT * FROM Sites INNER JOIN Sensors ON Sites.SiteID = Sensors.SiteID WHERE (((Sites.SensorGroup)<>'BoM'));"
+#sql <- "Select * from Sensors where DataType = 'Soil-Moisture' and HasData = 'TRUE'"
 allSensors <- doQuery(conFed, sql)
 
 
 pb <- pbCreate(nrow(allSensors), progress='text', style=3, label='Progress',timer=TRUE)
 cntr <- 1
 
-for (i in 1:nrow(allSensors)) {
+odf <- data.frame(stringsAsFactors = F)
+for (i in 1:nrow(allSensors)){
+  print(i)
 
-  rec <- allSensors[i, ]
+  rec <- allSensors[i,]
+  qP <- qualParams[qualParams$Dtype == rec$DataType, ]
 
-  sqlsens <- paste0("select * from Sensors where  SiteID='", rec$SiteID, "' and SensorID='", rec$SensorID, "' and upperDepth='", rec$UpperDepth, "' and lowerDepth='", rec$LowerDepth, "' and DataType='", rec$DataType, "'")
-  existingSensorData <- doQuery(conStore, sqlsens)
+  sqlSenNum <- paste0("select * from Sensors where SiteID='", rec$SiteID, "' and upperDepth = '", rec$UpperDepth,
+                      "' and lowerDepth = '", rec$LowerDepth, "' and DataType = '", rec$DataType, "'")
+  storeSens <- doQuery(conStore, sqlSenNum)
+  if(nrow(storeSens)>0){
+    sensorNum <- storeSens$sensorNum[1]
 
-  validTS <- T
+    d <- getSensorData(conStore, sensorNum)
+    ts <- xts(d[,3], order.by=as.Date(d[,2]))
+    q <- assessTSQuality(ts, verbose = T, maxVal=qP$maxVal ,  minVal=qP$minVal, minNumDays=qP$minNumDays, desiredNumDays=qP$desiredNumDays, numDaysForActive = qP$numDaysForActive)
 
-  if(nrow(existingSensorData) > 0){
+    df <- data.frame(rec$SiteID, rec$DataType, rec$UpperDepth, rec$LowerDepth,
+                     format(q$QualityIndex, digits=2), q$LowestIndexName, format(q$LowestIndexValue, digits=2),
+                     format(q$IinRange, digits=2), format(q$IvalidProp, digits=2), format(q$InumGaps, digits=2),
+                     format(q$ItotalGapsDays, digits=2), format(q$IdesiredNumDays, digits=2),
+                     q$Start, q$End,
+                     q$TotalNumDays, q$TotalValidDays, format(q$validProportion, digits=2), q$numGaps, q$numGapDays, q$numInRange,
+                     q$StandardDeviation, q$MeanValue, q$IsActive, q$HarvestDate, q$HasData,
+                     stringsAsFactors = F)
 
-        sNum <- existingSensorData$sensorNum
+    odf<-rbind(odf, df)
 
-        sql <-  paste0("SELECT * from sensorData where sensorNum = " , sNum  )
-        dataRecs <- doQuery(conStore, sql)
+    sqlUp <- getQualitySQL(q)
+    sendStatement(conFed, sqlUp)
 
-        ts <- xts(dataRecs[,3], order.by=as.Date(dataRecs[,2]))
-
-        if(all(is.na(ts))){
-          validTS <- F
-        }
-
-        if(nrow(ts) < 4){
-          validTS <- F
-        }
-
-
-        ped <- getPeriod(ts)
-        tsStart <- paste0(ped$startDate, 'T00:00:00')
-        tsEnd <- paste0(ped$endDate, 'T23:59:59')
-        tsNumDays <- as.numeric(as.Date(ped$endDate) - as.Date(ped$startDate))
-        tsActive <- sensorIsActive(ts, daysForActive)
-        g <- gapiness(ts)
-        tsNumGaps <- g$numGaps
-        tsTotalGapDays <- g$numDays
-        tsGapiness <- g$gapiness
-        tsMin <- min(ts, na.rm = T)
-        tsMax <- max(ts, na.rm = T)
-        tsMean <- mean(ts, na.rm = T)
-        tsSD <- sd(ts, na.rm = T)
-
-        }else{
-          validTS <- F
-        }
-
-        if(validTS){
-        sqlUp <- paste0("UPDATE sensors
-                          SET StartDate = '", tsStart, "', ",
-                        "EndDate = '", tsEnd, "', ",
-                        "TotalDays = ", tsNumDays, ", ",
-                        "IsActive = '", tsActive, "', ",
-                        "NumGaps = ", tsNumGaps, ", ",
-                        "TotalGapDays = ", tsTotalGapDays, ", ",
-                        "Gapiness = ", tsGapiness, ", ",
-                        "MinimumValue = ", tsMin, ", ",
-                        "MaximumValue = ", tsMax, ", ",
-                        "MeanValue = ", tsMean, ", ",
-                        "StandardDeviation = ", tsSD, ", ",
-                        "HarvestDate = '", Sys.Date(), "', ",
-                        "hasdata = 'TRUE'", " ",
-                        "WHERE SiteID='", rec$SiteID, "' and SensorID='", rec$SensorID, "' and upperDepth='", rec$UpperDepth, "' and lowerDepth='", rec$LowerDepth, "' and DataType='", rec$DataType, "';")
-
-        }else{
-
-          ####   No data in the DataStore ##############
-          sqlUp <- paste0("UPDATE sensors
-                          SET StartDate = 'None', ",
-                          "EndDate = 'None', ",
-                          "TotalDays = -1, ",
-                          "IsActive = 'FALSE', ",
-                          "NumGaps = -1, ",
-                          "TotalGapDays = -1, ",
-                          "Gapiness = -1, ",
-                          "MinimumValue = -1, ",
-                          "MaximumValue = -1, ",
-                          "MeanValue = -1, ",
-                          "StandardDeviation = -1, ",
-                          "HarvestDate = '", Sys.Date(), "', ",
-                          "hasdata = 'FALSE'", " ",
-                          "WHERE SiteID='", rec$SiteID, "' and SensorID='", rec$SensorID, "' and upperDepth='", rec$UpperDepth, "' and lowerDepth='", rec$LowerDepth, "' and DataType='", rec$DataType, "';")
-        }
-
-  sendStatement(conFed, sqlUp)
-
+  }else{
+    q <- getBlankQualityRecord()
+    sqlUp <- getQualitySQL(q)
+    sendStatement(conFed, sqlUp)
+  }
   pbStep(pb, step=i)
-
 }
 
 
-pbClose(pb)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-write.csv(outDF, paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), row.names = F)
-
-
-
-metaD <- read.csv(paste0(rootDir, '/MeataDataHarvest_on_', Sys.Date(), '.csv'), stringsAsFactors = F)
-metaD[mapply(is.infinite, metaD)] <- 'NULL'
-metaD[mapply(is.na, metaD)] <- 'NULL'
-head(metaD)
-
-
-con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
-#dbPath <- "/srv/plumber/SensorFederator/DB/SensorFederator.sqlite"
-
-pb <- pbCreate(nrow(metaD), progress='text', style=3, label='Progress',timer=TRUE)
-cntr <- 1
-for (i in 1:nrow(metaD)) {
-
-  id <- metaD$SiteID[i]
-
-  sql <- paste0("UPDATE sensors
-  SET StartDate = '", metaD$StartDate[i], "',
-      EndDate = '", metaD$EndDate[i], "',
-      TotalDays = ", metaD$TotalDays[i], ",
-      IsActive = '", metaD$IsActive[i], "',
-      NumGaps = ", metaD$NumGaps[i], ",
-      TotalGapDays = ", metaD$TotalGapDays[i], ",
-      Gapiness = ", metaD$Gapiness[i], ",
-      MinimumValue = ", metaD$MinimumValue[i], ",
-      MaximumValue = ", metaD$MaximumValue[i], ",
-      MeanValue = ", metaD$MeanValue[i], ",
-      StandardDeviation = ", metaD$StandardDeviation[i], ",
-      HarvestDate = '", metaD$MetaDataHarvestDate[i], "T23:59:59'
-
-  WHERE SiteID = '", metaD$SiteID[i], "' and SensorID = '", metaD$SensorID[i], "';")
-
-  res <- dbSendStatement(con, sql)
-  dbGetRowsAffected(res)
-  dbClearResult(res)
-  pbStep(pb, step=i)
-
-}
-
-pbClose(pb)
-
+# for (i in 1:nrow(allSensors)){
+#   rec <- allSensors[i,]
+#   sqlSenNum <- paste0("select * from Sensors where SiteID='", rec$SiteID, "' and upperDepth = '", rec$UpperDepth,"' and lowerDepth = '", rec$LowerDepth, "' and DataType = '", rec$DataType, "'")
+#   storeSens <- doQuery(conStore, sqlSenNum)
+#   if(nrow(storeSens) > 1){
+#     #print(paste0(rec$SiteID, " ", rec$UpperDepth, " ", rec$LowerDepth, " ", rec$DataType))
+#     print(i)
+#     print(sqlSenNum)
+#
+#   }
+# }
 
 
 

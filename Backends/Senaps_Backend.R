@@ -9,11 +9,11 @@ library(RCurl)
 # pwd <- 'rossiscool'
 
 #usrpwd  <- 'ross.searle@csiro.au:QBP'
-rootDir <- 'C:/Projects/Booroowa/Senaps'
-providerInfo <- list(provider=c('Booroowa'), backEnd=c('Senaps'), server=c('https://senaps.io/api/sensor/v2'), org=c('CSIRO'),
-                     usr=c('ross.searle@csiro.au'), pwd=c('QBP'),
-                     access=c('Public'),
-                     contact=c('Stuart.Brown@csiro.au'), orgURL=c('https://www.csiro.au/en/Research/AF/Areas/Boorowa-Agricultural-Research-Station'))
+# rootDir <- 'C:/Projects/Booroowa/Senaps'
+# providerInfo <- list(provider=c('Booroowa'), backEnd=c('Senaps'), server=c('https://senaps.io/api/sensor/v2'), org=c('CSIRO'),
+#                      usr=c('ross.searle@csiro.au'), pwd=c('QBP'),
+#                      access=c('Public'),
+#                      contact=c('Stuart.Brown@csiro.au'), orgURL=c('https://www.csiro.au/en/Research/AF/Areas/Boorowa-Agricultural-Research-Station'))
 
 
 

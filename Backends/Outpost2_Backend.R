@@ -14,15 +14,12 @@ getURLAsync_OutPost2 <- function(x){
   url <- bits[[1]][1]
   opID <- bits[[1]][2]
 
-  response <- sendRequest(url)
-  # resp <- GET(url, timeout(1))
-  # if(http_error(resp)){
-  #   outcome$OK = F
-  #   outcome$Error = 'ERROR - HTTP error'
-  #   outcome$Data = NULL
-  #   return(outcome)
-  # }
-  # response <- content(resp, "text", encoding = 'UTF-8')
+  #response <- sendRequest(url)
+   resp <- GET(url, timeout(300))
+  if(http_error(resp)){
+    return(NULL)
+  }
+  response <- content(resp, "text", encoding = 'UTF-8')
 
   ndf<- outpost2_GenerateTimeSeries(response, retType = 'df', opID=opID)
   return(ndf)

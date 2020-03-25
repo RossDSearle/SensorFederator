@@ -9,33 +9,26 @@ if(machineName == 'FANCY-DP'){
   rootDir <-  'C:/Projects/SensorFederator'
 
   source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Utils.R')
+  source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Harvesting/HarvestUtils.R')
 }else {
   dbPath <- ""
 }
 
 dbPath <- paste0(rootDir, "/DataStore/SensorFederatorDataStore.db")
 
-doQuery <- function(con, sql){
-  res <- dbSendQuery(con, sql)
-  rows <- dbFetch(res)
-  dbClearResult(res)
-  return(rows)
-}
-
-sendStatement <- function(con, sql){
-  rs <- dbSendStatement(con, sql)
-  dbHasCompleted(rs)
-  dbGetRowsAffected(rs)
-  dbClearResult(rs)
-}
-
 
 
 #inDir <- paste0(rootDir, '/DataDumps/SFS_All')
 inDir <- paste0(rootDir, '/DataDumps/WA')
+inDir <- paste0(rootDir, '/DataDumps/VicAg2_1345')
+inDir <- paste0(rootDir, '/DataDumps/VicAg2_1070')
 
+inDir <- paste0(rootDir, '/DataDumps/DailyTS')
 
 fls <- list.files(inDir, full.names = T)
+fls <- fls[grepl('OzNet', fls)]
+fls <- fls[grepl('VicAg_', fls)]
+fls <- fls[grepl('Usyd_', fls)]
 
 con <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
 fk_On <- 'PRAGMA foreign_keys = ON;'
@@ -43,15 +36,19 @@ dbExecute(con, fk_On)
 
 for (i in 1:length(fls)) {
 
-  print(i)
+  #print(i)
   #########   Open the csv file   ############
   d <- read.csv(fls[i])
   ts <- xts(d[,2], order.by=as.Date(d[,1]))
   bits <- str_split(basename(fls[i]), '!')
   sname <- bits[[1]][1]
   sens <- bits[[1]][2]
-  upd <- bits[[1]][3]
-  lowd <- bits[[1]][4]
+  upd <- as.numeric(bits[[1]][3])
+  lowd <- as.numeric(bits[[1]][4])
+
+  # upd <- as.numeric(bits[[1]][3]) * 10
+  # lowd <- as.numeric(bits[[1]][4]) * 10
+
   dtype <- str_remove( bits[[1]][5], '.csv')
 
 

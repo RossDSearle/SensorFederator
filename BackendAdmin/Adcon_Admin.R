@@ -17,14 +17,14 @@ nodeID = 9782
 
 nodeID = 9825
 
-authID <- adconLogin(usr=usr, pwd = pwd)
+authID <- adconLogin(adconServer = adconServer, usr=usr, pwd = pwd)
 
-adconLogout(AuthID = authID)
-
-
+adconLogout(adconServer = adconServer, AuthID = authID)
 
 
-conf <- adconConfig(usr=usr, pwd = pwd)
+
+
+conf <- adconConfig(adconServer = adconServer, usr=usr, pwd = pwd)
 write(conf, file = 'C:/Users/sea084/Dropbox/RossRCode/Git/ProbeAPIs/AdconResponses/conf.xml')
 xml_view(conf)
 
@@ -75,7 +75,7 @@ generateSensorInfo_Adcon(providerInfo, rootDir, getRaw = T)
 
 usr='samdb'
 pwd='demo'
-server <- 'http://aqualab-data.dyndns.info/'
+server <- 'http://aqualab-data.dyndns.info'
 
 conf <- adconConfig(adconServer=server, usr=usr, pwd = pwd)
 write(conf, file = 'C:/Users/sea084/Dropbox/RossRCode/Git/ProbeAPIs/AdconResponses/conf.xml')

@@ -36,34 +36,52 @@ convertJSONtoDF <- function(resp){
 }
 
 
-makeNestedDF <- function(TS, sensors, startDate, endDate, aggperiod){
+makeNestedDF <- function(TS, sensors, startDate, endDate, aggperiod, verbose=F){
 
 
   DF <- to.DF(TS)
 
-  x <- data.frame(matrix(NA, nrow= (ncol(DF)-1), ncol=18))
 
-  colnames(x) <- c('SiteID', 'SiteName', 'Provider', 'Backend', 'Access', 'Latitude', 'Longitude', 'SensorID', 'SensorName',
-                   'UpperDepthCm', 'LowerDepthCm', 'RequestStartDate', 'RequestEndDate', 'AggregationPeriod', 'DataType',
-                   'Units', 'Calibrated', 'DataStream')
 
-  x$SiteID <- sensors$SiteID
-  x$SiteName <- sensors$SiteName
-  x$Provider <- sensors$Provider
-  x$Backend <- sensors$Backend
-  x$Access <- sensors$Access
-  x$Latitude <- sensors$Latitude
-  x$Longitude <- sensors$Longitude
-  x$SensorID <- sensors$SensorID
-  x$SensorName <- sensors$SensorName
-  x$UpperDepthCm <- sensors$UpperDepth
-  x$LowerDepthCm <- sensors$LowerDepth
-  x$RequestStartDate <- startDate
-  x$RequestEndDate <- endDate
-  x$AggregationPeriod <- aggperiod
-  x$DataType <- sensors$DataType
-  x$Units <- sensors$Units
-  x$Calibrated <- sensors$Calibrated
+  drops <- c("Usr","Pwd", "SiteID.1")
+  outDF <-  sensors[ , !(tolower(names(sensors)) %in% tolower(drops))]
+  cols <- which(names(outDF) == 'SiteID.1')
+
+  outDF <-  outDF[ , -cols]
+
+  if(verbose){
+    x <- outDF
+  }else{
+    x <- outDF[, 1:27]
+  }
+
+
+
+  # x <- data.frame(matrix(NA, nrow= (ncol(DF)-1), ncol=18))
+  #
+  # colnames(x) <- c('SiteID', 'SiteName', 'Provider', 'Backend', 'Access', 'Latitude', 'Longitude', 'SensorID', 'SensorName',
+  #                  'UpperDepthCm', 'LowerDepthCm', 'RequestStartDate', 'RequestEndDate', 'AggregationPeriod', 'DataType',
+  #                  'Units', 'Calibrated', 'DataStream')
+  #
+  # x$SiteID <- sensors$SiteID
+  # x$SiteName <- sensors$SiteName
+  # x$Provider <- sensors$Provider
+  # x$Backend <- sensors$Backend
+  # x$Access <- sensors$Access
+  # x$Latitude <- sensors$Latitude
+  # x$Longitude <- sensors$Longitude
+  # x$SensorID <- sensors$SensorID
+  # x$SensorName <- sensors$SensorName
+  # x$UpperDepthCm <- sensors$UpperDepth
+  # x$LowerDepthCm <- sensors$LowerDepth
+  # x$RequestStartDate <- startDate
+  # x$RequestEndDate <- endDate
+  # x$AggregationPeriod <- aggperiod
+  # x$DataType <- sensors$DataType
+  # x$Units <- sensors$Units
+  # x$Calibrated <- sensors$Calibrated
+
+
 
   TSout <- vector("list", ncol(DF)-1)
 
