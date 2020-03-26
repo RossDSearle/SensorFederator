@@ -646,11 +646,10 @@ getSensorInfo <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=N
     sensors <- sensors[tolower(sensors$Owner)==tolower(owner),]
   }
 
-  drops <- c("Usr","Pwd", "SiteID.1")
+  drops <- c("Usr","Pwd")
   outDF <-  sensors[ , !(tolower(names(sensors)) %in% tolower(drops))]
-  cols <- which(names(outDF) == 'SiteID.1')
-
-  outDF <-  outDF[ , -cols]
+  cols <- which(str_detect(names(outDF), 'SiteID'))
+  outDF <-  outDF[ , -cols[2]]
 
   if(verbose){
     return(outDF)

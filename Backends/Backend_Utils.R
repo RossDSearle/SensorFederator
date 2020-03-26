@@ -38,16 +38,13 @@ convertJSONtoDF <- function(resp){
 
 makeNestedDF <- function(TS, sensors, startDate, endDate, aggperiod, verbose=F){
 
-
   DF <- to.DF(TS)
 
-
-
-  drops <- c("Usr","Pwd", "SiteID.1")
+  drops <- c("Usr","Pwd")
   outDF <-  sensors[ , !(tolower(names(sensors)) %in% tolower(drops))]
-  cols <- which(names(outDF) == 'SiteID.1')
+  cols <- which(str_detect(names(outDF), 'SiteID'))
+  outDF <-  outDF[ , -cols[2]]
 
-  outDF <-  outDF[ , -cols]
 
   if(verbose){
     x <- outDF
@@ -391,8 +388,9 @@ getEmptySensorDF <- function(){
 getNews <- function(){
 
   conFed <- dbConnect(RSQLite::SQLite(), dbPath, flags = SQLITE_RW)
-  res <- dbSendQuery(conFed, "Select * from News order by datetime(Date) DESC")
+  res <- dbSendQuery(conFed, "Select * from News order by Date DESC")
   rows <- dbFetch(res)
+  rows
   dbClearResult(res)
   dbDisconnect(conFed)
 

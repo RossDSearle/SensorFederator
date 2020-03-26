@@ -14,11 +14,11 @@ s <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
 #s <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
 sensorInfo <- s
 
+usr
 
 
-
-DF <- getSensorLocations(usr=usr, pwd=pwd)
-
+DF <- getSensorLocations()
+df <- getSensorInfo()
 
 
 
