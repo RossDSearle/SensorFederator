@@ -28,7 +28,7 @@ debugMode <- F
 
 machineName <- as.character(Sys.info()['nodename'])
 print(machineName)
-if(machineName == 'FANCY-DP'){
+if(machineName == 'WALCOT-SL'){
   #rootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/Shiny/SMIPS'
   sensorRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
   functionsRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/myFunctions'
@@ -48,7 +48,7 @@ if(machineName == 'FANCY-DP'){
 
 timeAggMethods <- data.frame(mean='mean', sum='sum', min='min', max='max', none='none', stringsAsFactors = F)
 
-knownBackends <- c('Senaps', 'Adcon', 'OutPost','Outpost2', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO')
+knownBackends <- c('Senaps', 'Adcon', 'OutPost','Outpost2', 'Cosmoz', 'DAFWA', 'Mait', 'DataFarmer', 'SenFedStore', 'IOT_CERDI', 'BoM_Latest', 'SILO', 'EPARF')
 
 knownFeatures <- c('Soil-Moisture', 'Soil-Temperature', 'Rainfall', 'Humidity', 'Temperature', 'Wind-Direction', 'Wind-Speed', 'Atmospheric-Pressure', 'Vapour-Pressure', 'Dew-Point', 'Delta T', 'Soil-Suction', 'Solar-Radiation', 'PAW', 'Salinity')
 FeatureAggTypes <-c(timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$sum, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean, timeAggMethods$mean)

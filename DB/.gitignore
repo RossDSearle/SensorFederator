@@ -1,1 +1,3 @@
-SensorFederator.sqlite
+*.sqlite
+*.mdb
+*.accdb
