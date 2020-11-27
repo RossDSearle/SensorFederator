@@ -33,16 +33,18 @@ if(machineName == 'WALCOT-SL'){
   sensorRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
   functionsRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/myFunctions'
   senFedDbPath <- paste0('C:/Temp/ozNetDB.db')
+  dbPath <- paste0("C:/Users/sea084/Dropbox/ProjectAdmin/SensorFederator/DB/SensorFederator.sqlite")
 }else if (machineName == 'soils-discovery' & debugMode == T) {
   #rootDir <<- '/home/sea084/R/SMIPS'
   sensorRootDir <<- '/home/sea084/R/SensorBackends'
   functionsRootDir <<- '/home/sea084/R/myFunctions'
   senFedDbPath <- paste0('/mnt/data/SensorFedDB/ozNetDB.db')
+  dbPath <- paste0( "/srv/DB/SensorFederator/SensorFederator.sqlite")
 }else if (machineName == 'soils-discovery' & debugMode == F) {
   #rootDir <<- '/srv/shiny-server/SMIPS'
   sensorRootDir <<- '/srv/plumber/SensorFederator'
   functionsRootDir <<- '/srv/plumber/Functions'
-  senFedDbPath <- paste0('/mnt/data/SensorFedDB/ozNetDB.db')
+  dbPath <- paste0( "/srv/DB/SensorFederator/SensorFederator.sqlite")
 }
 
 
@@ -72,7 +74,7 @@ globalTimeOut = 200
 
 
 
-dbPath <- paste0(sensorRootDir, "/DB/SensorFederator.sqlite")
+
 
 
 #dbPath <- paste0(sensorRootDir, "/DB/SensorFederator.sqlite")
