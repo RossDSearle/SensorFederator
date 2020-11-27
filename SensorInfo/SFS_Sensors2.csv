@@ -1,0 +1,1361 @@
+SiteID,SensorID,SensorName,DataType,UpperDepth,LowerDepth,Calibrated,Units,IsActive
+SFS_1,1115,SFS_SFS18 - Derrinallum1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_1,1182,SFS_SFS18 - Derrinallum1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_1,229,SFS_SFS18 - Derrinallum1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_1,848,SFS_SFS18 - Derrinallum1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_1,781,SFS_SFS18 - Derrinallum1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_1,585,SFS_SFS18 - Derrinallum1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_1,444,SFS_SFS18 - Derrinallum1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_1,915,SFS_SFS18 - Derrinallum1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_1,1048,SFS_SFS18 - Derrinallum1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_1,85,SFS_SFS18 - Derrinallum1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_1,981,SFS_SFS18 - Derrinallum1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_1,714,SFS_SFS18 - Derrinallum1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_1,1250,SFS_SFS18 - Derrinallum1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_1,372,SFS_SFS18 - Derrinallum1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_1,301,SFS_SFS18 - Derrinallum1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_1,515,SFS_SFS18 - Derrinallum1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_1,654,SFS_SFS18 - Derrinallum1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_1,157,SFS_SFS18 - Derrinallum1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_1,18,SFS_SFS18 - Derrinallum1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_2,449,SFS_SFS21 - Lismore1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_2,590,SFS_SFS21 - Lismore1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_2,520,SFS_SFS21 - Lismore1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_2,90,SFS_SFS21 - Lismore1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_2,377,SFS_SFS21 - Lismore1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_2,1186,SFS_SFS21 - Lismore1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_2,1255,SFS_SFS21 - Lismore1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_2,852,SFS_SFS21 - Lismore1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_2,718,SFS_SFS21 - Lismore1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_2,985,SFS_SFS21 - Lismore1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_2,306,SFS_SFS21 - Lismore1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_2,1052,SFS_SFS21 - Lismore1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_2,919,SFS_SFS21 - Lismore1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_2,1119,SFS_SFS21 - Lismore1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_2,785,SFS_SFS21 - Lismore1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_2,234,SFS_SFS21 - Lismore1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_2,162,SFS_SFS21 - Lismore1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_2,23,SFS_SFS21 - Lismore1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_2,659,SFS_SFS21 - Lismore1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_3,587,SFS_SFS22 - Derrinallum2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_3,1252,SFS_SFS22 - Derrinallum2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_3,159,SFS_SFS22 - Derrinallum2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_3,1420,SFS_SFS22 - Derrinallum2_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_3,87,SFS_SFS22 - Derrinallum2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_3,374,SFS_SFS22 - Derrinallum2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_3,303,SFS_SFS22 - Derrinallum2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_3,446,SFS_SFS22 - Derrinallum2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_3,1384,SFS_SFS22 - Derrinallum2_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_3,231,SFS_SFS22 - Derrinallum2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_3,517,SFS_SFS22 - Derrinallum2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_3,1401,SFS_SFS22 - Derrinallum2_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_3,20,SFS_SFS22 - Derrinallum2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_3,656,SFS_SFS22 - Derrinallum2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_4,1296,SFS_SFS54 - Hagley IrriCAC_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_5,44,SFS_SFS44  - Willaura_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_5,113,SFS_SFS44  - Willaura_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_5,185,SFS_SFS44  - Willaura_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_5,257,SFS_SFS44  - Willaura_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_5,328,SFS_SFS44  - Willaura_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_5,400,SFS_SFS44  - Willaura_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_5,472,SFS_SFS44  - Willaura_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_5,543,SFS_SFS44  - Willaura_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_5,613,SFS_SFS44  - Willaura_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_5,1278,SFS_SFS44  - Willaura_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_6,992,SFS_SFS25 - Vite Vite_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_6,1262,SFS_SFS25 - Vite Vite_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_6,384,SFS_SFS25 - Vite Vite_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_6,1059,SFS_SFS25 - Vite Vite_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_6,97,SFS_SFS25 - Vite Vite_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_6,1193,SFS_SFS25 - Vite Vite_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_6,456,SFS_SFS25 - Vite Vite_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_6,527,SFS_SFS25 - Vite Vite_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_6,859,SFS_SFS25 - Vite Vite_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_6,926,SFS_SFS25 - Vite Vite_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_6,241,SFS_SFS25 - Vite Vite_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_6,792,SFS_SFS25 - Vite Vite_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_6,725,SFS_SFS25 - Vite Vite_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_6,313,SFS_SFS25 - Vite Vite_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_6,1126,SFS_SFS25 - Vite Vite_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_6,169,SFS_SFS25 - Vite Vite_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_6,597,SFS_SFS25 - Vite Vite_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_6,30,SFS_SFS25 - Vite Vite_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_6,666,SFS_SFS25 - Vite Vite_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_7,25,SFS_SFS29 - Meerlieu_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_7,92,SFS_SFS29 - Meerlieu_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_7,164,SFS_SFS29 - Meerlieu_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_7,236,SFS_SFS29 - Meerlieu_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_7,308,SFS_SFS29 - Meerlieu_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_7,379,SFS_SFS29 - Meerlieu_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_7,451,SFS_SFS29 - Meerlieu_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_7,522,SFS_SFS29 - Meerlieu_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_7,592,SFS_SFS29 - Meerlieu_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_7,661,SFS_SFS29 - Meerlieu_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_7,720,SFS_SFS29 - Meerlieu_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_7,787,SFS_SFS29 - Meerlieu_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_7,854,SFS_SFS29 - Meerlieu_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_7,921,SFS_SFS29 - Meerlieu_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_7,987,SFS_SFS29 - Meerlieu_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_7,1054,SFS_SFS29 - Meerlieu_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_7,1121,SFS_SFS29 - Meerlieu_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_7,1188,SFS_SFS29 - Meerlieu_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_7,1257,SFS_SFS29 - Meerlieu_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_8,46,SFS_SFS54 - Lake River Cressy_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_8,115,SFS_SFS54 - Lake River Cressy_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_8,187,SFS_SFS54 - Lake River Cressy_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_8,259,SFS_SFS54 - Lake River Cressy_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_8,330,SFS_SFS54 - Lake River Cressy_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_8,402,SFS_SFS54 - Lake River Cressy_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_8,474,SFS_SFS54 - Lake River Cressy_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_8,615,SFS_SFS54 - Lake River Cressy_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_8,1280,SFS_SFS54 - Lake River Cressy_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_9,789,SFS_SFS27 - Mininera_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_9,1403,SFS_SFS27 - Mininera_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_9,166,SFS_SFS27 - Mininera_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_9,856,SFS_SFS27 - Mininera_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_9,923,SFS_SFS27 - Mininera_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_9,381,SFS_SFS27 - Mininera_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_9,1123,SFS_SFS27 - Mininera_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_9,238,SFS_SFS27 - Mininera_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_9,722,SFS_SFS27 - Mininera_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_9,1056,SFS_SFS27 - Mininera_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_9,94,SFS_SFS27 - Mininera_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_9,1385,SFS_SFS27 - Mininera_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_9,594,SFS_SFS27 - Mininera_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_9,1259,SFS_SFS27 - Mininera_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_9,453,SFS_SFS27 - Mininera_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_9,1190,SFS_SFS27 - Mininera_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_9,310,SFS_SFS27 - Mininera_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_9,989,SFS_SFS27 - Mininera_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_9,1422,SFS_SFS27 - Mininera_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_9,524,SFS_SFS27 - Mininera_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_9,27,SFS_SFS27 - Mininera_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_9,663,SFS_SFS27 - Mininera_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_10,790,SFS_SFS32 - Tatyoon2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_10,924,SFS_SFS32 - Tatyoon2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_10,311,SFS_SFS32 - Tatyoon2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_10,723,SFS_SFS32 - Tatyoon2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_10,1124,SFS_SFS32 - Tatyoon2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_10,1260,SFS_SFS32 - Tatyoon2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_10,95,SFS_SFS32 - Tatyoon2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_10,1423,SFS_SFS32 - Tatyoon2_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_10,1404,SFS_SFS32 - Tatyoon2_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_10,990,SFS_SFS32 - Tatyoon2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_10,857,SFS_SFS32 - Tatyoon2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_10,454,SFS_SFS32 - Tatyoon2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_10,382,SFS_SFS32 - Tatyoon2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_10,1191,SFS_SFS32 - Tatyoon2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_10,1057,SFS_SFS32 - Tatyoon2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_10,595,SFS_SFS32 - Tatyoon2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_10,525,SFS_SFS32 - Tatyoon2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_10,239,SFS_SFS32 - Tatyoon2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_10,167,SFS_SFS32 - Tatyoon2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_10,28,SFS_SFS32 - Tatyoon2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_10,664,SFS_SFS32 - Tatyoon2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_11,1195,SFS_SFS35 - Tatyoon1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_11,861,SFS_SFS35 - Tatyoon1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_11,599,SFS_SFS35 - Tatyoon1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_11,1128,SFS_SFS35 - Tatyoon1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_11,529,SFS_SFS35 - Tatyoon1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_11,171,SFS_SFS35 - Tatyoon1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_11,1424,SFS_SFS35 - Tatyoon1_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_11,794,SFS_SFS35 - Tatyoon1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_11,99,SFS_SFS35 - Tatyoon1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_11,315,SFS_SFS35 - Tatyoon1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_11,928,SFS_SFS35 - Tatyoon1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_11,386,SFS_SFS35 - Tatyoon1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_11,1264,SFS_SFS35 - Tatyoon1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_11,994,SFS_SFS35 - Tatyoon1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_11,1405,SFS_SFS35 - Tatyoon1_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_11,458,SFS_SFS35 - Tatyoon1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_11,727,SFS_SFS35 - Tatyoon1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_11,1061,SFS_SFS35 - Tatyoon1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_11,243,SFS_SFS35 - Tatyoon1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_11,32,SFS_SFS35 - Tatyoon1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_11,668,SFS_SFS35 - Tatyoon1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_12,168,SFS_SFS36 - Langi Logan_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_12,240,SFS_SFS36 - Langi Logan_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_12,96,SFS_SFS36 - Langi Logan_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_12,1192,SFS_SFS36 - Langi Logan_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_12,383,SFS_SFS36 - Langi Logan_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_12,724,SFS_SFS36 - Langi Logan_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_12,925,SFS_SFS36 - Langi Logan_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_12,1058,SFS_SFS36 - Langi Logan_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_12,858,SFS_SFS36 - Langi Logan_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_12,791,SFS_SFS36 - Langi Logan_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_12,1125,SFS_SFS36 - Langi Logan_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_12,1261,SFS_SFS36 - Langi Logan_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_12,596,SFS_SFS36 - Langi Logan_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_12,312,SFS_SFS36 - Langi Logan_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_12,991,SFS_SFS36 - Langi Logan_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_12,455,SFS_SFS36 - Langi Logan_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_12,526,SFS_SFS36 - Langi Logan_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_12,29,SFS_SFS36 - Langi Logan_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_12,665,SFS_SFS36 - Langi Logan_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_13,108,SFS_SFS38 - Westmere_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_13,1273,SFS_SFS38 - Westmere_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_13,1426,SFS_SFS38 - Westmere_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_13,180,SFS_SFS38 - Westmere_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_13,1137,SFS_SFS38 - Westmere_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_13,467,SFS_SFS38 - Westmere_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_13,1407,SFS_SFS38 - Westmere_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_13,252,SFS_SFS38 - Westmere_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_13,395,SFS_SFS38 - Westmere_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_13,870,SFS_SFS38 - Westmere_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_13,736,SFS_SFS38 - Westmere_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_13,803,SFS_SFS38 - Westmere_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_13,323,SFS_SFS38 - Westmere_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_13,1003,SFS_SFS38 - Westmere_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_13,1070,SFS_SFS38 - Westmere_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_13,937,SFS_SFS38 - Westmere_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_13,608,SFS_SFS38 - Westmere_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_13,538,SFS_SFS38 - Westmere_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_13,1204,SFS_SFS38 - Westmere_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_13,40,SFS_SFS38 - Westmere_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_13,675,SFS_SFS38 - Westmere_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_13,697,SFS_SFS38 - Westmere_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_13,66,SFS_SFS38 - Westmere_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_13,1438,SFS_SFS38 - Westmere_BarometricPressure_0,Atmospheric-Pressure,0,0,TRUE,hPa,TRUE
+SFS_14,1270,SFS_SFS41 - Pittong_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_14,1201,SFS_SFS41 - Pittong_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_14,1134,SFS_SFS41 - Pittong_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_14,1067,SFS_SFS41 - Pittong_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_14,1000,SFS_SFS41 - Pittong_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_14,934,SFS_SFS41 - Pittong_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_14,867,SFS_SFS41 - Pittong_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_14,800,SFS_SFS41 - Pittong_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_14,733,SFS_SFS41 - Pittong_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_14,605,SFS_SFS41 - Pittong_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_14,535,SFS_SFS41 - Pittong_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_14,464,SFS_SFS41 - Pittong_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_14,392,SFS_SFS41 - Pittong_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_14,320,SFS_SFS41 - Pittong_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_14,249,SFS_SFS41 - Pittong_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_14,177,SFS_SFS41 - Pittong_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_14,105,SFS_SFS41 - Pittong_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_14,672,SFS_SFS41 - Pittong_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_15,1383,SFS_SFS13 - Lethbridge_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_15,1400,SFS_SFS13 - Lethbridge_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_15,1110,SFS_SFS13 - Lethbridge_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_15,776,SFS_SFS13 - Lethbridge_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_15,843,SFS_SFS13 - Lethbridge_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_15,976,SFS_SFS13 - Lethbridge_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_15,1043,SFS_SFS13 - Lethbridge_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_15,910,SFS_SFS13 - Lethbridge_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_15,1177,SFS_SFS13 - Lethbridge_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_15,1419,SFS_SFS13 - Lethbridge_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_15,709,SFS_SFS13 - Lethbridge_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_15,1245,SFS_SFS13 - Lethbridge_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_15,13,SFS_SFS13 - Lethbridge_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_15,80,SFS_SFS13 - Lethbridge_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_15,152,SFS_SFS13 - Lethbridge_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_15,224,SFS_SFS13 - Lethbridge_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_15,296,SFS_SFS13 - Lethbridge_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_15,439,SFS_SFS13 - Lethbridge_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_15,510,SFS_SFS13 - Lethbridge_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_15,580,SFS_SFS13 - Lethbridge_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_15,649,SFS_SFS13 - Lethbridge_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_15,367,SFS_SFS13 - Lethbridge_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_16,1302,SFS_SFS106 - Mount Wallace_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_16,826,SFS_SFS106 - Mount Wallace_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_16,1093,SFS_SFS106 - Mount Wallace_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_16,1227,SFS_SFS106 - Mount Wallace_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_16,1026,SFS_SFS106 - Mount Wallace_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_16,759,SFS_SFS106 - Mount Wallace_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_16,960,SFS_SFS106 - Mount Wallace_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_16,1160,SFS_SFS106 - Mount Wallace_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_16,893,SFS_SFS106 - Mount Wallace_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_16,134,SFS_SFS106 - Mount Wallace_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_16,206,SFS_SFS106 - Mount Wallace_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_16,278,SFS_SFS106 - Mount Wallace_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_16,349,SFS_SFS106 - Mount Wallace_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_16,421,SFS_SFS106 - Mount Wallace_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_16,493,SFS_SFS106 - Mount Wallace_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_16,562,SFS_SFS106 - Mount Wallace_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_16,633,SFS_SFS106 - Mount Wallace_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_17,1242,SFS_SFS11 - Ballan1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_17,907,SFS_SFS11 - Ballan1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_17,840,SFS_SFS11 - Ballan1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_17,1040,SFS_SFS11 - Ballan1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_17,1174,SFS_SFS11 - Ballan1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_17,1107,SFS_SFS11 - Ballan1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_17,773,SFS_SFS11 - Ballan1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_17,973,SFS_SFS11 - Ballan1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_17,706,SFS_SFS11 - Ballan1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_17,11,SFS_SFS11 - Ballan1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_17,77,SFS_SFS11 - Ballan1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_17,149,SFS_SFS11 - Ballan1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_17,221,SFS_SFS11 - Ballan1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_17,293,SFS_SFS11 - Ballan1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_17,364,SFS_SFS11 - Ballan1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_17,436,SFS_SFS11 - Ballan1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_17,507,SFS_SFS11 - Ballan1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_17,577,SFS_SFS11 - Ballan1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_17,647,SFS_SFS11 - Ballan1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_18,49,SFS_SFS39 - Lake Bolac3_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_18,118,SFS_SFS39 - Lake Bolac3_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_18,190,SFS_SFS39 - Lake Bolac3_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_18,262,SFS_SFS39 - Lake Bolac3_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_18,333,SFS_SFS39 - Lake Bolac3_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_18,405,SFS_SFS39 - Lake Bolac3_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_18,477,SFS_SFS39 - Lake Bolac3_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_18,547,SFS_SFS39 - Lake Bolac3_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_18,618,SFS_SFS39 - Lake Bolac3_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_18,682,SFS_SFS39 - Lake Bolac3_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_18,745,SFS_SFS39 - Lake Bolac3_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_18,812,SFS_SFS39 - Lake Bolac3_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_18,879,SFS_SFS39 - Lake Bolac3_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_18,946,SFS_SFS39 - Lake Bolac3_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_18,1012,SFS_SFS39 - Lake Bolac3_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_18,1079,SFS_SFS39 - Lake Bolac3_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_18,1146,SFS_SFS39 - Lake Bolac3_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_18,1213,SFS_SFS39 - Lake Bolac3_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_18,1284,SFS_SFS39 - Lake Bolac3_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_19,48,SFS_SFS40 - Balliang East_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_19,117,SFS_SFS40 - Balliang East_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_19,189,SFS_SFS40 - Balliang East_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_19,261,SFS_SFS40 - Balliang East_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_19,332,SFS_SFS40 - Balliang East_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_19,404,SFS_SFS40 - Balliang East_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_19,476,SFS_SFS40 - Balliang East_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_19,546,SFS_SFS40 - Balliang East_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_19,617,SFS_SFS40 - Balliang East_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_19,681,SFS_SFS40 - Balliang East_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_19,744,SFS_SFS40 - Balliang East_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_19,811,SFS_SFS40 - Balliang East_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_19,878,SFS_SFS40 - Balliang East_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_19,945,SFS_SFS40 - Balliang East_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_19,1011,SFS_SFS40 - Balliang East_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_19,1078,SFS_SFS40 - Balliang East_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_19,1145,SFS_SFS40 - Balliang East_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_19,1212,SFS_SFS40 - Balliang East_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_19,1283,SFS_SFS40 - Balliang East_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_20,55,SFS_SFS43 - Gatum_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_20,124,SFS_SFS43 - Gatum_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_20,196,SFS_SFS43 - Gatum_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_20,268,SFS_SFS43 - Gatum_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_20,339,SFS_SFS43 - Gatum_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_20,411,SFS_SFS43 - Gatum_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_20,483,SFS_SFS43 - Gatum_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_20,553,SFS_SFS43 - Gatum_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_20,624,SFS_SFS43 - Gatum_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_20,751,SFS_SFS43 - Gatum_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_20,818,SFS_SFS43 - Gatum_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_20,885,SFS_SFS43 - Gatum_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_20,952,SFS_SFS43 - Gatum_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_20,1018,SFS_SFS43 - Gatum_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_20,1085,SFS_SFS43 - Gatum_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_20,1152,SFS_SFS43 - Gatum_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_20,1219,SFS_SFS43 - Gatum_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_20,1290,SFS_SFS43 - Gatum_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_21,604,SFS_SFS24 - Narrapumelap South_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_21,534,SFS_SFS24 - Narrapumelap South_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_21,104,SFS_SFS24 - Narrapumelap South_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_21,1406,SFS_SFS24 - Narrapumelap South_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_21,999,SFS_SFS24 - Narrapumelap South_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_21,732,SFS_SFS24 - Narrapumelap South_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_21,1200,SFS_SFS24 - Narrapumelap South_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_21,1133,SFS_SFS24 - Narrapumelap South_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_21,248,SFS_SFS24 - Narrapumelap South_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_21,866,SFS_SFS24 - Narrapumelap South_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_21,933,SFS_SFS24 - Narrapumelap South_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_21,391,SFS_SFS24 - Narrapumelap South_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_21,1269,SFS_SFS24 - Narrapumelap South_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_21,799,SFS_SFS24 - Narrapumelap South_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_21,1066,SFS_SFS24 - Narrapumelap South_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_21,1425,SFS_SFS24 - Narrapumelap South_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_21,37,SFS_SFS24 - Narrapumelap South_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_21,463,SFS_SFS24 - Narrapumelap South_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_21,176,SFS_SFS24 - Narrapumelap South_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_22,1205,SFS_SFS46 - Glenthompson_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_22,804,SFS_SFS46 - Glenthompson_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_22,324,SFS_SFS46 - Glenthompson_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_22,1071,SFS_SFS46 - Glenthompson_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_22,1274,SFS_SFS46 - Glenthompson_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_22,539,SFS_SFS46 - Glenthompson_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_22,1427,SFS_SFS46 - Glenthompson_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_22,1004,SFS_SFS46 - Glenthompson_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_22,1138,SFS_SFS46 - Glenthompson_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_22,737,SFS_SFS46 - Glenthompson_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_22,1408,SFS_SFS46 - Glenthompson_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_22,871,SFS_SFS46 - Glenthompson_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_22,938,SFS_SFS46 - Glenthompson_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_22,468,SFS_SFS46 - Glenthompson_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_22,609,SFS_SFS46 - Glenthompson_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_22,396,SFS_SFS46 - Glenthompson_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_22,109,SFS_SFS46 - Glenthompson_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_22,253,SFS_SFS46 - Glenthompson_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_22,181,SFS_SFS46 - Glenthompson_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_22,41,SFS_SFS46 - Glenthompson_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_23,1215,SFS_SFS56 - Mirranatwa_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_23,1148,SFS_SFS56 - Mirranatwa_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_23,1081,SFS_SFS56 - Mirranatwa_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_23,1014,SFS_SFS56 - Mirranatwa_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_23,948,SFS_SFS56 - Mirranatwa_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_23,881,SFS_SFS56 - Mirranatwa_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_23,814,SFS_SFS56 - Mirranatwa_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_23,747,SFS_SFS56 - Mirranatwa_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_23,620,SFS_SFS56 - Mirranatwa_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_23,549,SFS_SFS56 - Mirranatwa_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_23,479,SFS_SFS56 - Mirranatwa_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_23,407,SFS_SFS56 - Mirranatwa_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_23,335,SFS_SFS56 - Mirranatwa_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_23,264,SFS_SFS56 - Mirranatwa_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_23,192,SFS_SFS56 - Mirranatwa_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_23,120,SFS_SFS56 - Mirranatwa_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_23,51,SFS_SFS56 - Mirranatwa_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_23,684,SFS_SFS56 - Mirranatwa_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_23,1286,SFS_SFS56 - Mirranatwa_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_24,750,SFS_SFS58 - Hensley Park_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_24,884,SFS_SFS58 - Hensley Park_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_24,1218,SFS_SFS58 - Hensley Park_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_24,623,SFS_SFS58 - Hensley Park_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_24,482,SFS_SFS58 - Hensley Park_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_24,338,SFS_SFS58 - Hensley Park_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_24,1151,SFS_SFS58 - Hensley Park_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_24,817,SFS_SFS58 - Hensley Park_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_24,410,SFS_SFS58 - Hensley Park_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_24,1017,SFS_SFS58 - Hensley Park_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_24,951,SFS_SFS58 - Hensley Park_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_24,552,SFS_SFS58 - Hensley Park_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_24,1084,SFS_SFS58 - Hensley Park_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_24,195,SFS_SFS58 - Hensley Park_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_24,267,SFS_SFS58 - Hensley Park_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_24,123,SFS_SFS58 - Hensley Park_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_24,54,SFS_SFS58 - Hensley Park_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_24,687,SFS_SFS58 - Hensley Park_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_24,1289,SFS_SFS58 - Hensley Park_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_25,1101,SFS_SFS1 - Werneth 1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_25,70,SFS_SFS1 - Werneth 1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_25,357,SFS_SFS1 - Werneth 1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_25,834,SFS_SFS1 - Werneth 1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_25,214,SFS_SFS1 - Werneth 1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_25,501,SFS_SFS1 - Werneth 1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_25,142,SFS_SFS1 - Werneth 1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_25,967,SFS_SFS1 - Werneth 1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_25,570,SFS_SFS1 - Werneth 1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_25,901,SFS_SFS1 - Werneth 1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_25,1034,SFS_SFS1 - Werneth 1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_25,767,SFS_SFS1 - Werneth 1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_25,700,SFS_SFS1 - Werneth 1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_25,429,SFS_SFS1 - Werneth 1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_25,1235,SFS_SFS1 - Werneth 1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_25,1168,SFS_SFS1 - Werneth 1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_25,286,SFS_SFS1 - Werneth 1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_25,4,SFS_SFS1 - Werneth 1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_25,641,SFS_SFS1 - Werneth 1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_26,64,SFS_SFS3 - Winchelsea1_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_26,7,SFS_SFS3 - Winchelsea1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_26,73,SFS_SFS3 - Winchelsea1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_26,145,SFS_SFS3 - Winchelsea1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_26,217,SFS_SFS3 - Winchelsea1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_26,289,SFS_SFS3 - Winchelsea1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_26,360,SFS_SFS3 - Winchelsea1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_26,432,SFS_SFS3 - Winchelsea1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_26,504,SFS_SFS3 - Winchelsea1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_26,573,SFS_SFS3 - Winchelsea1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_26,644,SFS_SFS3 - Winchelsea1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_26,695,SFS_SFS3 - Winchelsea1_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_26,703,SFS_SFS3 - Winchelsea1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_26,770,SFS_SFS3 - Winchelsea1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_26,837,SFS_SFS3 - Winchelsea1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_26,904,SFS_SFS3 - Winchelsea1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_26,970,SFS_SFS3 - Winchelsea1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_26,1037,SFS_SFS3 - Winchelsea1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_26,1104,SFS_SFS3 - Winchelsea1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_26,1171,SFS_SFS3 - Winchelsea1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_26,1238,SFS_SFS3 - Winchelsea1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_27,8,SFS_SFS6 - Lake Bolac2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_27,65,SFS_SFS6 - Lake Bolac2_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_27,74,SFS_SFS6 - Lake Bolac2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_27,146,SFS_SFS6 - Lake Bolac2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_27,218,SFS_SFS6 - Lake Bolac2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_27,290,SFS_SFS6 - Lake Bolac2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_27,361,SFS_SFS6 - Lake Bolac2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_27,433,SFS_SFS6 - Lake Bolac2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_27,505,SFS_SFS6 - Lake Bolac2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_27,574,SFS_SFS6 - Lake Bolac2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_27,645,SFS_SFS6 - Lake Bolac2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_27,696,SFS_SFS6 - Lake Bolac2_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_27,704,SFS_SFS6 - Lake Bolac2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_27,771,SFS_SFS6 - Lake Bolac2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_27,838,SFS_SFS6 - Lake Bolac2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_27,905,SFS_SFS6 - Lake Bolac2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_27,971,SFS_SFS6 - Lake Bolac2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_27,1038,SFS_SFS6 - Lake Bolac2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_27,1105,SFS_SFS6 - Lake Bolac2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_27,1172,SFS_SFS6 - Lake Bolac2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_27,1239,SFS_SFS6 - Lake Bolac2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_28,22,SFS_SFS20 - Inverleigh1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_28,89,SFS_SFS20 - Inverleigh1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_28,161,SFS_SFS20 - Inverleigh1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_28,233,SFS_SFS20 - Inverleigh1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_28,305,SFS_SFS20 - Inverleigh1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_28,376,SFS_SFS20 - Inverleigh1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_28,448,SFS_SFS20 - Inverleigh1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_28,519,SFS_SFS20 - Inverleigh1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_28,589,SFS_SFS20 - Inverleigh1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_28,658,SFS_SFS20 - Inverleigh1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_28,717,SFS_SFS20 - Inverleigh1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_28,784,SFS_SFS20 - Inverleigh1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_28,851,SFS_SFS20 - Inverleigh1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_28,918,SFS_SFS20 - Inverleigh1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_28,984,SFS_SFS20 - Inverleigh1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_28,1051,SFS_SFS20 - Inverleigh1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_28,1118,SFS_SFS20 - Inverleigh1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_28,1185,SFS_SFS20 - Inverleigh1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_28,1254,SFS_SFS20 - Inverleigh1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_29,33,SFS_SFS26 - Winchelsea2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_29,100,SFS_SFS26 - Winchelsea2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_29,172,SFS_SFS26 - Winchelsea2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_29,244,SFS_SFS26 - Winchelsea2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_29,316,SFS_SFS26 - Winchelsea2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_29,387,SFS_SFS26 - Winchelsea2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_29,459,SFS_SFS26 - Winchelsea2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_29,530,SFS_SFS26 - Winchelsea2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_29,600,SFS_SFS26 - Winchelsea2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_29,669,SFS_SFS26 - Winchelsea2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_29,728,SFS_SFS26 - Winchelsea2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_29,795,SFS_SFS26 - Winchelsea2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_29,862,SFS_SFS26 - Winchelsea2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_29,929,SFS_SFS26 - Winchelsea2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_29,995,SFS_SFS26 - Winchelsea2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_29,1062,SFS_SFS26 - Winchelsea2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_29,1129,SFS_SFS26 - Winchelsea2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_29,1196,SFS_SFS26 - Winchelsea2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_29,1265,SFS_SFS26 - Winchelsea2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_30,26,SFS_SFS28 - Derrinallum3_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_30,93,SFS_SFS28 - Derrinallum3_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_30,165,SFS_SFS28 - Derrinallum3_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_30,237,SFS_SFS28 - Derrinallum3_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_30,309,SFS_SFS28 - Derrinallum3_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_30,380,SFS_SFS28 - Derrinallum3_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_30,452,SFS_SFS28 - Derrinallum3_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_30,523,SFS_SFS28 - Derrinallum3_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_30,593,SFS_SFS28 - Derrinallum3_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_30,662,SFS_SFS28 - Derrinallum3_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_30,721,SFS_SFS28 - Derrinallum3_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_30,788,SFS_SFS28 - Derrinallum3_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_30,855,SFS_SFS28 - Derrinallum3_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_30,922,SFS_SFS28 - Derrinallum3_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_30,988,SFS_SFS28 - Derrinallum3_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_30,1055,SFS_SFS28 - Derrinallum3_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_30,1122,SFS_SFS28 - Derrinallum3_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_30,1189,SFS_SFS28 - Derrinallum3_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_30,1258,SFS_SFS28 - Derrinallum3_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_31,24,SFS_SFS30 - Lidenow_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_31,91,SFS_SFS30 - Lidenow_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_31,163,SFS_SFS30 - Lidenow_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_31,235,SFS_SFS30 - Lidenow_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_31,307,SFS_SFS30 - Lidenow_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_31,378,SFS_SFS30 - Lidenow_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_31,450,SFS_SFS30 - Lidenow_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_31,521,SFS_SFS30 - Lidenow_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_31,591,SFS_SFS30 - Lidenow_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_31,660,SFS_SFS30 - Lidenow_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_31,719,SFS_SFS30 - Lidenow_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_31,786,SFS_SFS30 - Lidenow_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_31,853,SFS_SFS30 - Lidenow_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_31,920,SFS_SFS30 - Lidenow_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_31,986,SFS_SFS30 - Lidenow_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_31,1053,SFS_SFS30 - Lidenow_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_31,1120,SFS_SFS30 - Lidenow_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_31,1187,SFS_SFS30 - Lidenow_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_31,1256,SFS_SFS30 - Lidenow_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_32,17,SFS_SFS33 - Dutson Downs_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_32,84,SFS_SFS33 - Dutson Downs_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_32,156,SFS_SFS33 - Dutson Downs_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_32,228,SFS_SFS33 - Dutson Downs_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_32,300,SFS_SFS33 - Dutson Downs_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_32,371,SFS_SFS33 - Dutson Downs_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_32,443,SFS_SFS33 - Dutson Downs_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_32,514,SFS_SFS33 - Dutson Downs_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_32,584,SFS_SFS33 - Dutson Downs_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_32,653,SFS_SFS33 - Dutson Downs_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_32,713,SFS_SFS33 - Dutson Downs_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_32,780,SFS_SFS33 - Dutson Downs_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_32,847,SFS_SFS33 - Dutson Downs_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_32,914,SFS_SFS33 - Dutson Downs_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_32,980,SFS_SFS33 - Dutson Downs_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_32,1047,SFS_SFS33 - Dutson Downs_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_32,1114,SFS_SFS33 - Dutson Downs_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_32,1181,SFS_SFS33 - Dutson Downs_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_32,1249,SFS_SFS33 - Dutson Downs_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_33,742,SFS_SFS55 - Tunbridge_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_33,809,SFS_SFS55 - Tunbridge_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_33,876,SFS_SFS55 - Tunbridge_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_33,943,SFS_SFS55 - Tunbridge_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_33,1009,SFS_SFS55 - Tunbridge_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_33,1076,SFS_SFS55 - Tunbridge_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_33,1143,SFS_SFS55 - Tunbridge_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_33,1210,SFS_SFS55 - Tunbridge_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_33,1281,SFS_SFS55 - Tunbridge_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_34,45,SFS_SFS53 - Western Junction_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_34,114,SFS_SFS53 - Western Junction_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_34,186,SFS_SFS53 - Western Junction_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_34,258,SFS_SFS53 - Western Junction_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_34,329,SFS_SFS53 - Western Junction_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_34,401,SFS_SFS53 - Western Junction_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_34,473,SFS_SFS53 - Western Junction_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_34,544,SFS_SFS53 - Western Junction_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_34,614,SFS_SFS53 - Western Junction_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_34,679,SFS_SFS53 - Western Junction_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_34,741,SFS_SFS53 - Western Junction_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_34,808,SFS_SFS53 - Western Junction_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_34,875,SFS_SFS53 - Western Junction_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_34,942,SFS_SFS53 - Western Junction_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_34,1008,SFS_SFS53 - Western Junction_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_34,1075,SFS_SFS53 - Western Junction_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_34,1142,SFS_SFS53 - Western Junction_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_34,1209,SFS_SFS53 - Western Junction_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_34,1279,SFS_SFS53 - Western Junction_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_35,59,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_35,67,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_35,129,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_35,201,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_35,273,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_35,344,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_35,416,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_35,488,SFS_SFS54 - Hagley IrriCAC_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_35,1297,SFS_SFS54 - Hagley IrriCAC_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_36,1430,SFS_SFS61 - AWS Campbell Town_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_36,1411,SFS_SFS61 - AWS Campbell Town_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_36,1293,SFS_SFS61 - AWS Campbell Town_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_36,57,SFS_SFS61 - AWS Campbell Town_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_36,127,SFS_SFS61 - AWS Campbell Town_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_36,199,SFS_SFS61 - AWS Campbell Town_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_36,271,SFS_SFS61 - AWS Campbell Town_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_36,342,SFS_SFS61 - AWS Campbell Town_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_36,414,SFS_SFS61 - AWS Campbell Town_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_36,486,SFS_SFS61 - AWS Campbell Town_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_36,556,SFS_SFS61 - AWS Campbell Town_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_36,627,SFS_SFS61 - AWS Campbell Town_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_36,689,SFS_SFS61 - AWS Campbell Town_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_36,753,SFS_SFS61 - AWS Campbell Town_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_36,820,SFS_SFS61 - AWS Campbell Town_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_36,887,SFS_SFS61 - AWS Campbell Town_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_36,954,SFS_SFS61 - AWS Campbell Town_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_36,1020,SFS_SFS61 - AWS Campbell Town_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_36,1087,SFS_SFS61 - AWS Campbell Town_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_36,1154,SFS_SFS61 - AWS Campbell Town_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_36,1221,SFS_SFS61 - AWS Campbell Town_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_37,56,SFS_SFS62 - AWS Hagley_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_37,126,SFS_SFS62 - AWS Hagley_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_37,198,SFS_SFS62 - AWS Hagley_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_37,270,SFS_SFS62 - AWS Hagley_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_37,341,SFS_SFS62 - AWS Hagley_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_37,413,SFS_SFS62 - AWS Hagley_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_37,485,SFS_SFS62 - AWS Hagley_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_37,555,SFS_SFS62 - AWS Hagley_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_37,626,SFS_SFS62 - AWS Hagley_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_37,1292,SFS_SFS62 - AWS Hagley_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_37,1410,SFS_SFS62 - AWS Hagley_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_37,1429,SFS_SFS62 - AWS Hagley_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_38,564,SFS_SFS105 - Banongil_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_38,1389,SFS_SFS105 - Banongil_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_38,208,SFS_SFS105 - Banongil_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_38,1095,SFS_SFS105 - Banongil_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_38,1229,SFS_SFS105 - Banongil_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_38,895,SFS_SFS105 - Banongil_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_38,495,SFS_SFS105 - Banongil_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_38,828,SFS_SFS105 - Banongil_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_38,136,SFS_SFS105 - Banongil_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_38,1162,SFS_SFS105 - Banongil_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_38,635,SFS_SFS105 - Banongil_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_38,280,SFS_SFS105 - Banongil_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_38,1436,SFS_SFS105 - Banongil_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_38,1304,SFS_SFS105 - Banongil_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_38,1028,SFS_SFS105 - Banongil_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_38,761,SFS_SFS105 - Banongil_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_38,1417,SFS_SFS105 - Banongil_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_38,423,SFS_SFS105 - Banongil_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_38,351,SFS_SFS105 - Banongil_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_38,962,SFS_SFS105 - Banongil_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_39,961,SFS_SFS107 - Woorndoo 2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_39,1416,SFS_SFS107 - Woorndoo 2_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_39,894,SFS_SFS107 - Woorndoo 2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_39,760,SFS_SFS107 - Woorndoo 2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_39,1435,SFS_SFS107 - Woorndoo 2_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_39,1228,SFS_SFS107 - Woorndoo 2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_39,1388,SFS_SFS107 - Woorndoo 2_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_39,1161,SFS_SFS107 - Woorndoo 2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_39,494,SFS_SFS107 - Woorndoo 2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_39,1303,SFS_SFS107 - Woorndoo 2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_39,634,SFS_SFS107 - Woorndoo 2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_39,422,SFS_SFS107 - Woorndoo 2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_39,827,SFS_SFS107 - Woorndoo 2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_39,350,SFS_SFS107 - Woorndoo 2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_39,1094,SFS_SFS107 - Woorndoo 2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_39,563,SFS_SFS107 - Woorndoo 2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_39,135,SFS_SFS107 - Woorndoo 2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_39,1027,SFS_SFS107 - Woorndoo 2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_39,279,SFS_SFS107 - Woorndoo 2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_39,207,SFS_SFS107 - Woorndoo 2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_40,83,SFS_SFS15 - Rokewood_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_40,1046,SFS_SFS15 - Rokewood_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_40,227,SFS_SFS15 - Rokewood_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_40,979,SFS_SFS15 - Rokewood_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_40,913,SFS_SFS15 - Rokewood_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_40,1113,SFS_SFS15 - Rokewood_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_40,583,SFS_SFS15 - Rokewood_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_40,846,SFS_SFS15 - Rokewood_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_40,155,SFS_SFS15 - Rokewood_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_40,442,SFS_SFS15 - Rokewood_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_40,779,SFS_SFS15 - Rokewood_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_40,1180,SFS_SFS15 - Rokewood_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_40,370,SFS_SFS15 - Rokewood_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_40,299,SFS_SFS15 - Rokewood_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_40,16,SFS_SFS15 - Rokewood_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_40,513,SFS_SFS15 - Rokewood_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_40,712,SFS_SFS15 - Rokewood_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_40,652,SFS_SFS15 - Rokewood_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_40,1248,SFS_SFS15 - Rokewood_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_41,375,SFS_SFS19 - Duverney_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_41,1050,SFS_SFS19 - Duverney_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_41,518,SFS_SFS19 - Duverney_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_41,88,SFS_SFS19 - Duverney_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_41,304,SFS_SFS19 - Duverney_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_41,716,SFS_SFS19 - Duverney_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_41,1117,SFS_SFS19 - Duverney_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_41,447,SFS_SFS19 - Duverney_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_41,850,SFS_SFS19 - Duverney_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_41,1421,SFS_SFS19 - Duverney_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_41,1184,SFS_SFS19 - Duverney_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_41,1402,SFS_SFS19 - Duverney_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_41,1253,SFS_SFS19 - Duverney_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_41,983,SFS_SFS19 - Duverney_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_41,917,SFS_SFS19 - Duverney_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_41,783,SFS_SFS19 - Duverney_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_41,588,SFS_SFS19 - Duverney_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_41,232,SFS_SFS19 - Duverney_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_41,160,SFS_SFS19 - Duverney_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_41,21,SFS_SFS19 - Duverney_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_41,657,SFS_SFS19 - Duverney_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_41,1437,SFS_SFS19 - Duverney_BarometricPressure_0,Atmospheric-Pressure,0,0,TRUE,hPa,TRUE
+SFS_42,245,SFS_SFS31 - Staughton Vale_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_42,1266,SFS_SFS31 - Staughton Vale_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_42,863,SFS_SFS31 - Staughton Vale_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_42,670,SFS_SFS31 - Staughton Vale_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_42,388,SFS_SFS31 - Staughton Vale_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_42,101,SFS_SFS31 - Staughton Vale_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_42,1130,SFS_SFS31 - Staughton Vale_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_42,173,SFS_SFS31 - Staughton Vale_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_42,729,SFS_SFS31 - Staughton Vale_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_42,460,SFS_SFS31 - Staughton Vale_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_42,317,SFS_SFS31 - Staughton Vale_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_42,996,SFS_SFS31 - Staughton Vale_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_42,1197,SFS_SFS31 - Staughton Vale_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_42,930,SFS_SFS31 - Staughton Vale_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_42,796,SFS_SFS31 - Staughton Vale_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_42,531,SFS_SFS31 - Staughton Vale_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_42,34,SFS_SFS31 - Staughton Vale_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_42,601,SFS_SFS31 - Staughton Vale_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_42,1063,SFS_SFS31 - Staughton Vale_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_43,102,SFS_SFS37 - Werneth 2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_43,730,SFS_SFS37 - Werneth 2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_43,1198,SFS_SFS37 - Werneth 2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_43,797,SFS_SFS37 - Werneth 2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_43,461,SFS_SFS37 - Werneth 2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_43,174,SFS_SFS37 - Werneth 2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_43,246,SFS_SFS37 - Werneth 2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_43,1064,SFS_SFS37 - Werneth 2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_43,997,SFS_SFS37 - Werneth 2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_43,389,SFS_SFS37 - Werneth 2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_43,532,SFS_SFS37 - Werneth 2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_43,931,SFS_SFS37 - Werneth 2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_43,318,SFS_SFS37 - Werneth 2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_43,602,SFS_SFS37 - Werneth 2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_43,1131,SFS_SFS37 - Werneth 2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_43,864,SFS_SFS37 - Werneth 2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_43,35,SFS_SFS37 - Werneth 2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_43,671,SFS_SFS37 - Werneth 2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_43,1267,SFS_SFS37 - Werneth 2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_44,1431,SFS_SFS44 - Inverleigh trial site_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_44,1412,SFS_SFS44 - Inverleigh trial site_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_44,1386,SFS_SFS44 - Inverleigh trial site_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_44,1294,SFS_SFS44 - Inverleigh trial site_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_45,269,SFS_SFS50 - Teesdale_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_45,125,SFS_SFS50 - Teesdale_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_45,1153,SFS_SFS50 - Teesdale_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_45,752,SFS_SFS50 - Teesdale_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_45,484,SFS_SFS50 - Teesdale_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_45,340,SFS_SFS50 - Teesdale_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_45,1086,SFS_SFS50 - Teesdale_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_45,554,SFS_SFS50 - Teesdale_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_45,953,SFS_SFS50 - Teesdale_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_45,625,SFS_SFS50 - Teesdale_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_45,1019,SFS_SFS50 - Teesdale_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_45,819,SFS_SFS50 - Teesdale_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_45,1409,SFS_SFS50 - Teesdale_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_45,197,SFS_SFS50 - Teesdale_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_45,412,SFS_SFS50 - Teesdale_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_45,1439,SFS_SFS50 - Teesdale_BarometricPressure_0,Atmospheric-Pressure,0,0,TRUE,hPa,TRUE
+SFS_45,886,SFS_SFS50 - Teesdale_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_45,1428,SFS_SFS50 - Teesdale_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_45,1220,SFS_SFS50 - Teesdale_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_45,1291,SFS_SFS50 - Teesdale_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_45,688,SFS_SFS50 - Teesdale_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_47,183,SFS_SFS42 - Mingay_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_47,873,SFS_SFS42 - Mingay_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_47,611,SFS_SFS42 - Mingay_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_47,398,SFS_SFS42 - Mingay_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_47,1073,SFS_SFS42 - Mingay_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_47,111,SFS_SFS42 - Mingay_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_47,1140,SFS_SFS42 - Mingay_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_47,470,SFS_SFS42 - Mingay_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_47,1207,SFS_SFS42 - Mingay_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_47,940,SFS_SFS42 - Mingay_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_47,806,SFS_SFS42 - Mingay_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_47,739,SFS_SFS42 - Mingay_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_47,1006,SFS_SFS42 - Mingay_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_47,541,SFS_SFS42 - Mingay_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_47,1276,SFS_SFS42 - Mingay_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_47,326,SFS_SFS42 - Mingay_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_47,255,SFS_SFS42 - Mingay_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_47,42,SFS_SFS42 - Mingay_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_47,677,SFS_SFS42 - Mingay_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_48,322,SFS_SFS47 - Wickliffe2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_48,1069,SFS_SFS47 - Wickliffe2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_48,936,SFS_SFS47 - Wickliffe2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_48,1136,SFS_SFS47 - Wickliffe2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_48,1002,SFS_SFS47 - Wickliffe2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_48,1203,SFS_SFS47 - Wickliffe2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_48,394,SFS_SFS47 - Wickliffe2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_48,607,SFS_SFS47 - Wickliffe2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_48,735,SFS_SFS47 - Wickliffe2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_48,869,SFS_SFS47 - Wickliffe2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_48,802,SFS_SFS47 - Wickliffe2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_48,466,SFS_SFS47 - Wickliffe2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_48,537,SFS_SFS47 - Wickliffe2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_48,251,SFS_SFS47 - Wickliffe2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_48,179,SFS_SFS47 - Wickliffe2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_48,107,SFS_SFS47 - Wickliffe2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_48,39,SFS_SFS47 - Wickliffe2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_48,674,SFS_SFS47 - Wickliffe2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_48,1272,SFS_SFS47 - Wickliffe2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_49,110,SFS_SFS51 - Longford_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_49,182,SFS_SFS51 - Longford_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_49,254,SFS_SFS51 - Longford_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_49,325,SFS_SFS51 - Longford_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_49,397,SFS_SFS51 - Longford_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_49,469,SFS_SFS51 - Longford_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_49,540,SFS_SFS51 - Longford_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_49,610,SFS_SFS51 - Longford_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_49,676,SFS_SFS51 - Longford_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_49,738,SFS_SFS51 - Longford_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_49,805,SFS_SFS51 - Longford_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_49,872,SFS_SFS51 - Longford_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_49,939,SFS_SFS51 - Longford_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_49,1005,SFS_SFS51 - Longford_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_49,1072,SFS_SFS51 - Longford_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_49,1139,SFS_SFS51 - Longford_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_49,1206,SFS_SFS51 - Longford_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_49,1275,SFS_SFS51 - Longford_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_50,43,SFS_SFS52 - Nile_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_50,112,SFS_SFS52 - Nile_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_50,184,SFS_SFS52 - Nile_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_50,256,SFS_SFS52 - Nile_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_50,327,SFS_SFS52 - Nile_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_50,399,SFS_SFS52 - Nile_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_50,471,SFS_SFS52 - Nile_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_50,542,SFS_SFS52 - Nile_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_50,612,SFS_SFS52 - Nile_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_50,678,SFS_SFS52 - Nile_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_50,740,SFS_SFS52 - Nile_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_50,807,SFS_SFS52 - Nile_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_50,874,SFS_SFS52 - Nile_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_50,941,SFS_SFS52 - Nile_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_50,1007,SFS_SFS52 - Nile_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_50,1074,SFS_SFS52 - Nile_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_50,1141,SFS_SFS52 - Nile_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_50,1208,SFS_SFS52 - Nile_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_50,1277,SFS_SFS52 - Nile_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_51,139,SFS_SFS55 - Campbell Town_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_51,211,SFS_SFS55 - Campbell Town_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_51,283,SFS_SFS55 - Campbell Town_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_51,354,SFS_SFS55 - Campbell Town_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_51,426,SFS_SFS55 - Campbell Town_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_51,498,SFS_SFS55 - Campbell Town_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_51,567,SFS_SFS55 - Campbell Town_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_51,638,SFS_SFS55 - Campbell Town_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_51,1307,SFS_SFS55 - Campbell Town_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_52,763,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_52,830,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_52,897,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_52,1030,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_52,1097,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_52,1164,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_52,1231,SFS_SFS109 - Vite Vite North - Molo Molo_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_52,1306,SFS_SFS109 - Vite Vite North - Molo Molo_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_53,957,SFS_SFS103 - Mt Gow_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_53,1090,SFS_SFS103 - Mt Gow_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_53,1224,SFS_SFS103 - Mt Gow_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_53,756,SFS_SFS103 - Mt Gow_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_53,890,SFS_SFS103 - Mt Gow_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_53,823,SFS_SFS103 - Mt Gow_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_53,1387,SFS_SFS103 - Mt Gow_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_53,1414,SFS_SFS103 - Mt Gow_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_53,1299,SFS_SFS103 - Mt Gow_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_53,1023,SFS_SFS103 - Mt Gow_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_53,1433,SFS_SFS103 - Mt Gow_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_53,1157,SFS_SFS103 - Mt Gow_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_53,131,SFS_SFS103 - Mt Gow_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_53,203,SFS_SFS103 - Mt Gow_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_53,275,SFS_SFS103 - Mt Gow_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_53,346,SFS_SFS103 - Mt Gow_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_53,418,SFS_SFS103 - Mt Gow_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_53,490,SFS_SFS103 - Mt Gow_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_53,559,SFS_SFS103 - Mt Gow_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_53,630,SFS_SFS103 - Mt Gow_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_54,1029,SFS_SFS108 - Mannibadar_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_54,963,SFS_SFS108 - Mannibadar_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_54,1163,SFS_SFS108 - Mannibadar_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_54,1096,SFS_SFS108 - Mannibadar_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_54,762,SFS_SFS108 - Mannibadar_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_54,1305,SFS_SFS108 - Mannibadar_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_54,1390,SFS_SFS108 - Mannibadar_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_54,1230,SFS_SFS108 - Mannibadar_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_54,896,SFS_SFS108 - Mannibadar_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_54,829,SFS_SFS108 - Mannibadar_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_54,137,SFS_SFS108 - Mannibadar_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_54,209,SFS_SFS108 - Mannibadar_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_54,281,SFS_SFS108 - Mannibadar_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_54,352,SFS_SFS108 - Mannibadar_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_54,424,SFS_SFS108 - Mannibadar_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_54,496,SFS_SFS108 - Mannibadar_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_54,565,SFS_SFS108 - Mannibadar_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_54,636,SFS_SFS108 - Mannibadar_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_55,916,SFS_SFS16 - Skipton_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_55,1183,SFS_SFS16 - Skipton_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_55,1251,SFS_SFS16 - Skipton_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_55,715,SFS_SFS16 - Skipton_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_55,1049,SFS_SFS16 - Skipton_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_55,782,SFS_SFS16 - Skipton_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_55,982,SFS_SFS16 - Skipton_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_55,1116,SFS_SFS16 - Skipton_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_55,849,SFS_SFS16 - Skipton_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_55,19,SFS_SFS16 - Skipton_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_55,86,SFS_SFS16 - Skipton_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_55,158,SFS_SFS16 - Skipton_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_55,230,SFS_SFS16 - Skipton_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_55,302,SFS_SFS16 - Skipton_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_55,373,SFS_SFS16 - Skipton_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_55,445,SFS_SFS16 - Skipton_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_55,516,SFS_SFS16 - Skipton_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_55,586,SFS_SFS16 - Skipton_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_55,655,SFS_SFS16 - Skipton_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_56,38,SFS_SFS45 - Learmonth_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_56,106,SFS_SFS45 - Learmonth_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_56,250,SFS_SFS45 - Learmonth_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_56,321,SFS_SFS45 - Learmonth_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_56,393,SFS_SFS45 - Learmonth_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_56,465,SFS_SFS45 - Learmonth_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_56,536,SFS_SFS45 - Learmonth_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_56,606,SFS_SFS45 - Learmonth_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_56,673,SFS_SFS45 - Learmonth_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_56,734,SFS_SFS45 - Learmonth_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_56,801,SFS_SFS45 - Learmonth_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_56,868,SFS_SFS45 - Learmonth_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_56,935,SFS_SFS45 - Learmonth_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_56,1001,SFS_SFS45 - Learmonth_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_56,1068,SFS_SFS45 - Learmonth_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_56,1135,SFS_SFS45 - Learmonth_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_56,178,SFS_SFS45 - Learmonth_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_56,1202,SFS_SFS45 - Learmonth_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_56,1271,SFS_SFS45 - Learmonth_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_57,47,SFS_SFS48 - Ballan2_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_57,116,SFS_SFS48 - Ballan2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_57,188,SFS_SFS48 - Ballan2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_57,260,SFS_SFS48 - Ballan2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_57,331,SFS_SFS48 - Ballan2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_57,403,SFS_SFS48 - Ballan2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_57,475,SFS_SFS48 - Ballan2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_57,545,SFS_SFS48 - Ballan2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_57,616,SFS_SFS48 - Ballan2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_57,680,SFS_SFS48 - Ballan2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_57,743,SFS_SFS48 - Ballan2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_57,810,SFS_SFS48 - Ballan2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_57,877,SFS_SFS48 - Ballan2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_57,944,SFS_SFS48 - Ballan2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_57,1010,SFS_SFS48 - Ballan2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_57,1077,SFS_SFS48 - Ballan2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_57,1144,SFS_SFS48 - Ballan2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_57,1211,SFS_SFS48 - Ballan2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_57,1282,SFS_SFS48 - Ballan2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_58,972,SFS_SFS8 - Meredith_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_58,148,SFS_SFS8 - Meredith_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_58,10,SFS_SFS8 - Meredith_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_58,906,SFS_SFS8 - Meredith_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_58,1039,SFS_SFS8 - Meredith_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_58,506,SFS_SFS8 - Meredith_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_58,1241,SFS_SFS8 - Meredith_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_58,646,SFS_SFS8 - Meredith_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_58,705,SFS_SFS8 - Meredith_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_58,435,SFS_SFS8 - Meredith_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_58,576,SFS_SFS8 - Meredith_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_58,772,SFS_SFS8 - Meredith_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_58,1106,SFS_SFS8 - Meredith_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_58,292,SFS_SFS8 - Meredith_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_58,363,SFS_SFS8 - Meredith_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_58,1173,SFS_SFS8 - Meredith_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_58,839,SFS_SFS8 - Meredith_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_58,220,SFS_SFS8 - Meredith_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_58,76,SFS_SFS8 - Meredith_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_59,150,SFS_SFS9 - Wingeel_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_59,222,SFS_SFS9 - Wingeel_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_59,365,SFS_SFS9 - Wingeel_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_59,908,SFS_SFS9 - Wingeel_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_59,1243,SFS_SFS9 - Wingeel_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_59,841,SFS_SFS9 - Wingeel_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_59,974,SFS_SFS9 - Wingeel_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_59,774,SFS_SFS9 - Wingeel_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_59,1108,SFS_SFS9 - Wingeel_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_59,78,SFS_SFS9 - Wingeel_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_59,578,SFS_SFS9 - Wingeel_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_59,1041,SFS_SFS9 - Wingeel_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_59,437,SFS_SFS9 - Wingeel_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_59,1175,SFS_SFS9 - Wingeel_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_59,707,SFS_SFS9 - Wingeel_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_59,294,SFS_SFS9 - Wingeel_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_59,508,SFS_SFS9 - Wingeel_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_59,12,SFS_SFS9 - Wingeel_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_60,1111,SFS_SFS10 - Inverleigh3_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_60,1044,SFS_SFS10 - Inverleigh3_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_60,511,SFS_SFS10 - Inverleigh3_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_60,153,SFS_SFS10 - Inverleigh3_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_60,844,SFS_SFS10 - Inverleigh3_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_60,225,SFS_SFS10 - Inverleigh3_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_60,368,SFS_SFS10 - Inverleigh3_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_60,710,SFS_SFS10 - Inverleigh3_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_60,977,SFS_SFS10 - Inverleigh3_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_60,911,SFS_SFS10 - Inverleigh3_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_60,581,SFS_SFS10 - Inverleigh3_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_60,297,SFS_SFS10 - Inverleigh3_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_60,777,SFS_SFS10 - Inverleigh3_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_60,440,SFS_SFS10 - Inverleigh3_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_60,1178,SFS_SFS10 - Inverleigh3_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_60,14,SFS_SFS10 - Inverleigh3_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_60,81,SFS_SFS10 - Inverleigh3_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_60,650,SFS_SFS10 - Inverleigh3_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_60,1246,SFS_SFS10 - Inverleigh3_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_61,579,SFS_SFS12 - Inverleigh2_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_61,295,SFS_SFS12 - Inverleigh2_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_61,775,SFS_SFS12 - Inverleigh2_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_61,366,SFS_SFS12 - Inverleigh2_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_61,842,SFS_SFS12 - Inverleigh2_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_61,79,SFS_SFS12 - Inverleigh2_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_61,509,SFS_SFS12 - Inverleigh2_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_61,438,SFS_SFS12 - Inverleigh2_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_61,1109,SFS_SFS12 - Inverleigh2_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_61,708,SFS_SFS12 - Inverleigh2_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_61,151,SFS_SFS12 - Inverleigh2_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_61,1042,SFS_SFS12 - Inverleigh2_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_61,909,SFS_SFS12 - Inverleigh2_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_61,975,SFS_SFS12 - Inverleigh2_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_61,1176,SFS_SFS12 - Inverleigh2_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_61,1244,SFS_SFS12 - Inverleigh2_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_61,223,SFS_SFS12 - Inverleigh2_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_61,648,SFS_SFS12 - Inverleigh2_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_62,82,SFS_SFS14 - Barunah Park_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_62,582,SFS_SFS14 - Barunah Park_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_62,978,SFS_SFS14 - Barunah Park_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_62,512,SFS_SFS14 - Barunah Park_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_62,226,SFS_SFS14 - Barunah Park_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_62,15,SFS_SFS14 - Barunah Park_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_62,441,SFS_SFS14 - Barunah Park_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_62,298,SFS_SFS14 - Barunah Park_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_62,1179,SFS_SFS14 - Barunah Park_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_62,778,SFS_SFS14 - Barunah Park_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_62,154,SFS_SFS14 - Barunah Park_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_62,912,SFS_SFS14 - Barunah Park_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_62,1112,SFS_SFS14 - Barunah Park_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_62,369,SFS_SFS14 - Barunah Park_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_62,711,SFS_SFS14 - Barunah Park_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_62,651,SFS_SFS14 - Barunah Park_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_62,1247,SFS_SFS14 - Barunah Park_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_62,1045,SFS_SFS14 - Barunah Park_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_62,845,SFS_SFS14 - Barunah Park_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_63,643,SFS_SFS4 - Bairnsdale_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_63,572,SFS_SFS4 - Bairnsdale_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_63,702,SFS_SFS4 - Bairnsdale_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_63,431,SFS_SFS4 - Bairnsdale_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_63,903,SFS_SFS4 - Bairnsdale_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_63,1103,SFS_SFS4 - Bairnsdale_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_63,769,SFS_SFS4 - Bairnsdale_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_63,836,SFS_SFS4 - Bairnsdale_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_63,1036,SFS_SFS4 - Bairnsdale_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_63,1170,SFS_SFS4 - Bairnsdale_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_63,288,SFS_SFS4 - Bairnsdale_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_63,969,SFS_SFS4 - Bairnsdale_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_63,1237,SFS_SFS4 - Bairnsdale_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_63,359,SFS_SFS4 - Bairnsdale_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_63,503,SFS_SFS4 - Bairnsdale_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_63,144,SFS_SFS4 - Bairnsdale_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_63,216,SFS_SFS4 - Bairnsdale_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_63,72,SFS_SFS4 - Bairnsdale_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_63,63,SFS_SFS4 - Bairnsdale_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_63,694,SFS_SFS4 - Bairnsdale_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_63,6,SFS_SFS4 - Bairnsdale_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_64,343,SFS_SFS29 - Winnindoo_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_64,888,SFS_SFS29 - Winnindoo_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_64,955,SFS_SFS29 - Winnindoo_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_64,1222,SFS_SFS29 - Winnindoo_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_64,821,SFS_SFS29 - Winnindoo_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_64,1088,SFS_SFS29 - Winnindoo_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_64,1021,SFS_SFS29 - Winnindoo_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_64,1295,SFS_SFS29 - Winnindoo_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_64,557,SFS_SFS29 - Winnindoo_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_64,128,SFS_SFS29 - Winnindoo_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_64,628,SFS_SFS29 - Winnindoo_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_64,754,SFS_SFS29 - Winnindoo_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_64,415,SFS_SFS29 - Winnindoo_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_64,1155,SFS_SFS29 - Winnindoo_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_64,487,SFS_SFS29 - Winnindoo_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_64,272,SFS_SFS29 - Winnindoo_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_64,200,SFS_SFS29 - Winnindoo_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_64,58,SFS_SFS29 - Winnindoo_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_64,690,SFS_SFS29 - Winnindoo_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_65,31,SFS_SFS34 - Rosedale_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_65,98,SFS_SFS34 - Rosedale_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_65,170,SFS_SFS34 - Rosedale_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_65,242,SFS_SFS34 - Rosedale_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_65,314,SFS_SFS34 - Rosedale_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_65,385,SFS_SFS34 - Rosedale_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_65,457,SFS_SFS34 - Rosedale_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_65,528,SFS_SFS34 - Rosedale_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_65,598,SFS_SFS34 - Rosedale_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_65,667,SFS_SFS34 - Rosedale_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_65,726,SFS_SFS34 - Rosedale_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_65,793,SFS_SFS34 - Rosedale_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_65,860,SFS_SFS34 - Rosedale_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_65,927,SFS_SFS34 - Rosedale_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_65,993,SFS_SFS34 - Rosedale_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_65,1060,SFS_SFS34 - Rosedale_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_65,1127,SFS_SFS34 - Rosedale_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_65,1194,SFS_SFS34 - Rosedale_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_65,1263,SFS_SFS34 - Rosedale_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_66,699,SFS_SFS2 - Yatchaw_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_66,69,SFS_SFS2 - Yatchaw_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_66,766,SFS_SFS2 - Yatchaw_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_66,966,SFS_SFS2 - Yatchaw_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_66,141,SFS_SFS2 - Yatchaw_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_66,500,SFS_SFS2 - Yatchaw_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_66,900,SFS_SFS2 - Yatchaw_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_66,1033,SFS_SFS2 - Yatchaw_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_66,1234,SFS_SFS2 - Yatchaw_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_66,569,SFS_SFS2 - Yatchaw_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_66,1100,SFS_SFS2 - Yatchaw_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_66,833,SFS_SFS2 - Yatchaw_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_66,1167,SFS_SFS2 - Yatchaw_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_66,213,SFS_SFS2 - Yatchaw_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_66,285,SFS_SFS2 - Yatchaw_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_66,3,SFS_SFS2 - Yatchaw_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_66,61,SFS_SFS2 - Yatchaw_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_66,356,SFS_SFS2 - Yatchaw_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_66,428,SFS_SFS2 - Yatchaw_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_66,640,SFS_SFS2 - Yatchaw_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_66,692,SFS_SFS2 - Yatchaw_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_67,822,SFS_SFS101 - Wombelano_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_67,1223,SFS_SFS101 - Wombelano_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_67,274,SFS_SFS101 - Wombelano_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_67,1298,SFS_SFS101 - Wombelano_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_67,889,SFS_SFS101 - Wombelano_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_67,1432,SFS_SFS101 - Wombelano_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_67,629,SFS_SFS101 - Wombelano_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_67,755,SFS_SFS101 - Wombelano_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_67,1089,SFS_SFS101 - Wombelano_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_67,956,SFS_SFS101 - Wombelano_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_67,345,SFS_SFS101 - Wombelano_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_67,1156,SFS_SFS101 - Wombelano_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_67,558,SFS_SFS101 - Wombelano_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_67,417,SFS_SFS101 - Wombelano_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_67,489,SFS_SFS101 - Wombelano_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_67,1413,SFS_SFS101 - Wombelano_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_67,1022,SFS_SFS101 - Wombelano_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_67,130,SFS_SFS101 - Wombelano_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_67,202,SFS_SFS101 - Wombelano_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_68,632,SFS_SFS102 - Yulecart_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_68,1415,SFS_SFS102 - Yulecart_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_68,959,SFS_SFS102 - Yulecart_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_68,825,SFS_SFS102 - Yulecart_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_68,892,SFS_SFS102 - Yulecart_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_68,492,SFS_SFS102 - Yulecart_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_68,348,SFS_SFS102 - Yulecart_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_68,1159,SFS_SFS102 - Yulecart_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_68,1092,SFS_SFS102 - Yulecart_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_68,1301,SFS_SFS102 - Yulecart_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_68,1025,SFS_SFS102 - Yulecart_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_68,1434,SFS_SFS102 - Yulecart_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_68,561,SFS_SFS102 - Yulecart_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_68,420,SFS_SFS102 - Yulecart_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_68,758,SFS_SFS102 - Yulecart_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_68,1226,SFS_SFS102 - Yulecart_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_68,277,SFS_SFS102 - Yulecart_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_68,205,SFS_SFS102 - Yulecart_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_68,133,SFS_SFS102 - Yulecart_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_69,103,SFS_SFS23 - Chatsworth_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_69,798,SFS_SFS23 - Chatsworth_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_69,603,SFS_SFS23 - Chatsworth_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_69,1065,SFS_SFS23 - Chatsworth_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_69,1132,SFS_SFS23 - Chatsworth_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_69,932,SFS_SFS23 - Chatsworth_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_69,462,SFS_SFS23 - Chatsworth_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_69,865,SFS_SFS23 - Chatsworth_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_69,390,SFS_SFS23 - Chatsworth_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_69,319,SFS_SFS23 - Chatsworth_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_69,998,SFS_SFS23 - Chatsworth_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_69,1199,SFS_SFS23 - Chatsworth_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_69,731,SFS_SFS23 - Chatsworth_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_69,533,SFS_SFS23 - Chatsworth_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_69,247,SFS_SFS23 - Chatsworth_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_69,175,SFS_SFS23 - Chatsworth_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_69,36,SFS_SFS23 - Chatsworth_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_69,1268,SFS_SFS23 - Chatsworth_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_70,52,SFS_SFS49 - Cavendish_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_70,121,SFS_SFS49 - Cavendish_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_70,193,SFS_SFS49 - Cavendish_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_70,265,SFS_SFS49 - Cavendish_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_70,336,SFS_SFS49 - Cavendish_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_70,408,SFS_SFS49 - Cavendish_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_70,480,SFS_SFS49 - Cavendish_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_70,550,SFS_SFS49 - Cavendish_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_70,621,SFS_SFS49 - Cavendish_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_70,685,SFS_SFS49 - Cavendish_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_70,748,SFS_SFS49 - Cavendish_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_70,815,SFS_SFS49 - Cavendish_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_70,882,SFS_SFS49 - Cavendish_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_70,949,SFS_SFS49 - Cavendish_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_70,1015,SFS_SFS49 - Cavendish_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_70,1082,SFS_SFS49 - Cavendish_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_70,1149,SFS_SFS49 - Cavendish_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_70,1216,SFS_SFS49 - Cavendish_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_70,1287,SFS_SFS49 - Cavendish_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_71,53,SFS_SFS57 - Branxholme_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_71,122,SFS_SFS57 - Branxholme_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_71,194,SFS_SFS57 - Branxholme_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_71,266,SFS_SFS57 - Branxholme_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_71,337,SFS_SFS57 - Branxholme_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_71,409,SFS_SFS57 - Branxholme_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_71,481,SFS_SFS57 - Branxholme_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_71,551,SFS_SFS57 - Branxholme_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_71,622,SFS_SFS57 - Branxholme_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_71,686,SFS_SFS57 - Branxholme_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_71,749,SFS_SFS57 - Branxholme_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_71,816,SFS_SFS57 - Branxholme_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_71,883,SFS_SFS57 - Branxholme_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_71,950,SFS_SFS57 - Branxholme_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_71,1016,SFS_SFS57 - Branxholme_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_71,1083,SFS_SFS57 - Branxholme_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_71,1150,SFS_SFS57 - Branxholme_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_71,1217,SFS_SFS57 - Branxholme_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_71,1288,SFS_SFS57 - Branxholme_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_72,138,SFS_SFS110 - Lindenow Flats_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_72,210,SFS_SFS110 - Lindenow Flats_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_72,282,SFS_SFS110 - Lindenow Flats_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_72,353,SFS_SFS110 - Lindenow Flats_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_72,425,SFS_SFS110 - Lindenow Flats_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_72,497,SFS_SFS110 - Lindenow Flats_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_72,566,SFS_SFS110 - Lindenow Flats_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_72,637,SFS_SFS110 - Lindenow Flats_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_72,764,SFS_SFS110 - Lindenow Flats_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_72,831,SFS_SFS110 - Lindenow Flats_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_72,898,SFS_SFS110 - Lindenow Flats_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_72,964,SFS_SFS110 - Lindenow Flats_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_72,1031,SFS_SFS110 - Lindenow Flats_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_72,1098,SFS_SFS110 - Lindenow Flats_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_72,1165,SFS_SFS110 - Lindenow Flats_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_72,1232,SFS_SFS110 - Lindenow Flats_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_73,1382,SFS_SFS00 - Lake Bolac1_WindSpeedAvg_0,Wind-Speed,0,0,TRUE,km/hr,TRUE
+SFS_73,1515,SFS_SFS00 - Lake Bolac1_SoilTemperature_1200,Soil-Temperature,1200,1200,TRUE,Degrees-Celcius,TRUE
+SFS_73,1514,SFS_SFS00 - Lake Bolac1_SoilTemperature_1100,Soil-Temperature,1100,1100,TRUE,Degrees-Celcius,TRUE
+SFS_73,1513,SFS_SFS00 - Lake Bolac1_SoilMoisture_1200,Soil-Moisture,1200,1200,TRUE,mm,TRUE
+SFS_73,1512,SFS_SFS00 - Lake Bolac1_SoilMoisture_1100,Soil-Moisture,1100,1100,TRUE,mm,TRUE
+SFS_73,1418,SFS_SFS00 - Lake Bolac1_RelativeHumidity_0,Humidity,0,0,TRUE,Percent,TRUE
+SFS_73,1399,SFS_SFS00 - Lake Bolac1_AirTemperature_0,Temperature,0,0,TRUE,Degrees-Celcius,TRUE
+SFS_73,1233,SFS_SFS00 - Lake Bolac1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_73,1166,SFS_SFS00 - Lake Bolac1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_73,1099,SFS_SFS00 - Lake Bolac1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_73,1032,SFS_SFS00 - Lake Bolac1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_73,965,SFS_SFS00 - Lake Bolac1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_73,899,SFS_SFS00 - Lake Bolac1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_73,765,SFS_SFS00 - Lake Bolac1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_73,832,SFS_SFS00 - Lake Bolac1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_73,698,SFS_SFS00 - Lake Bolac1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_73,691,SFS_SFS00 - Lake Bolac1_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_73,639,SFS_SFS00 - Lake Bolac1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_73,568,SFS_SFS00 - Lake Bolac1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_73,499,SFS_SFS00 - Lake Bolac1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_73,427,SFS_SFS00 - Lake Bolac1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_73,355,SFS_SFS00 - Lake Bolac1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_73,284,SFS_SFS00 - Lake Bolac1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_73,2,SFS_SFS00 - Lake Bolac1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_73,212,SFS_SFS00 - Lake Bolac1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_73,140,SFS_SFS00 - Lake Bolac1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_73,68,SFS_SFS00 - Lake Bolac1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_73,60,SFS_SFS00 - Lake Bolac1_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_74,902,SFS_SFS05 - Wickliffe1_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_74,642,SFS_SFS05 - Wickliffe1_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_74,430,SFS_SFS05 - Wickliffe1_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_74,835,SFS_SFS05 - Wickliffe1_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_74,768,SFS_SFS05 - Wickliffe1_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_74,5,SFS_SFS05 - Wickliffe1_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_74,1169,SFS_SFS05 - Wickliffe1_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_74,701,SFS_SFS05 - Wickliffe1_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_74,1236,SFS_SFS05 - Wickliffe1_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_74,693,SFS_SFS05 - Wickliffe1_SoilTemperature_200,Soil-Temperature,200,200,TRUE,Degrees-Celcius,TRUE
+SFS_74,1102,SFS_SFS05 - Wickliffe1_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_74,571,SFS_SFS05 - Wickliffe1_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_74,287,SFS_SFS05 - Wickliffe1_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_74,1035,SFS_SFS05 - Wickliffe1_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_74,968,SFS_SFS05 - Wickliffe1_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_74,502,SFS_SFS05 - Wickliffe1_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_74,358,SFS_SFS05 - Wickliffe1_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_74,215,SFS_SFS05 - Wickliffe1_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_74,143,SFS_SFS05 - Wickliffe1_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_74,71,SFS_SFS05 - Wickliffe1_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_74,62,SFS_SFS05 - Wickliffe1_SoilMoisture_200,Soil-Moisture,200,200,TRUE,mm,TRUE
+SFS_75,204,SFS_SFS104 - Wickliffe 3_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_75,757,SFS_SFS104 - Wickliffe 3_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_75,347,SFS_SFS104 - Wickliffe 3_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_75,1158,SFS_SFS104 - Wickliffe 3_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_75,1091,SFS_SFS104 - Wickliffe 3_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_75,824,SFS_SFS104 - Wickliffe 3_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_75,276,SFS_SFS104 - Wickliffe 3_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_75,631,SFS_SFS104 - Wickliffe 3_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_75,958,SFS_SFS104 - Wickliffe 3_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_75,560,SFS_SFS104 - Wickliffe 3_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_75,1024,SFS_SFS104 - Wickliffe 3_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_75,491,SFS_SFS104 - Wickliffe 3_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_75,419,SFS_SFS104 - Wickliffe 3_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_75,132,SFS_SFS104 - Wickliffe 3_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_75,891,SFS_SFS104 - Wickliffe 3_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_75,1300,SFS_SFS104 - Wickliffe 3_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_75,1225,SFS_SFS104 - Wickliffe 3_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_76,50,SFS_SFS17 - Woorndoo (2)_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_76,119,SFS_SFS17 - Woorndoo (2)_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_76,191,SFS_SFS17 - Woorndoo (2)_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_76,263,SFS_SFS17 - Woorndoo (2)_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_76,334,SFS_SFS17 - Woorndoo (2)_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_76,406,SFS_SFS17 - Woorndoo (2)_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_76,478,SFS_SFS17 - Woorndoo (2)_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_76,548,SFS_SFS17 - Woorndoo (2)_SoilMoisture_900,Soil-Moisture,900,900,TRUE,mm,TRUE
+SFS_76,619,SFS_SFS17 - Woorndoo (2)_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_76,683,SFS_SFS17 - Woorndoo (2)_SoilTemperature_100,Soil-Temperature,100,100,TRUE,Degrees-Celcius,TRUE
+SFS_76,746,SFS_SFS17 - Woorndoo (2)_SoilTemperature_300,Soil-Temperature,300,300,TRUE,Degrees-Celcius,TRUE
+SFS_76,813,SFS_SFS17 - Woorndoo (2)_SoilTemperature_400,Soil-Temperature,400,400,TRUE,Degrees-Celcius,TRUE
+SFS_76,880,SFS_SFS17 - Woorndoo (2)_SoilTemperature_500,Soil-Temperature,500,500,TRUE,Degrees-Celcius,TRUE
+SFS_76,947,SFS_SFS17 - Woorndoo (2)_SoilTemperature_600,Soil-Temperature,600,600,TRUE,Degrees-Celcius,TRUE
+SFS_76,1013,SFS_SFS17 - Woorndoo (2)_SoilTemperature_700,Soil-Temperature,700,700,TRUE,Degrees-Celcius,TRUE
+SFS_76,1080,SFS_SFS17 - Woorndoo (2)_SoilTemperature_800,Soil-Temperature,800,800,TRUE,Degrees-Celcius,TRUE
+SFS_76,1147,SFS_SFS17 - Woorndoo (2)_SoilTemperature_900,Soil-Temperature,900,900,TRUE,Degrees-Celcius,TRUE
+SFS_76,1214,SFS_SFS17 - Woorndoo (2)_SoilTemperature_1000,Soil-Temperature,1000,1000,TRUE,Degrees-Celcius,TRUE
+SFS_76,1285,SFS_SFS17 - Woorndoo (2)_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
+SFS_77,9,SFS_SFS7 - Benham_SoilMoisture_100,Soil-Moisture,100,100,TRUE,mm,TRUE
+SFS_77,75,SFS_SFS7 - Benham_SoilMoisture_300,Soil-Moisture,300,300,TRUE,mm,TRUE
+SFS_77,147,SFS_SFS7 - Benham_SoilMoisture_400,Soil-Moisture,400,400,TRUE,mm,TRUE
+SFS_77,219,SFS_SFS7 - Benham_SoilMoisture_500,Soil-Moisture,500,500,TRUE,mm,TRUE
+SFS_77,291,SFS_SFS7 - Benham_SoilMoisture_600,Soil-Moisture,600,600,TRUE,mm,TRUE
+SFS_77,362,SFS_SFS7 - Benham_SoilMoisture_700,Soil-Moisture,700,700,TRUE,mm,TRUE
+SFS_77,434,SFS_SFS7 - Benham_SoilMoisture_800,Soil-Moisture,800,800,TRUE,mm,TRUE
+SFS_77,575,SFS_SFS7 - Benham_SoilMoisture_1000,Soil-Moisture,1000,1000,TRUE,mm,TRUE
+SFS_77,1240,SFS_SFS7 - Benham_Precipitation_0,Rainfall,0,0,TRUE,mm,TRUE
