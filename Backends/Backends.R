@@ -22,7 +22,7 @@
 #' getSensorData('cerdi.sfs.4935.stream.4983.soil-moisture.1000mm')
 #'
 #' @export
-getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS', verbose=F ){
+getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS', verbose=F, tempCorrect ){
 
   out <- tryCatch({
 
@@ -103,6 +103,8 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         dfTS <- getSensorData_BoMLatest(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
       }else if(backEnd == 'SILO') {
         dfTS <- getSensorData_SILO(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs )
+      }else if(backEnd == 'EPARF') {
+        dfTS <- getSensorData_EPARF(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs, tempCorrect )
       }
 
       #### This deals with the situation where a sesnor returns a blank list
@@ -346,11 +348,8 @@ getSensorData_Senaps <- function(streams, startDate = NULL, endDate = NULL, aggP
     dataStreamsDFDEC <- synchronise(async_map(urlsDEC, getURLAsync_Senaps, .limit = asyncThreadNum))
     dataStreamsDFTEMP <- synchronise(async_map(urlsTemp, getURLAsync_Senaps, .limit = asyncThreadNum))
 
-    #outList <-  vector("list", length(dataStreamsDFDEC))
     for(i in 1:length(dataStreamsDFDEC)){
-      #print(i)
       ErT=as.numeric(dataStreamsDFDEC[[i]]$Values)*1.011/(1.045+0.01*as.numeric(dataStreamsDFTEMP[[i]]$Values))
-
       dataStreamsDFDEC[[i]]$Values <- (0.055  * sqrt(ErT) + -0.015) * 100
     }
 
@@ -522,6 +521,79 @@ getSensorData_SILO <- function(streams, startDate = NULL, endDate = NULL, aggPer
 
 
 
+getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$day, numrecs=maxRecs,tempCorrect ){
+
+  Tref=18
+  f = 0.1 # 0 - 0.5
+
+    isoSDate <- str_replace_all(startDate, '-', '/')
+    isoEDate <- str_replace_all(endDate, '-', '/')
+
+    tryCatch({
+
+        if(streams$DataType[1]=='Soil-Moisture'){
+
+          if(tempCorrect){
+            print('Applying temperature correction')
+          urlsDEC <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
+                         '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
+
+          soilTemp <- getSensorInfo(usr='Public', pwd='Public', siteID=siteID, sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
+
+          urlsTemp <- list(nrow(streams))
+          for (i in 1:nrow(streams)){
+
+            rec <- soilTemp[soilTemp$UpperDepth== streams$UpperDepth[i], ]
+            urlsTemp[i] <- paste0(rec$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr[1], '&password=', streams$Pwd[1],
+                               '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', rec$SensorID, '|', str_remove(rec$SiteID, 'opSID_'))
+          }
+
+
+          smRaw <- synchronise(async_map(urlsDEC, getURLAsync_EPARF, .limit = asyncThreadNum))
+          #return(smRaw)
+          temps <- synchronise(async_map(urlsTemp, getURLAsync_EPARF, .limit = asyncThreadNum))
+
+          outDF <- list(length(smRaw))
+          for(i in 1:length(smRaw)){
+            if(!is.null(smRaw[[i]]) & !is.null(temps[[i]])){
+              smts <- xts(smRaw[[i]][,-1], order.by=as.POSIXct( smRaw[[i]][,1]))
+              tempts <- xts(temps[[i]][,-1], order.by=as.POSIXct( temps[[i]][,1]))
+              ts <- merge(smts, tempts)
+              ts$TempCorrected <- ts$smts  + (Tref-ts$tempts) * f
+              df <- data.frame(theDate=index(ts), Values=ts$TempCorrected , row.names = NULL)
+              colnames(df)<-c(' theDate','Values')
+              outDF[[i]]<-df
+            }
+          }
+
+          return(outDF)
+          }else{
+            print('Not applying temperature correction')
+            urls <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
+                           '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
+            dataStreamsDF <- synchronise(async_map(urls, getURLAsync_EPARF, .limit = asyncThreadNum))
+          }
+
+      }else{
+
+        urls <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
+                       '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
+        dataStreamsDF <- synchronise(async_map(urls, getURLAsync_EPARF, .limit = asyncThreadNum))
+      }
+
+
+      print('GotData')
+
+    }, error = function(e)
+    {
+      stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+    })
+
+    return(dataStreamsDF)
+  }
+
+
+
 
 
 getSensorFields <- function(){
@@ -661,7 +733,7 @@ getSensorInfo <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=N
 }
 
 
-getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorID=NULL, startDate=NULL, endDate=NULL, aggPeriod=timeSteps$none, outFormat='simpleTS', verbose=F ){
+getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, sensorType=NULL, sensorID=NULL, tempCorrect=NULL, startDate=NULL, endDate=NULL, aggPeriod=timeSteps$none, outFormat='simpleTS', verbose=F ){
 
   # restricted to a single location for so as to not overload backend requests
   # have to restrict requests to a single data type as they have different aggregation types - could not aggregat but this may not be a common use case
@@ -684,7 +756,7 @@ getSensorDataStreams <-  function(usr='Public', pwd='Public', siteID=NULL, senso
 
  # print(sensorType)
 
-  d <- getSensorData(streams=sensors, aggPeriod=aggPeriod, startDate=startDate, endDate=endDate, outFormat=outFormat, verbose=verbose  )
+  d <- getSensorData(streams=sensors, aggPeriod=aggPeriod, startDate=startDate, endDate=endDate, outFormat=outFormat, verbose=verbose, tempCorrect=tempCorrect  )
 
   return(d)
 }

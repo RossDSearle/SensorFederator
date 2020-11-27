@@ -8,10 +8,10 @@ library(RSQLite)
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
 
 getEmptySitesDF <- function(){
-  
+
   return(data.frame( SiteID = character(), SiteName = character(), SensorGroup = character(),
                           Backend = character(), Access = character(), Usr = character(), pwd = character(),
-                          Latitude = numeric(), Longitude=numeric(), Owner = character(), Contact = character(), 
+                          Latitude = numeric(), Longitude=numeric(), Owner = character(), Contact = character(),
                           ProviderURL = character(), NetworkInfoWebsite = character(), Description = character(),
                           ServerName = character(),
                           stringsAsFactors = F )
@@ -19,10 +19,10 @@ getEmptySitesDF <- function(){
 }
 
 getEmptySensorDF <- function(){
-  
+
   return(data.frame( SiteID = character(), Active = logical(), SensorID = character(),
                           sensorName = character(), StartDate = character(), EndDate = character(), DataType = character(),
-                          UpperDepth = numeric(), LowerDepth = numeric(), Calibrated = logical(), Units = character(), 
+                          UpperDepth = numeric(), LowerDepth = numeric(), Calibrated = logical(), Units = character(),
                           TotalDays  = numeric(), IsActive = logical(), NumGaps = numeric(), TotalGapDays = numeric(), Gapiness = numeric(),
                           MinimumValue = numeric(), MaximumValue = numeric(), MeanValue = numeric(), StandardDeviation = numeric(), HarvestDate = character(),
                           stringsAsFactors = F )
@@ -31,7 +31,10 @@ getEmptySensorDF <- function(){
 
 
 url <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=', 'EPARF', '&password=', 'eparf',
-              '&dateFrom=1/Dec/2020%2000:00:00&dateTo=2/Dec/2019%2000:00:00')
+              '&dateFrom=1/Dec/2019%2000:00:00&dateTo=1/Dec/2019%2001:00:00')
+
+#url <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=', 'EPARF', '&password=', 'eparf')
+
 response <- GET(url, encoding = 'UTF-8-BOM')
 stream <- content(response, as="text", encoding	='UTF-8')
 cat(stream, file='c:/temp/outpost.xml')
@@ -48,7 +51,7 @@ lon <- xpathSApply(doc ,"//opdata:sites/opdata:site/longitude", xmlValue, ns)
 
 siteDF <- data.frame(SiteID = siteIDs, SiteName = siteNames, SensorGroup = 'EPARF',
 Backend = 'Outpost2', Access = 'Public', Usr = 'EPARF', pwd = 'eparf',
-Latitude = lat, Longitude=lon, Owner = 'EPARF', Contact = 'https://eparf.com.au/contact-us/', 
+Latitude = lat, Longitude=lon, Owner = 'EPARF', Contact = 'https://eparf.com.au/contact-us/',
 ProviderURL = 'https://www.outpostcentral.com', NetworkInfoWebsite = 'https://eparf.com.au/', Description = 'Public soil mositure probes on the Eyre Peninsular',
 ServerName = 'https://www.outpostcentral.com',
 stringsAsFactors = F )
@@ -60,18 +63,18 @@ for(i in 1:length(sites)){
   print(i)
   streams <- xpathSApply(doc ,paste0("//opdata:sites/opdata:site/name[text()='", siteNames[i],"']/parent::opdata:site/opdata:inputs/opdata:input/name"), xmlValue, ns)
   streamID <- xpathSApply(doc ,paste0("//opdata:sites/opdata:site/name[text()='", siteNames[i],"']/parent::opdata:site/opdata:inputs/opdata:input/id"), xmlValue, ns)
-  
+
   if(is.null(loggerID)){
     loggerID <- "None"
   }
-    
+
   df <- data.frame(SiteID = siteIDs[i], Active = TRUE, SensorID = streamID,
                     sensorName = streams, StartDate = NA, EndDate = NA, DataType = NA,
-                    UpperDepth = NA, LowerDepth = NA, Calibrated = FALSE, Units = NA, 
+                    UpperDepth = NA, LowerDepth = NA, Calibrated = FALSE, Units = NA,
                     TotalDays  = NA, IsActive = TRUE, NumGaps = NA, TotalGapDays = NA, Gapiness = NA,
                     MinimumValue = NA, MaximumValue = NA, MeanValue = NA, StandardDeviation = NA, HarvestDate = NA,
-                    stringsAsFactors = F )  
-  
+                    stringsAsFactors = F )
+
   sensorDF <- rbind(sensorDF, df)
 }
 
@@ -230,7 +233,7 @@ xmlObj=xmlParse(dataXML, useInternalNodes = TRUE)
 xml_tree_view(xmlObj)
 
 
-urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=', 'EPARF', '&password=', 'eparf', 
+urlData <- paste0('https://www.outpostcentral.com', '/api/2.0/dataservice/mydata.aspx?userName=', 'EPARF', '&password=', 'eparf',
                   '&dateFrom=1/Dec/2017%2000:00:00&dateTo=1/Dec/2017%2001:00:00&format=csv')
 response <- GET(urlData, encoding = 'UTF-8-BOM')
 stream <- content(response, as="text", encoding	='UTF-8')

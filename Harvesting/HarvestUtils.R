@@ -72,25 +72,68 @@ getsensors <- function(conFed, dataType=NULL){
   return(df)
 }
 
-getTidyTS <- function(df, removeNA=T, upperBound=NULL, lowerBound=NULL){
-  ts <- xts(df[,3], order.by=as.Date(df[,2]))
+getTidyTS <- function(ts, removeNA=T, upperBound=NULL, lowerBound=NULL, flatCnt=NULL, removeOutliers=NULL, removeStartDays=NULL){
 
+  ######   exlude values outside bounds
   if(!is.null(upperBound)){
     ts[ts>upperBound] <- NA
   }
-
   if(!is.null(lowerBound)){
     ts[ts<lowerBound] <- NA
   }
 
-  ts <- na.trim(ts)
+  if(all(is.na(ts))){
+    return(NULL)
+  }
+
+  ######  remove flat spot values
+  if(!is.null(flatCnt)){
+    sdf <- aggregate(data.frame(count = its), list(value = its$value), length)
+    colnames(sdf) <- c('value', 'count')
+    sorteddata <- sdf[order(-sdf$count),]
+    remVals <- sorteddata[sorteddata$count >= flatCnt, ]$value
+    if(length(remVals) > 0){
+      for (i in 1:length(remVals)) {
+        ts[ts==remVals[i]] <- NA
+      }
+    }
+  }
+
+  if(all(is.na(ts))){
+    return(NULL)
+  }
+
+  ######   remove outliers
+  if(!is.null(removeOutliers)){
+
+    # lq <- quantile(its, probs = c(0.01), na.rm=T)
+    # lb <- as.numeric(lq[1])
+    # its[its<lb] <- NA
+
+    i <- tsoutliers(ts)
+    ts[i$index] <- NA
+  }
+
+  if(all(is.na(ts))){
+    return(NULL)
+  }
+
+  if(!is.null(removeStartDays)){
+    ts <- ts[removeStartDays:nrow(ts)]
+  }
+
 
   if(removeNA){
     ts <-  na.omit(ts)
   }
 
+  if(all(is.na(ts))){
+    return(NULL)
+  }
+
   return(ts)
 }
+
 
 
 getBlankQualityRecord <- function(){
