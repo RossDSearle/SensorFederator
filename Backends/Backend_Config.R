@@ -100,6 +100,7 @@ source(paste0(sensorRootDir, '/Backends/DataFarmer_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/SensFedStore_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/IOT_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/BoM-Latest_Backend.R'))
+source(paste0(sensorRootDir, '/Backends/EPARF_Backend.R'))
 source(paste0(sensorRootDir, '/Backends/Backends.R'))
 source(paste0(sensorRootDir, '/Backends/Authorisation.R'))
 

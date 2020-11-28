@@ -529,23 +529,24 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
     isoSDate <- str_replace_all(startDate, '-', '/')
     isoEDate <- str_replace_all(endDate, '-', '/')
 
-    tryCatch({
+    #tryCatch({
 
         if(streams$DataType[1]=='Soil-Moisture'){
 
-          if(tempCorrect){
+          if(str_to_upper(tempCorrect)=='YES'){
             print('Applying temperature correction')
           urlsDEC <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
                          '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
 
-          soilTemp <- getSensorInfo(usr='Public', pwd='Public', siteID=siteID, sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
+          soilTemp <- getSensorInfo(usr='Public', pwd='Public', siteID=streams$siteID[1], sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
 
           urlsTemp <- list(nrow(streams))
           for (i in 1:nrow(streams)){
 
-            rec <- soilTemp[soilTemp$UpperDepth== streams$UpperDepth[i], ]
+            print(i)
+            rec <- soilTemp[soilTemp$UpperDepth == streams$UpperDepth[i], ]
             urlsTemp[i] <- paste0(rec$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr[1], '&password=', streams$Pwd[1],
-                               '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', rec$SensorID, '|', str_remove(rec$SiteID, 'opSID_'))
+                               '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', rec$SensorID, '|', str_remove(streams$SiteID[1], 'opSID_'))
           }
 
 
@@ -584,10 +585,10 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
 
       print('GotData')
 
-    }, error = function(e)
-    {
-      stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
-    })
+    # }, error = function(e)
+    # {
+    #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+    # })
 
     return(dataStreamsDF)
   }
