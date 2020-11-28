@@ -533,25 +533,22 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
 
         if(streams$DataType[1]=='Soil-Moisture'){
 
-          if(str_to_upper(tempCorrect)=='YES'){
+          if(!is.null(tempCorrect)){
             print('Applying temperature correction')
           urlsDEC <- paste0(streams$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr, '&password=', streams$Pwd,
                          '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
 
-          soilTemp <- getSensorInfo(usr='Public', pwd='Public', siteID=streams$siteID[1], sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
-
+          soilTemp <- getSensorInfo(usr='Public', pwd='Public', siteID=streams$SiteID[1] , sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
           urlsTemp <- list(nrow(streams))
-          for (i in 1:nrow(streams)){
 
-            print(i)
+          for (i in 1:nrow(streams)){
             rec <- soilTemp[soilTemp$UpperDepth == streams$UpperDepth[i], ]
             urlsTemp[i] <- paste0(rec$ServerName, '/api/2.0/dataservice/mydata.aspx?userName=',  streams$Usr[1], '&password=', streams$Pwd[1],
-                               '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', rec$SensorID, '|', str_remove(streams$SiteID[1], 'opSID_'))
+                               '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', rec$SensorID[1], '|', str_remove(streams$SiteID[1], 'opSID_'))
           }
 
 
           smRaw <- synchronise(async_map(urlsDEC, getURLAsync_EPARF, .limit = asyncThreadNum))
-          #return(smRaw)
           temps <- synchronise(async_map(urlsTemp, getURLAsync_EPARF, .limit = asyncThreadNum))
 
           outDF <- list(length(smRaw))
@@ -581,9 +578,6 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
                        '&dateFrom=' , isoSDate, '&dateTo=', isoEDate, '&inputID=', streams$SensorID, '|', str_remove(streams$SiteID, 'opSID_'))
         dataStreamsDF <- synchronise(async_map(urls, getURLAsync_EPARF, .limit = asyncThreadNum))
       }
-
-
-      print('GotData')
 
     # }, error = function(e)
     # {

@@ -1,4 +1,5 @@
 source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
+source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backends.R')
 #source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
@@ -6,7 +7,7 @@ library(dygraphs)
 library(httr)
 library(XML)
 
-myOpts <- curlOptions(connecttimeout = 200, ssl.verifypeer = FALSE)
+myOpts <- curlOptions(connecttimeout = 400, ssl.verifypeer = FALSE)
 
 
 start_time <- Sys.time()
@@ -46,4 +47,13 @@ aggPeriod=timeSteps$days
 
 getSensorInfo(usr='Public', pwd='Public', siteID=siteID, sensorType='Soil-Temperature', verbose=F, sensorGroup=NULL, backend=NULL, owner=NULL)
 
-getSensorDataStreams(usr=usr, pwd=usr, siteID=siteID, sensorType=sensorType, sensorID=NULL, startDate=startDate, endDate=endDate, aggPeriod=aggPeriod, outFormat='simpleTS', verbose=F, tempCorrect = F )
+getSensorDataStreams(usr=usr, pwd=usr, siteID=siteID, sensorType=sensorType, sensorID=NULL, startDate=startDate, endDate=endDate, aggPeriod=aggPeriod, outFormat='simpleTS', verbose=F, tempCorrect = 'Yes' )
+
+
+getSensorDataStreams(usr='Public', pwd='Public', siteID='opSID_20610', sensorType='Soil-Moisture', sensorID=NULL, startDate='2018-04-20T00:00:00', endDate='2018-04-25T00:00:00', aggPeriod=timeSteps$days, outFormat='simpleTS', verbose=F, tempCorrect = 'Yes' )
+
+
+
+
+
+
