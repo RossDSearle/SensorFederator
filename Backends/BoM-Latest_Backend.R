@@ -12,8 +12,17 @@ getURLAsync_BoM_Latest <- function(x){
   url <- bits[[1]][1]
   dt <- bits[[1]][2]
 
-  resp <- GET(url)
-  response <-  content(resp, "text")
+  resp <- GET(url, timeout(5))
+  response <-  content(resp, "text", encoding = 'UTF-8')
+
+ #   tryCatch({
+ #   dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
+ #   }, error = function(e)
+ #   {
+ #     return(NULL)
+ # })
+
+
 
   if(response=='' | response=='[]'){
     outList <-   vector("list")
@@ -59,6 +68,7 @@ BoM_Latest_GenerateTimeSeries <- function(response, retType = 'df', dataType){
   }
 
   odf <- data.frame(theDate=dts, Values=d)
+  odf
   return(odf)
 
 }

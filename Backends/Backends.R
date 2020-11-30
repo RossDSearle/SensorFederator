@@ -107,7 +107,9 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         dfTS <- getSensorData_EPARF(streams=streams, startDate=isoSDate, endDate = isoEDate, aggPeriod=aggPeriod, numrecs=numrecs, tempCorrect )
       }
 
-      #### This deals with the situation where a sesnor returns a blank list
+
+
+      #### This deals with the situation where a sensor returns a blank list
       #### We need to get rid of these out of the list of data frames and the recs in the sensor dataframe
       outSensors <- data.frame()
       for (i in 1:length(dfTS)) {
@@ -134,6 +136,9 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
         }else{
           outTS <- outts
         }
+
+        #print(numrecs)
+        #outTS <- tail(outTS, numrecs)
 
         if(outFormat=='nestedTS'){
           ndf <- makeNestedDF(outTS, outSensors, isoSDate, isoEDate, aggPeriod, verbose)
@@ -481,14 +486,15 @@ getSensorData_BoMLatest<- function(streams, startDate = NULL, endDate = NULL, ag
   rt <- streams$ProviderURL
 
   urls <- paste0(rt, '/fwo/', sid, '/', sid, '.', wmo,  '.json|', sensorID)
-  # tryCatch({
+   tryCatch({
   dataStreamsDF <- synchronise(async_map(urls, getURLAsync_BoM_Latest, .limit = asyncThreadNum))
 
-  # }, error = function(e)
-  # {
-  #   stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
-  # })
+  }, error = function(e)
+  {
+    stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
+  })
 
+  dataStreamsDF[[1]] <- dataStreamsDF[[1]][as.POSIXct(dataStreamsDF[[1]]$theDate) >= as.POSIXct(startDate, format='%Y-%m-%dT%H:%M:%S') & as.POSIXct(dataStreamsDF[[1]]$theDate) <= as.POSIXct(endDate, format='%Y-%m-%dT%H:%M:%S'), ]
   return(dataStreamsDF)
 }
 
@@ -515,6 +521,8 @@ getSensorData_SILO <- function(streams, startDate = NULL, endDate = NULL, aggPer
   {
     stop('No records were returned for the specified query. Most likely there is no data available in the date range specified - (async processing error)')
   })
+
+
 
   return(dataStreamsDF)
 }

@@ -601,13 +601,30 @@ site <-'BoMLatest_94255_IDD60801'
 site <-'BoMLatest_95214_IDD60801'
 
 
+startDate <- paste0(Sys.Date()-1, 'T00:00:00')
+endDate <- paste0(Sys.Date(), 'T23:00:00')
+
+
 sensorInfo <- getAuthorisedSensors()
 sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Temperature', ]
 
+sensors <- sensorInfo[sensorInfo$DataType == 'Temperature' & sensorInfo$Backend=='BoM_Latest', ]
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
 streams <- sensors
 
-d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 10000000)
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , startDate = startDate,  endDate = endDate)
+#d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none)
+d
+
+
+l <- list(nrow(d))
+#for (i in 1:nrow(sensors)) {
+for (i in 1:10) {
+  print(i)
+  tryCatch({l[[i]] <- getSensorData(streams=sensors[i,],   aggPeriod=timeSteps$none , numrecs = 10)}, error=function(err) { warning("file could not be downloaded") })
+
+}
 
 
 
@@ -627,10 +644,12 @@ sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfa
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
 streams <- sensors
 
-d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 10000000)
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 1)
+d
 
 
 
+tail(d, 1)
 
 #######  Boowoora   ########################
 
