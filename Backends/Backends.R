@@ -565,7 +565,12 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
               smts <- xts(smRaw[[i]][,-1], order.by=as.POSIXct( smRaw[[i]][,1]))
               tempts <- xts(temps[[i]][,-1], order.by=as.POSIXct( temps[[i]][,1]))
               ts <- merge(smts, tempts)
+              if(str_to_upper(tempCorrect) == 'M1'){
               ts$TempCorrected <- ts$smts  + (Tref-ts$tempts) * f
+              }
+              else{
+                ts$TempCorrected <- ts$smts-((ts$tempts-20)*5)
+              }
               df <- data.frame(theDate=index(ts), Values=ts$TempCorrected , row.names = NULL)
               colnames(df)<-c(' theDate','Values')
               outDF[[i]]<-df
