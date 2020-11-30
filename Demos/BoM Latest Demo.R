@@ -13,24 +13,31 @@ sensor <- sensorTypes[5,1]
 
 outDF <- data.frame(siteID=character(), parameter=character(), Lon=numeric(), Lat=numeric(), dateTime=character(), Value=numeric())
 
+startDate <- paste0(Sys.Date()-1, 'T00:00:00')
+endDate <- paste0(Sys.Date(), 'T23:00:00')
+
 for (i in 1:nrow(locs)) {
 
     print(paste0(i, ' of ', nrow(locs)))
     loc <- locs$SiteID[i]
-    url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=', loc, '&sensortype=', sensor)
-    resp <- GET(url, timeout(20))
+    url <- paste0('http://esoil.io/SensorFederationWebAPI/SensorAPI/getSensorDataStreams?siteid=', loc, '&sensortype=', sensor, '&startdate=', startDate, '&endate=', endDate)
 
-    if(resp$status_code==200){
+    test <- try( resp <- GET(url, timeout(30)),TRUE)
+    if(isTRUE(class(test)=="try-error")){next} else {
 
-      response <-  content(resp, "text", encoding = 'UTF-8')
-      df <- fromJSON(response)
 
-      if(!grepl('error', response)){
-        rec <- tail(df$DataStream[[1]], 1)
-        val <- rec$v
-        time <- rec$t
-        outDF[i,] <- c(df$SiteID,df$DataType, as.numeric(df$Longitude), as.numeric(df$Latitude),time,as.numeric(val))
-      }
+        if(resp$status_code==200){
+
+          response <-  content(resp, "text", encoding = 'UTF-8')
+          df <- fromJSON(response)
+
+          if(!grepl('error', response)){
+            rec <- tail(df$DataStream[[1]], 1)
+            val <- rec$v
+            time <- rec$t
+            outDF[i,] <- c(df$SiteID,df$DataType, as.numeric(df$Longitude), as.numeric(df$Latitude),time,as.numeric(val))
+          }
+        }
     }
   }
 
@@ -70,7 +77,7 @@ copedomain <- rev(range(sites$Value))
 tpal <- colorNumeric(rev(brewer.pal(11,'Spectral')), domain = copedomain)
 leaflet(sites) %>%
   addProviderTiles("Esri.OceanBasemap") %>%
-  addCircleMarkers( radius = 7,
+  addCircleMarkers( radius = 5,
                     label = sites$Value,
                     color = 'grey80',
                     weight = 0.1,
