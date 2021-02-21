@@ -44,31 +44,43 @@ BoM_Latest_GenerateTimeSeries <- function(response, retType = 'df', dataType){
     return(data.frame())
   }
 
-  yyyy <- str_sub(ddf$local_date_time_full, 1,4)
-  mm <- str_sub(ddf$local_date_time_full, 5,6)
-  dd <- str_sub(ddf$local_date_time_full, 7,8)
-  h <- str_sub(ddf$local_date_time_full, 9,10)
-  m <- str_sub(ddf$local_date_time_full, 11,12)
-  s <- str_sub(ddf$local_date_time_full, 13,14)
+
+  odf <- data.frame(ddf$local_date_time_full, ddf[dataType])
+  idxs <- which(grepl(pattern = '-', odf[dataType]))
+  if(length(idxs) > 0){
+    odf <- odf[-idxs,]
+  }
+  odf <- na.omit(odf)
+  colnames(odf) <- c('dt', 'v')
+
+  yyyy <- str_sub(odf$dt, 1,4)
+  mm <- str_sub(odf$dt, 5,6)
+  dd <- str_sub(odf$dt, 7,8)
+  h <- str_sub(odf$dt, 9,10)
+  m <- str_sub(odf$dt, 11,12)
+  s <- str_sub(odf$dt, 13,14)
 
   dts <- as.POSIXct(paste0(yyyy, '-', mm, '-', dd, 'T', h, ':', m, ':',s), format = "%Y-%m-%dT%H:%M:%OS")
 
-  rd <- ddf[dataType]
-  rd[is.na(rd), 1] <- 0
-  rd[rd=='-', 1] <- 0
-  rdo <- as.numeric(rd[,1])
+  # rd <- ddf[dataType]
+  # #rd[is.na(rd), 1] <- 0
+  # rd[rd=='-', 1] <- NA
+  #
+  # rdo <- as.numeric(na.omit(rd[,1]))
+  #
+  # if(dataType=='rain_trace'){
+  #
+  #   d2 <- diff(rdo)
+  #   d <- c(rdo[1], d2)
+  #
+  # }else{
+  #   d<-rdo
+  # }
 
-  if(dataType=='rain_trace'){
+  vals <- as.numeric(odf$v)
+  odf <- data.frame(theDate=dts, Values=vals)
 
-    d2 <- diff(rdo)
-    d <- c(rdo[1], d2)
-
-  }else{
-    d<-rdo
-  }
-
-  odf <- data.frame(theDate=dts, Values=d)
-  odf
+  #odf
   return(odf)
 
 }

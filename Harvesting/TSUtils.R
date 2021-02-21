@@ -87,11 +87,14 @@ assessTSQuality <- function(ts=NULL, verbose=T, maxVal=80,  minVal=5, minNumDays
     ret$LowestIndexName=paste0('Number of values below minNumDays = ', minNumDays)
     return(ret)
   }
+
+  tz <- na.omit(ts)
+
   if(sd(tz)==0){
     ret$LowestIndexName=paste0('All the values are the same')
     return(ret)}
 
-  tz <- na.omit(ts)
+
 
   #Proportion of values in bounds
   inRangeCnt <- length(which( ts < maxVal & ts > minVal ))
@@ -105,12 +108,13 @@ assessTSQuality <- function(ts=NULL, verbose=T, maxVal=80,  minVal=5, minNumDays
   IvalidProp <- tsNumDaysValid/tsNumDaysAll
 
   # Gappiness
-  gap_ts_Start=index(tz[ which( diff(index(tz))>1 )])
-  gap_ts_End=index(tz[ which( diff(index(tz))>1 ) +1 ])
+  gap_ts_Start=index(tz[ which( diff(index(ts))/24>1 )])
+  gap_ts_End=index(tz[ which( diff(index(ts))/24>1 ) +1 ])
   #gapi <- as.numeric(sum(numdays) / length(ts)) * 100
 
   ngaps <- length(gap_ts_Start)
-  InumGaps <- ((length(ts)/2) - ngaps)/(length(ts)/2)
+  #InumGaps <- ((length(ts)/2) - ngaps)/(length(ts)/2)
+  InumGaps <- 1/ngaps
 
   numdays <- gap_ts_End - gap_ts_Start
   ItotalGapsDays <- (length(ts) - as.numeric(sum(numdays))) / length(ts)

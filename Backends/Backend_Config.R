@@ -29,11 +29,11 @@ debugMode <- F
 machineName <- as.character(Sys.info()['nodename'])
 print(machineName)
 if(machineName == 'WALCOT-SL'){
-  #rootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/Shiny/SMIPS'
-  sensorRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator'
-  functionsRootDir <<- 'C:/Users/sea084/Dropbox/RossRCode/myFunctions'
+  #rootDir <<- 'C:/Users/sea084/OneDrive - CSIRO/RossRCode/Git/Shiny/SMIPS'
+  sensorRootDir <<- 'C:/Users/sea084/OneDrive - CSIRO/RossRCode/Git/SensorFederator'
+  functionsRootDir <<- 'C:/Users/sea084/OneDrive - CSIRO/RossRCode/myFunctions'
   senFedDbPath <- paste0('C:/Temp/ozNetDB.db')
-  dbPath <- paste0("C:/Users/sea084/Dropbox/ProjectAdmin/SensorFederator/DB/SensorFederator.sqlite")
+  dbPath <- paste0("C:/Users/sea084/OneDrive - CSIRO/ProjectAdmin/SensorFederator/DB/SensorFederator.sqlite")
 }else if (machineName == 'soils-discovery' & debugMode == T) {
   #rootDir <<- '/home/sea084/R/SMIPS'
   sensorRootDir <<- '/home/sea084/R/SensorBackends'

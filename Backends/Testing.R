@@ -1,4 +1,4 @@
-source('C:/Users/sea084/Dropbox/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
+source('C:/Users/sea084/OneDrive - CSIRO/RossRCode/Git/SensorFederator/Backends/Backend_Config.R')
 source('/srv/plumber/SensorFederator/Backends/Backend_Config.R')
 library(htmltidy)
 library(plotly)
@@ -600,9 +600,14 @@ dtype <- 'Rainfall'
 site <-'BoMLatest_94255_IDD60801'
 site <-'BoMLatest_95214_IDD60801'
 
+site <-'BoMLatest_94596_IDN60801'
 
-startDate <- paste0(Sys.Date()-1, 'T00:00:00')
+
+startDate <- paste0(Sys.Date()-3, 'T00:00:00')
 endDate <- paste0(Sys.Date(), 'T23:00:00')
+
+startDate <- paste0(Sys.Date()-3, 'T09:00:00')
+endDate <- paste0(Sys.Date(), 'T09:00:00')
 
 
 sensorInfo <- getAuthorisedSensors()

@@ -1,7 +1,12 @@
 library(httr)
 library(stringr)
 library(urltools)
-
+library(jsonlite)
+library(sf)
+library(RColorBrewer)
+library(ggplot2)
+library(rnaturalearth)
+library(rnaturalearthdata)
 
 usr <-'ross.searle@csiro.au'
 pwd <- 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL'
@@ -46,9 +51,7 @@ for (i in 1:nrow(locs)) {
 ###  Make some maps ######
 ##########################
 
-library(ggplot2)
-library(rnaturalearth)
-library(rnaturalearthdata)
+
 
 
 outDF$Value<-as.numeric(outDF$Value)
