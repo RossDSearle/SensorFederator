@@ -14,6 +14,8 @@ s <- getAuthorisedSensors(usr = 'Public', pwd = 'Public')
 #s <- getAuthorisedSensors(usr = 'ross.searle@csiro.au', pwd = 'S4QQBMk74zhnBnEpTcd6iLwlUredn6kekLkjFL')
 sensorInfo <- s
 
+sensorInfo$SiteID
+
 usr
 
 
@@ -536,11 +538,12 @@ write.csv(to.DF(d), 'c:/temp/ts.csv')
 
 dtype <- 'Soil-Moisture'
 sd <- '2001-12-01T00:00:00'
-ed <- '2002-12-29T04:00:00'
-site <-'m1'
+ed <- '2020-12-29T04:00:00'
+site <-'OzNet_y5'
 
 
 sensorInfo <- getAuthorisedSensors()
+sensorInfo$SiteID
 #sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Rainfall', ]
 sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
 #sensors <- sensorInfo[sensorInfo$SiteID == site, ]
@@ -569,7 +572,7 @@ sensorInfo[sensorInfo$SiteID == site, ]
 
 
 dtype <- 'Soil-Moisture'
-sd <- '2018-12-01T00:00:00'
+sd <- '2016-12-01T00:00:00'
 ed <- '2018-12-29T04:00:00'
 site <-'SFS_66'
 
@@ -684,7 +687,14 @@ getSensorData(streams=sensors, aggPeriod=timeSteps$days, startDate = '2020-02-08
 
 
 
+site = 'opSID_31710'
+sensorInfo <- getAuthorisedSensors()
+sensors <- sensorInfo[sensorInfo$SiteID == site & sensorInfo$DataType == 'Soil-Moisture', ]
 
+#sensors <- sensorInfo[sensorInfo$SiteID == site, ]
+streams <- sensors
 
+d <- getSensorData(streams=sensors,  aggPeriod=timeSteps$none , numrecs = 1, tempCorrect = NULL , startDate = '2020-02-08T00:00:00', endDate = '2020-02-12T00:00:00')
+d
 
 

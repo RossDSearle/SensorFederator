@@ -44,6 +44,7 @@ if(machineName == 'WALCOT-SL'){
   #rootDir <<- '/srv/shiny-server/SMIPS'
   sensorRootDir <<- '/srv/plumber/SensorFederator'
   functionsRootDir <<- '/srv/plumber/Functions'
+  senFedDbPath <- paste0('/mnt/data/SensorFedDB/ozNetDB.db')
   dbPath <- paste0( "/srv/DB/SensorFederator/SensorFederator.sqlite")
 }
 

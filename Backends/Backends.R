@@ -22,7 +22,7 @@
 #' getSensorData('cerdi.sfs.4935.stream.4983.soil-moisture.1000mm')
 #'
 #' @export
-getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS', verbose=F, tempCorrect ){
+getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=timeSteps$days, numrecs=maxRecs, outFormat='simpleTS', verbose=F, tempCorrect=NULL ){
 
   out <- tryCatch({
 
@@ -32,8 +32,6 @@ getSensorData <- function(streams, startDate = NULL, endDate = NULL, aggPeriod=t
 
 
     if(backEnd %in% knownBackends ){
-
-
 
       dnowYMD <- format(Sys.time(), "%Y-%m-%d")
       #### generate dates in ISO if none supplied
@@ -536,6 +534,9 @@ getSensorData_EPARF <- function(streams, startDate = NULL, endDate = NULL, aggPe
 
     isoSDate <- str_replace_all(startDate, '-', '/')
     isoEDate <- str_replace_all(endDate, '-', '/')
+
+    idxs <- which(!is.na(streams$UpperDepth))
+    streams <- streams[idxs,]
 
     #tryCatch({
 
